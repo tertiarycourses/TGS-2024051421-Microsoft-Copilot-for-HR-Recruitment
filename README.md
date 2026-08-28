@@ -1,62 +1,87 @@
-# TGS-2023039179 - Autodesk Certified Professional (ACP) for Revit Structural Design
+<div align="center">
 
-> Course: Autodesk Certified Professional (ACP) for Revit Structural Design  
-> Course Code: TGS-2023039179  
-> Register here: https://www.tertiarycourses.com.sg/wsq-autodesk-certified-professional-acp-for-revit-structural-design.html
+# WSQ Generative AI for Interviewing
 
-Hands-on Autodesk Revit Structural Design labs for learners preparing for the Autodesk Certified Professional credential. The labs cover structural project setup, linked models, copy/monitor, grids, levels, shared coordinates, columns, walls, floors, framing, connections, foundations, reinforcement, families, schedules, sheets, collaboration, model review, export, and certification-style practice.
+[![Course](https://img.shields.io/badge/WSQ-TGS--2024051421-1f6feb)](https://www.tertiarycourses.com.sg/wsq-generative-ai-for-interviewing.html)
+[![Version](https://img.shields.io/badge/version-5.0-108a73)](#courseware-package)
+[![Slides](https://img.shields.io/badge/slides-245-6d3fd2)](courseware/Generative%20AI%20for%20Interviewing-v5.0.pdf)
+[![Activities](https://img.shields.io/badge/activities-10-c77600)](activities)
 
-## Courseware
+**Evidence-led interviewing for interviewers and interviewees, with accountable generative-AI support.**
 
-| Item | Description |
-| --- | --- |
-| [Learner Guide](LG-Autodesk-Certified-Professional-ACP-Revit-Structural-Design.md) | Detailed step-by-step guide for completing the labs and preparing final deliverables. |
-| [Lab Guide](labs/README.md) | Lab catalogue grouped by Revit structural design skill area. |
-| [Tools Reference](labs/tools.md) | Recommended Autodesk tools, source files, and learner setup checklist. |
+[Course page](https://www.tertiarycourses.com.sg/wsq-generative-ai-for-interviewing.html) · [HR Interview Question Generator](https://alfredang.github.io/hr-recruitment/) · [AI Interview Practice](https://alfredang.github.io/AIInterviewing/)
 
-## How to Use
+</div>
 
-1. Install Autodesk Revit or use the classroom computer provided by the instructor.
-2. Create a working folder named `TGS-2023039179-Revit-Structural-Labs`.
-3. Complete the labs in sequence because later labs reuse linked models, grids, levels, structural framing, schedules, and sheets from earlier exercises.
-4. Save each project file with your name and lab number.
-5. Export final sheets and schedules for trainer review.
+![Courseware preview](screenshot.png)
 
-## Lab Catalogue
+## About
 
-### Domain 1 - Structural Project Setup and Core Elements
+This repository contains the learner-safe v5.0 courseware for **Generative AI for Interviewing** (`TGS-2024051421`). It covers both sides of the interview: designing, conducting and evaluating fair structured interviews, and preparing, answering and improving interview evidence as a candidate.
 
-| Lab | Title | Focus |
-| --- | --- | --- |
-| [Lab 1](labs/lab-01-project-setup-links-grids-levels.md) | Project Setup, Links, Copy/Monitor, Grids, and Levels | Structural template, linked architecture, grids, levels, site file, shared coordinates |
-| [Lab 2](labs/lab-02-columns-walls-floors-materials.md) | Structural Columns, Walls, Floors, and Materials | Columns, structural walls, floors, material assignments, analytical awareness |
-| [Lab 3](labs/lab-03-framing-beams-connections.md) | Structural Framing, Beams, Bracing, and Connections | Beams, beam systems, framing elevations, braces, structural connections |
+The materials combine structured-interview controls, Singapore privacy and fair-hiring considerations, GenAI question design, active listening, STAR evidence, role play, anchored scoring, panel calibration and candidate feedback.
 
-### Domain 2 - Foundations, Reinforcement, and Content
+## Courseware Package
 
-| Lab | Title | Focus |
-| --- | --- | --- |
-| [Lab 4](labs/lab-04-foundations-stairs-selection-sets.md) | Foundations, Stairs, Selection Sets, and Model Organization | Isolated footings, wall foundations, slabs, stairs, selection sets |
-| [Lab 5](labs/lab-05-reinforcement-rebar-detailing.md) | Reinforcement, Rebar, Area Reinforcement, and Detailing | Rebar tools, cover settings, rebar constraints, area reinforcement, tags |
-| [Lab 6](labs/lab-06-families-types-schedules-annotations.md) | Structural Families, Type Catalogs, Schedules, and Annotation | Family categories, types, type catalogs, object styles, schedules, annotation families |
+| Resource | Format | Purpose |
+|---|---|---|
+| Master slides | PPTX and PDF | 245 visual, editable mechanism-led slides |
+| Learner Guide | DOCX and PDF | Detailed procedures, examples, troubleshooting and acceptance checks |
+| Lesson Plan | DOCX and PDF | One-day delivery schedule with exact slide and activity mapping |
+| Activities | 10 folders | Self-contained practice with instruction PDF, checklist PDF and evidence templates |
 
-### Domain 3 - Documentation, Collaboration, and Review
+Assessment candidate papers are delivered through the course LMS and are intentionally excluded from this public repository. Answer keys and assessor-only materials are trainer-restricted.
 
-| Lab | Title | Focus |
-| --- | --- | --- |
-| [Lab 7](labs/lab-07-views-callouts-sheets-revisions.md) | Views, Callouts, Detail Components, Sheets, and Revisions | Callouts, detail components, duplicated views, site plans, sheets, revisions |
-| [Lab 8](labs/lab-08-collaboration-interference-export-cert-review.md) | Collaboration, Interference Checks, Export, and Certification Review | Phases, design options, worksharing, warnings, audit, compact, purge, standards transfer, export |
+## Learning Design
 
-## Reference
+- Plan interviews around job tasks, competencies, observable evidence and decision rules.
+- Apply legal, ethical, privacy, socio-cultural and human-oversight controls before using GenAI.
+- Generate and review structured behavioural, situational and technical questions.
+- Practise interviewer and interviewee roles with neutral probes, active listening and STAR evidence.
+- Score evidence with anchored rubrics, calibrate panel differences and document missing evidence.
+- Give respectful, specific and actionable candidate feedback.
 
-- Autodesk Revit structural design certification prep: https://www.autodesk.com/learn/ondemand/course/revit-structural-design-cert-prep
-- Course registration: https://www.tertiarycourses.com.sg/wsq-autodesk-certified-professional-acp-for-revit-structural-design.html
-- Autodesk Revit documentation: https://help.autodesk.com/view/RVT/
-- Autodesk Learning: https://www.autodesk.com/learn
+## Activities
 
-## Free Tools Used
+1. Build the interview evidence contract.
+2. Audit fairness, privacy and AI boundaries.
+3. Generate a structured interview pack.
+4. Create behavioural and situational anchors.
+5. Run an interviewer role play: ask, listen and probe.
+6. Use AI practice to upgrade an interviewee's STAR response.
+7. Run an accessible virtual interview.
+8. Score evidence and calibrate the panel.
+9. Give evidence-based candidate feedback.
+10. Complete an AI-assisted interview capstone role play.
 
-- Autodesk Revit trial or licensed classroom installation
-- Autodesk Viewer
-- DWG TrueView
-- PDF viewer
+Every activity folder contains `instruction.pdf`, `checklist.pdf`, a short README and the evidence template(s) needed to complete the task.
+
+## Repository Structure
+
+```text
+.
+├── README.md
+├── screenshot.png
+├── courseware/
+│   ├── Generative AI for Interviewing-v5.0.pptx
+│   ├── Generative AI for Interviewing-v5.0.pdf
+│   ├── LG-Generative AI for Interviewing-v5.0.docx
+│   ├── LG-Generative AI for Interviewing-v5.0.pdf
+│   ├── LP-Generative AI for Interviewing-v5.0.docx
+│   ├── LP-Generative AI for Interviewing-v5.0.pdf
+│   └── slide_map.json
+└── activities/
+    └── activity-01 ... activity-10/
+```
+
+## Responsible Use
+
+Use only de-identified training data in the course tools. Generated questions, scores and feedback are drafts for human review—not autonomous hiring decisions. Interview evidence should remain job-related, consistent, accessible and auditable.
+
+## Developed By
+
+[Tertiary Infotech Academy Pte. Ltd.](https://www.tertiarycourses.com.sg/) · Singapore
+
+## Acknowledgements
+
+The courseware synthesises the official and practitioner sources cited inside the slides and Learner Guide, including guidance from Singapore MOM and PDPC, the U.S. Office of Personnel Management, universities and career-development organisations.

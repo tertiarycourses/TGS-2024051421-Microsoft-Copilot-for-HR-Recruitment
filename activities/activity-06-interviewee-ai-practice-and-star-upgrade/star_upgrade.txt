@@ -1,0 +1,6 @@
+BEFORE:
+
+SITUATION/TASK (brief):
+ACTION (specific decisions):
+RESULT (metric/consequence):
+REFLECTION:

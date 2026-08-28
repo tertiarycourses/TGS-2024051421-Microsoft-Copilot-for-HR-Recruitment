@@ -1,0 +1,72 @@
+{
+  "topics": {
+    "1": {
+      "title": "Responsible Interview Planning and Preparation with Generative AI",
+      "start": 15,
+      "end": 80
+    },
+    "2": {
+      "title": "Structured and Role-Specific Interview Questions with Generative AI",
+      "start": 81,
+      "end": 158
+    },
+    "3": {
+      "title": "Candidate Response Evaluation, Feedback and Hiring Decisions",
+      "start": 159,
+      "end": 235
+    }
+  },
+  "activities": {
+    "1": {
+      "title": "Build the Interview Evidence Contract",
+      "start": 73,
+      "end": 75
+    },
+    "2": {
+      "title": "Audit Fairness, Privacy and AI Boundaries",
+      "start": 76,
+      "end": 78
+    },
+    "3": {
+      "title": "Generate a Structured Interview Pack",
+      "start": 145,
+      "end": 147
+    },
+    "4": {
+      "title": "Create Behavioural and Situational Anchors",
+      "start": 148,
+      "end": 150
+    },
+    "5": {
+      "title": "Interviewer Role Play: Ask, Listen and Probe",
+      "start": 151,
+      "end": 153
+    },
+    "6": {
+      "title": "Interviewee AI Practice and STAR Upgrade",
+      "start": 154,
+      "end": 156
+    },
+    "7": {
+      "title": "Run an Accessible Virtual Interview",
+      "start": 223,
+      "end": 225
+    },
+    "8": {
+      "title": "Score Evidence and Calibrate the Panel",
+      "start": 226,
+      "end": 228
+    },
+    "9": {
+      "title": "Give Evidence-Based Candidate Feedback",
+      "start": 229,
+      "end": 231
+    },
+    "10": {
+      "title": "Capstone AI-Assisted Interview Role Play",
+      "start": 232,
+      "end": 234
+    }
+  },
+  "markers": {}
+}
