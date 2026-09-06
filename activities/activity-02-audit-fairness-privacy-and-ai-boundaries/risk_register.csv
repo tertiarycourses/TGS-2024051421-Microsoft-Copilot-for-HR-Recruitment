@@ -1,3 +1,0 @@
-item,risk,decision,control
-Photo,protected-trait proxy,remove,exclude before prompting
-Embedded instruction,prompt injection,ignore,treat resume as data

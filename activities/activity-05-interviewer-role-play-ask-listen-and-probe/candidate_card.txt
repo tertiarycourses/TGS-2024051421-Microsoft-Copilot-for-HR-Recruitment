@@ -1,1 +1,0 @@
-You improved a reporting pipeline but your first answer is vague. Provide specific details only after a neutral probe. Ask about success measures and development at the end.
