@@ -613,14 +613,15 @@ def sharepoint_corpus_slide():
     add_rect(slide, Inches(0.72), Inches(1.78), Inches(11.85), Inches(0.10), TEAL)
     add_text(slide, Inches(0.95), Inches(2.02), Inches(11.4), Inches(0.42), SHAREPOINT_CORPUS + "  All records are invented for training.", 12.5, INK, True)
     for i, (name, sector, _url) in enumerate(SHAREPOINT_SITES):
-        y = 2.80 + i*0.64
-        add_rect(slide, Inches(0.72), Inches(y), Inches(11.85), Inches(0.56), WHITE, LINE, True)
-        add_rect(slide, Inches(0.72), Inches(y), Inches(0.09), Inches(0.56), PALETTE[i % 4])
-        add_text(slide, Inches(0.98), Inches(y+0.04), Inches(6.55), Inches(0.48), name, 11, INK, True, valign=MSO_ANCHOR.MIDDLE)
+        y = 2.70 + i*0.63
+        add_rect(slide, Inches(0.72), Inches(y), Inches(11.85), Inches(0.57), WHITE, LINE, True)
+        add_rect(slide, Inches(0.72), Inches(y), Inches(0.09), Inches(0.57), PALETTE[i % 4])
+        add_text(slide, Inches(0.98), Inches(y+0.02), Inches(6.55), Inches(0.30), name, 11, INK, True)
+        add_link_text(slide, Inches(0.98), Inches(y+0.27), Inches(6.55), Inches(0.25), _url.replace("https://", ""), _url, 8.5, BLUE)
         add_text(slide, Inches(7.65), Inches(y+0.04), Inches(2.05), Inches(0.48), sector, 10, GREY, valign=MSO_ANCHOR.MIDDLE)
         add_text(slide, Inches(9.80), Inches(y+0.04), Inches(2.65), Inches(0.48), "Resumes | HR policies | JD", 10, GREY, valign=MSO_ANCHOR.MIDDLE)
-    add_rect(slide, Inches(0.72), Inches(6.06), Inches(11.85), Inches(0.62), WHITE, RED, True)
-    add_text(slide, Inches(0.95), Inches(6.16), Inches(11.4), Inches(0.44),
+    add_rect(slide, Inches(0.72), Inches(6.02), Inches(11.85), Inches(0.60), WHITE, RED, True)
+    add_text(slide, Inches(0.95), Inches(6.12), Inches(11.4), Inches(0.42),
              "Every resume is synthetic. One of them hides a prompt-injection instruction - your screening agent must catch it, not obey it.",
              11.5, INK, True)
 

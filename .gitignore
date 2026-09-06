@@ -32,3 +32,7 @@ sharepoint/scripts/up_*.js
 agents/_*.js
 scripts/copilot_studio_api/_*.js
 scripts/copilot_studio_api/token.txt
+
+# Superseded versions - kept locally and on Drive, never in git
+**/archive/
+*.bak-v*
