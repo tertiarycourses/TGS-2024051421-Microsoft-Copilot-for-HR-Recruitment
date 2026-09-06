@@ -46,13 +46,27 @@ COPILOT_AGENTS = [
      "https://copilotstudio.microsoft.com/environments/80e43c74-22f2-e59c-a56c-f40835547497/agents/6090a130-cfbc-47f9-b489-e0c4d6389bdd"),
 ]
 
+# Reference workflows published in the course environment. Named to match the
+# activity they support, and suffixed (DO NOT DELETE) as shared class assets.
+COPILOT_WORKFLOWS = [
+    (3, "Activity 3 - Log Screening Decision (DO NOT DELETE)",
+     "Records a screening decision with the evidence cited and the named human reviewer."),
+    (5, "Activity 5 - Request Interview Pack (DO NOT DELETE)",
+     "Raises a request for a structured interview pack and returns a tracking reference."),
+    (8, "Activity 8 - Record Interview Score (DO NOT DELETE)",
+     "Records an anchored score against a competency with the transcript evidence behind it."),
+]
+
 # SharePoint knowledge corpus (synthetic) used by the screening agents and labs.
+# Site titles are prefixed with the course code so they are unmistakable in tenant
+# search and site lists. The URLs are deliberately unchanged - the agents' knowledge
+# sources point at them.
 SHAREPOINT_SITES = [
-    ("FutureTech Solutions - Careers", "Technology / Data", "https://tertiaryinfotech.sharepoint.com/sites/FutureTech-Careers"),
-    ("Harbour Bank - Talent Acquisition", "Financial Services", "https://tertiaryinfotech.sharepoint.com/sites/HarbourBank-Talent"),
-    ("MediCare Health - Recruitment", "Healthcare", "https://tertiaryinfotech.sharepoint.com/sites/MediCare-Recruitment"),
-    ("GreenLogix Supply Chain - Hiring", "Logistics", "https://tertiaryinfotech.sharepoint.com/sites/GreenLogix-Hiring"),
-    ("BrightPath Education - Careers", "Education", "https://tertiaryinfotech.sharepoint.com/sites/BrightPath-Careers"),
+    ("TGS-2024051421 FutureTech Solutions - Careers", "Technology / Data", "https://tertiaryinfotech.sharepoint.com/sites/FutureTech-Careers"),
+    ("TGS-2024051421 Harbour Bank - Talent Acquisition", "Financial Services", "https://tertiaryinfotech.sharepoint.com/sites/HarbourBank-Talent"),
+    ("TGS-2024051421 MediCare Health - Recruitment", "Healthcare", "https://tertiaryinfotech.sharepoint.com/sites/MediCare-Recruitment"),
+    ("TGS-2024051421 GreenLogix Supply Chain - Hiring", "Logistics", "https://tertiaryinfotech.sharepoint.com/sites/GreenLogix-Hiring"),
+    ("TGS-2024051421 BrightPath Education - Careers", "Education", "https://tertiaryinfotech.sharepoint.com/sites/BrightPath-Careers"),
 ]
 SHAREPOINT_CORPUS = "105 synthetic candidate resumes, 15 HR policy documents and 5 approved job descriptions."
 

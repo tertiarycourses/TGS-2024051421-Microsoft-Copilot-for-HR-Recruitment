@@ -599,9 +599,12 @@ def copilot_env_slide():
         add_rect(slide, Inches(0.72), Inches(y), Inches(0.09), Inches(0.58), PALETTE[i % 4])
         add_text(slide, Inches(0.98), Inches(y+0.05), Inches(3.55), Inches(0.48), name, 11.5, INK, True, valign=MSO_ANCHOR.MIDDLE)
         add_text(slide, Inches(4.60), Inches(y+0.05), Inches(7.85), Inches(0.48), desc, 10.5, GREY, valign=MSO_ANCHOR.MIDDLE)
-    add_text(slide, Inches(0.72), Inches(6.30), Inches(11.85), Inches(0.30),
-             "All five agents are published. Workflows in this environment are named DO NOT DELETE - they are shared class assets.",
-             11, GREY, True, PP_ALIGN.CENTER)
+    wf = "   |   ".join(f"Activity {n}" for n, _t, _d in COPILOT_WORKFLOWS)
+    add_text(slide, Inches(0.72), Inches(6.16), Inches(11.85), Inches(0.28),
+             f"Workflows, named for the activity they support:  {wf}", 11, VIOLET, True, PP_ALIGN.CENTER)
+    add_text(slide, Inches(0.72), Inches(6.44), Inches(11.85), Inches(0.28),
+             "All five agents are published. Anything marked DO NOT DELETE is a shared class asset.",
+             10.5, GREY, True, PP_ALIGN.CENTER)
 
 
 def sharepoint_corpus_slide():
@@ -613,9 +616,9 @@ def sharepoint_corpus_slide():
         y = 2.80 + i*0.64
         add_rect(slide, Inches(0.72), Inches(y), Inches(11.85), Inches(0.56), WHITE, LINE, True)
         add_rect(slide, Inches(0.72), Inches(y), Inches(0.09), Inches(0.56), PALETTE[i % 4])
-        add_text(slide, Inches(0.98), Inches(y+0.04), Inches(5.20), Inches(0.48), name, 11.5, INK, True, valign=MSO_ANCHOR.MIDDLE)
-        add_text(slide, Inches(6.30), Inches(y+0.04), Inches(2.60), Inches(0.48), sector, 10.5, GREY, valign=MSO_ANCHOR.MIDDLE)
-        add_text(slide, Inches(9.10), Inches(y+0.04), Inches(3.35), Inches(0.48), "Resumes | HR policies | JD", 10.5, GREY, valign=MSO_ANCHOR.MIDDLE)
+        add_text(slide, Inches(0.98), Inches(y+0.04), Inches(6.55), Inches(0.48), name, 11, INK, True, valign=MSO_ANCHOR.MIDDLE)
+        add_text(slide, Inches(7.65), Inches(y+0.04), Inches(2.05), Inches(0.48), sector, 10, GREY, valign=MSO_ANCHOR.MIDDLE)
+        add_text(slide, Inches(9.80), Inches(y+0.04), Inches(2.65), Inches(0.48), "Resumes | HR policies | JD", 10, GREY, valign=MSO_ANCHOR.MIDDLE)
     add_rect(slide, Inches(0.72), Inches(6.06), Inches(11.85), Inches(0.62), WHITE, RED, True)
     add_text(slide, Inches(0.95), Inches(6.16), Inches(11.4), Inches(0.44),
              "Every resume is synthetic. One of them hides a prompt-injection instruction - your screening agent must catch it, not obey it.",
@@ -1000,7 +1003,7 @@ def _activity_image(activity):
 
 def build_learner_guide():
     doc=Document(); _doc_styles(doc); _cover(doc,"Learner Guide")
-    _version_and_toc(doc,"Rebuilt for both interviewer and interviewee perspectives; 10 AI-supported role-play activities; current fairness, privacy and human-oversight controls.")
+    _version_and_toc(doc,"Rebuilt around Microsoft 365 Copilot and prompt engineering: lab sign-in, the four-part prompt pattern, a live Copilot Studio environment with five published agents and three reference workflows named for the activities they support (Activity 3, 5 and 8), and a SharePoint corpus of synthetic candidate and HR policy documents. Adds the Lab Prompt Pack, per-activity figures and a Markdown mirror; retains fairness, privacy and human-oversight controls throughout.")
     doc.add_heading("How to Use This Guide", level=1)
     doc.add_paragraph("Use the concept sections before each activity, then follow the detailed steps in the matching activity folder. Work only with de-identified training data. The slides explain mechanisms and decision rules; this guide contains the complete operational procedure.")
     p=doc.add_paragraph(); _hyperlink(p,"Course LMS",LMS_URL); p.add_run(" | "); _hyperlink(p,"Microsoft 365 Copilot",M365_PORTAL); p.add_run(" | "); _hyperlink(p,"Copilot Studio environment",COPILOT_AGENTS_URL); p.add_run(" | "); _hyperlink(p,"AI Interview Practice Lab",AI_PRACTICE_URL)
@@ -1069,7 +1072,7 @@ def build_learner_guide():
 
 def build_lesson_plan():
     doc=Document(); _doc_styles(doc); _cover(doc,"Lesson Plan")
-    _version_and_toc(doc,"Rebuilt one-day plan for three topics, 10 aligned activities, WA plus Role Play, and exact slide references from slide_map.json.")
+    _version_and_toc(doc,"Rebuilt one-day plan (9:30am-6:30pm, 8.0 instructional hours) for three topics and 10 Copilot-based activities, with exact slide references from slide_map.json. Reference workflows are named for the activities they support (Activity 3, 5 and 8). Assessment remains WA plus Role Play, 30 minutes each.")
     doc.add_heading("Course Overview",level=1)
     doc.add_paragraph("A one-day, 8-hour WSQ programme for interviewers and interviewees to plan, conduct, evaluate and improve structured interviews with accountable generative-AI support.")
     doc.add_heading("Learning Outcomes",level=1)

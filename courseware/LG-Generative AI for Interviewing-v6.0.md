@@ -22,11 +22,11 @@ Use the concept sections before each activity, then follow the detailed steps in
 
 ### SharePoint practice corpus
 105 synthetic candidate resumes, 15 HR policy documents and 5 approved job descriptions.
-- [FutureTech Solutions - Careers](https://tertiaryinfotech.sharepoint.com/sites/FutureTech-Careers) - Technology / Data
-- [Harbour Bank - Talent Acquisition](https://tertiaryinfotech.sharepoint.com/sites/HarbourBank-Talent) - Financial Services
-- [MediCare Health - Recruitment](https://tertiaryinfotech.sharepoint.com/sites/MediCare-Recruitment) - Healthcare
-- [GreenLogix Supply Chain - Hiring](https://tertiaryinfotech.sharepoint.com/sites/GreenLogix-Hiring) - Logistics
-- [BrightPath Education - Careers](https://tertiaryinfotech.sharepoint.com/sites/BrightPath-Careers) - Education
+- [TGS-2024051421 FutureTech Solutions - Careers](https://tertiaryinfotech.sharepoint.com/sites/FutureTech-Careers) - Technology / Data
+- [TGS-2024051421 Harbour Bank - Talent Acquisition](https://tertiaryinfotech.sharepoint.com/sites/HarbourBank-Talent) - Financial Services
+- [TGS-2024051421 MediCare Health - Recruitment](https://tertiaryinfotech.sharepoint.com/sites/MediCare-Recruitment) - Healthcare
+- [TGS-2024051421 GreenLogix Supply Chain - Hiring](https://tertiaryinfotech.sharepoint.com/sites/GreenLogix-Hiring) - Logistics
+- [TGS-2024051421 BrightPath Education - Careers](https://tertiaryinfotech.sharepoint.com/sites/BrightPath-Careers) - Education
 
 ## Course Outcomes and Assessment
 - LO1: Manage interviews in accordance with legal, ethical, socio-cultural considerations and interview objectives.

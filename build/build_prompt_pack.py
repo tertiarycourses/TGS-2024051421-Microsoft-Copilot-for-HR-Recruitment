@@ -93,12 +93,24 @@ rows=[[Paragraph("<b>Site</b>",BODY),Paragraph("<b>Sector</b>",BODY),Paragraph("
 for name,sector,url in SHAREPOINT_SITES:
     rows.append([Paragraph(name,BODY),Paragraph(sector,SMALL),
                  Paragraph(f'<link href="{url}" color="blue">link</link>',SMALL)])
-t=Table(rows,colWidths=[7.6*cm,5.4*cm,4.0*cm])
+t=Table(rows,colWidths=[9.6*cm,4.4*cm,3.0*cm])
 t.setStyle(TableStyle([("VALIGN",(0,0),(-1,-1),"TOP"),("GRID",(0,0),(-1,-1),0.4,LINE),
                        ("BACKGROUND",(0,0),(-1,0),LIGHT),
                        ("LEFTPADDING",(0,0),(-1,-1),6),("RIGHTPADDING",(0,0),(-1,-1),6),
                        ("TOPPADDING",(0,0),(-1,-1),4),("BOTTOMPADDING",(0,0),(-1,-1),4)]))
 E.append(t)
+
+E.append(Paragraph("3b. Reference workflows (named for the activity they support)", H2))
+rows=[[Paragraph("<b>Workflow</b>",BODY),Paragraph("<b>What it records</b>",BODY)]]
+for _n, name, desc in COPILOT_WORKFLOWS:
+    rows.append([Paragraph(name,BODY),Paragraph(desc,SMALL)])
+t=Table(rows,colWidths=[7.4*cm,9.6*cm])
+t.setStyle(TableStyle([("VALIGN",(0,0),(-1,-1),"TOP"),("GRID",(0,0),(-1,-1),0.4,LINE),
+                       ("BACKGROUND",(0,0),(-1,0),LIGHT),
+                       ("LEFTPADDING",(0,0),(-1,-1),6),("RIGHTPADDING",(0,0),(-1,-1),6),
+                       ("TOPPADDING",(0,0),(-1,-1),4),("BOTTOMPADDING",(0,0),(-1,-1),4)]))
+E.append(t)
+E.append(Paragraph("Anything marked DO NOT DELETE is a shared class asset - open it, read it, but do not rename or remove it.", SMALL))
 
 E.append(Paragraph("4. The four-part prompt pattern", H2))
 E.append(kv([(p, d) for p, d in PROMPT_PATTERN], w=(3.2,13.8)))
