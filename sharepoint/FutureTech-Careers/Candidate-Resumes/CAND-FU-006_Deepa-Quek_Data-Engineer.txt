@@ -1,0 +1,28 @@
+DEEPA QUEK
+Data Engineer candidate  |  Candidate ID: CAND-FU-006
+deepa.cand-fu-006@example-mail.test  |  +65 8692 3687  |  Singapore
+Photograph attached (headshot, colour).
+NRIC: S8••••••7D
+Age: 37
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Data Engineer with 7 years' experience in technology and data products. Core strengths: Airflow, SQL, Kafka, AWS.
+
+KEY ACHIEVEMENT
+Migrated 40+ batch jobs to Airflow; pipeline failures fell from 12/month to 1/month.
+
+EXPERIENCE
+  Pinnacle Services - Data Engineer (2023 - Present)
+     - Migrated 40+ batch jobs to Airflow; pipeline failures fell from 12/month to 1/month.
+     - Worked with Airflow, SQL, Kafka on recurring delivery.
+  Orchid Retail Group - Junior Data Engineer (2019 - 2023)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Data Science, NTU
+
+SKILLS
+  Airflow, SQL, Kafka, AWS, Terraform, Spark
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

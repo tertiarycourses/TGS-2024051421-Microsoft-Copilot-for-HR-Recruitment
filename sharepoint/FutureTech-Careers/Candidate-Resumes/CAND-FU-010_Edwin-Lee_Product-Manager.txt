@@ -1,0 +1,26 @@
+EDWIN LEE
+Product Manager candidate  |  Candidate ID: CAND-FU-010
+edwin.cand-fu-010@example-mail.test  |  +65 8542 4698  |  Singapore
+Age: 37
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Cityline Telecom - Product Manager (2021 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with stakeholder alignment, roadmapping, OKRs on recurring delivery.
+  Summit Analytics - Junior Product Manager (2015 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BBA Business Analytics, NUS
+
+SKILLS
+  stakeholder alignment, roadmapping, OKRs, pricing, A/B testing, analytics
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

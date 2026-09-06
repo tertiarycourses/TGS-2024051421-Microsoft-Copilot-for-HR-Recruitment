@@ -1,0 +1,24 @@
+KENNETH CHAN
+Staff Nurse candidate  |  Candidate ID: CAND-ME-047
+kenneth.cand-me-047@example-mail.test  |  +65 8275 6186  |  Singapore
+
+PROFESSIONAL SUMMARY
+Staff Nurse with 10 years' experience in healthcare delivery. Core strengths: triage, electronic health records, patient assessment, infection control.
+
+KEY ACHIEVEMENT
+Led a ward falls-prevention change (contribution shared across a team of four).
+
+EXPERIENCE
+  Novena Care - Staff Nurse (2021 - Present)
+     - Led a ward falls-prevention change (contribution shared across a team of four).
+     - Worked with triage, electronic health records, patient assessment on recurring delivery.
+  Kallang Systems - Junior Staff Nurse (2016 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Data Science, SUSS
+
+SKILLS
+  triage, electronic health records, patient assessment, infection control, medication administration, wound care
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

@@ -1,0 +1,25 @@
+MEERA HUANG
+Learning Technologist candidate  |  Candidate ID: CAND-BR-102
+meera.cand-br-102@example-mail.test  |  +65 8733 9851  |  Singapore
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Summit Analytics - Learning Technologist (2025 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with SCORM, learning analytics, video production on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Nexus Consulting - Junior Learning Technologist (2023 - 2025)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Computer Science, University of Melbourne
+
+SKILLS
+  SCORM, learning analytics, video production, accessibility, LMS administration
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

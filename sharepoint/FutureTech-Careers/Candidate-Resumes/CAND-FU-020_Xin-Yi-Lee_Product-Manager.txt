@@ -1,0 +1,29 @@
+XIN YI LEE
+Product Manager candidate  |  Candidate ID: CAND-FU-020
+xin.cand-fu-020@example-mail.test  |  +65 8619 2356  |  Singapore
+Photograph attached (headshot, colour).
+NRIC: S8••••••7D
+Date of Birth: 14 March 1989   |   Marital status: Married, 2 children
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Pinnacle Services - Product Manager (2021 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with stakeholder alignment, OKRs, roadmapping on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Kallang Systems - Junior Product Manager (2015 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BA Economics, University of Melbourne
+
+SKILLS
+  stakeholder alignment, OKRs, roadmapping, JIRA, pricing, user research
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

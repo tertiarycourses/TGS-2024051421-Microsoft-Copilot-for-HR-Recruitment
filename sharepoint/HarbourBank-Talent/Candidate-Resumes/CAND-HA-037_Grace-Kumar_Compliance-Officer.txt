@@ -1,0 +1,25 @@
+GRACE KUMAR
+Compliance Officer candidate  |  Candidate ID: CAND-HA-037
+grace.cand-ha-037@example-mail.test  |  +65 8255 3883  |  Singapore
+
+PROFESSIONAL SUMMARY
+Compliance Officer with 9 years' experience in retail and commercial banking. Core strengths: MAS Notice 626, risk assessment, transaction monitoring, audit response.
+
+KEY ACHIEVEMENT
+Cleared a 900-alert backlog in 10 weeks and cut false positives 31% by retuning thresholds.
+
+EXPERIENCE
+  Redhill Software - Compliance Officer (2022 - Present)
+     - Cleared a 900-alert backlog in 10 weeks and cut false positives 31% by retuning thresholds.
+     - Worked with MAS Notice 626, risk assessment, transaction monitoring on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Apex Digital - Junior Compliance Officer (2017 - 2022)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BEd Education, RMIT
+
+SKILLS
+  MAS Notice 626, risk assessment, transaction monitoring, audit response, policy drafting, AML/CFT
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

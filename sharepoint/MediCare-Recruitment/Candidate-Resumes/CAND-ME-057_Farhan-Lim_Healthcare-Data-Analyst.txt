@@ -1,0 +1,26 @@
+FARHAN LIM
+Healthcare Data Analyst candidate  |  Candidate ID: CAND-ME-057
+farhan.cand-me-057@example-mail.test  |  +65 8630 8882  |  Singapore
+Photograph attached (headshot, colour).
+Nationality: Malaysian (Singapore PR application in progress)
+
+PROFESSIONAL SUMMARY
+Healthcare Data Analyst with 4 years' experience in healthcare delivery. Core strengths: Excel, clinical KPIs, Power BI, quality reporting.
+
+KEY ACHIEVEMENT
+Automated monthly quality reporting, saving 3 days of manual work per cycle. (contribution shared across a team of four).
+
+EXPERIENCE
+  Redhill Software - Healthcare Data Analyst (2024 - Present)
+     - Automated monthly quality reporting, saving 3 days of manual work per cycle. (contribution shared across a team of four).
+     - Worked with Excel, clinical KPIs, Power BI on recurring delivery.
+  Novena Care - Junior Healthcare Data Analyst (2022 - 2024)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BBA Business Analytics, SUSS
+
+SKILLS
+  Excel, clinical KPIs, Power BI, quality reporting, SQL, HL7/FHIR basics
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

@@ -1,0 +1,24 @@
+CHARMAINE LOW
+Staff Nurse candidate  |  Candidate ID: CAND-ME-050
+charmaine.cand-me-050@example-mail.test  |  +65 8445 4491  |  Singapore
+
+PROFESSIONAL SUMMARY
+Staff Nurse with 7 years' experience in healthcare delivery. Core strengths: patient assessment, wound care, infection control, triage.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  BlueWave Media - Staff Nurse (2023 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with patient assessment, wound care, infection control on recurring delivery.
+  Orchid Retail Group - Junior Staff Nurse (2019 - 2023)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Computer Science, Monash University
+
+SKILLS
+  patient assessment, wound care, infection control, triage, electronic health records, medication administration
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

@@ -1,0 +1,26 @@
+SHANTI CHEN
+Supply Chain Analyst candidate  |  Candidate ID: CAND-GR-075
+shanti.cand-gr-075@example-mail.test  |  +65 8911 7275  |  Singapore
+Photograph attached (headshot, colour).
+Age: 37
+
+PROFESSIONAL SUMMARY
+Supply Chain Analyst with 11 years' experience in logistics and supply chain. Core strengths: inventory optimisation, SQL, SAP, Excel modelling.
+
+KEY ACHIEVEMENT
+Cut excess stock by SGD 1.2m by reworking the forecast for 60 slow-moving SKUs. (contribution shared across a team of four).
+
+EXPERIENCE
+  Cityline Telecom - Supply Chain Analyst (2021 - Present)
+     - Cut excess stock by SGD 1.2m by reworking the forecast for 60 slow-moving SKUs. (contribution shared across a team of four).
+     - Worked with inventory optimisation, SQL, SAP on recurring delivery.
+  Jurong Components - Junior Supply Chain Analyst (2015 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BBA Business Analytics, Ngee Ann Poly
+
+SKILLS
+  inventory optimisation, SQL, SAP, Excel modelling, supplier scorecards, demand forecasting
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

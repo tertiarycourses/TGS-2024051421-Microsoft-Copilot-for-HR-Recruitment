@@ -1,0 +1,25 @@
+MEERA MENON
+Supply Chain Analyst candidate  |  Candidate ID: CAND-GR-083
+meera.cand-gr-083@example-mail.test  |  +65 8596 4009  |  Singapore
+NRIC: S8••••••7D
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Jurong Components - Supply Chain Analyst (2021 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with demand forecasting, Excel modelling, supplier scorecards on recurring delivery.
+  BlueWave Media - Junior Supply Chain Analyst (2016 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  Diploma in Business Informatics, Republic Poly
+
+SKILLS
+  demand forecasting, Excel modelling, supplier scorecards, SAP, inventory optimisation, SQL
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

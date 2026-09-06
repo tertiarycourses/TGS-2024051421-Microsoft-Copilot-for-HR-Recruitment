@@ -1,0 +1,26 @@
+CLARENCE MENON
+Learning Technologist candidate  |  Candidate ID: CAND-BR-105
+clarence.cand-br-105@example-mail.test  |  +65 8235 8729  |  Singapore
+Age: 37
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Learning Technologist with 5 years' experience in education and training. Core strengths: accessibility, LMS administration, SCORM, learning analytics.
+
+KEY ACHIEVEMENT
+Migrated 120 courses to a new LMS with zero learner-facing downtime.
+
+EXPERIENCE
+  Pinnacle Services - Learning Technologist (2024 - Present)
+     - Migrated 120 courses to a new LMS with zero learner-facing downtime.
+     - Worked with accessibility, LMS administration, SCORM on recurring delivery.
+  Jurong Components - Junior Learning Technologist (2021 - 2024)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BEd Education, NUS
+
+SKILLS
+  accessibility, LMS administration, SCORM, learning analytics, video production
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

@@ -1,0 +1,27 @@
+ZUL ISMAIL
+Data Engineer candidate  |  Candidate ID: CAND-FU-003
+zul.cand-fu-003@example-mail.test  |  +65 8316 1560  |  Singapore
+NRIC: S8••••••7D
+Age: 37
+
+PROFESSIONAL SUMMARY
+Data Engineer with 12 years' experience in technology and data products. Core strengths: AWS, Airflow, Terraform, Snowflake.
+
+KEY ACHIEVEMENT
+Migrated 40+ batch jobs to Airflow (contribution shared across a team of four).
+
+EXPERIENCE
+  Redhill Software - Data Engineer (2020 - Present)
+     - Migrated 40+ batch jobs to Airflow (contribution shared across a team of four).
+     - Worked with AWS, Airflow, Terraform on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Kallang Systems - Junior Data Engineer (2014 - 2020)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Computer Science, Singapore Poly
+
+SKILLS
+  AWS, Airflow, Terraform, Snowflake, SQL, Python
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

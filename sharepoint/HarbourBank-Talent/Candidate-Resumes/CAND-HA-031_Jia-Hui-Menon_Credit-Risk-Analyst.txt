@@ -1,0 +1,27 @@
+JIA HUI MENON
+Credit Risk Analyst candidate  |  Candidate ID: CAND-HA-031
+jia.cand-ha-031@example-mail.test  |  +65 8737 2285  |  Singapore
+Photograph attached (headshot, colour).
+Date of Birth: 14 March 1989   |   Marital status: Married, 2 children
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Credit Risk Analyst with 2 years' experience in retail and commercial banking. Core strengths: SQL, MAS reporting, IFRS 9, portfolio analytics.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Novena Care - Credit Risk Analyst (2025 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with SQL, MAS reporting, IFRS 9 on recurring delivery.
+  Jurong Components - Junior Credit Risk Analyst (2024 - 2025)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  Diploma in Business Informatics, University of Melbourne
+
+SKILLS
+  SQL, MAS reporting, IFRS 9, portfolio analytics, SAS, stress testing
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

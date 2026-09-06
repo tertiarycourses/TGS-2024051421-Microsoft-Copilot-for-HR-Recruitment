@@ -2,70 +2,70 @@
   "topics": {
     "1": {
       "title": "Responsible Interview Planning and Preparation with Generative AI",
-      "start": 15,
-      "end": 80
+      "start": 22,
+      "end": 96
     },
     "2": {
       "title": "Structured and Role-Specific Interview Questions with Generative AI",
-      "start": 81,
-      "end": 158
+      "start": 97,
+      "end": 189
     },
     "3": {
       "title": "Candidate Response Evaluation, Feedback and Hiring Decisions",
-      "start": 159,
-      "end": 235
+      "start": 190,
+      "end": 272
     }
   },
   "activities": {
     "1": {
-      "title": "Build the Interview Evidence Contract",
-      "start": 73,
-      "end": 75
+      "title": "Sign In to Microsoft 365 Copilot and Set the Ground Rules",
+      "start": 86,
+      "end": 88
     },
     "2": {
-      "title": "Audit Fairness, Privacy and AI Boundaries",
-      "start": 76,
-      "end": 78
+      "title": "Build the Interview Evidence Contract with Copilot",
+      "start": 89,
+      "end": 91
     },
     "3": {
-      "title": "Generate a Structured Interview Pack",
-      "start": 145,
-      "end": 147
+      "title": "Red-Team the Screening Agent: Fairness, Privacy and Prompt Injection",
+      "start": 92,
+      "end": 94
     },
     "4": {
-      "title": "Create Behavioural and Situational Anchors",
-      "start": 148,
-      "end": 150
+      "title": "Prompt Engineering: The Four-Part Pattern for Interview Questions",
+      "start": 176,
+      "end": 178
     },
     "5": {
-      "title": "Interviewer Role Play: Ask, Listen and Probe",
-      "start": 151,
-      "end": 153
+      "title": "Generate a Structured Interview Pack with the Question Designer Agent",
+      "start": 179,
+      "end": 181
     },
     "6": {
-      "title": "Interviewee AI Practice and STAR Upgrade",
-      "start": 154,
-      "end": 156
+      "title": "Build Your Own Screening Agent in Copilot Studio",
+      "start": 182,
+      "end": 184
     },
     "7": {
-      "title": "Run an Accessible Virtual Interview",
-      "start": 223,
-      "end": 225
+      "title": "Candidate-Side Practice: Web App, Prep Coach and the STAR Upgrade",
+      "start": 185,
+      "end": 187
     },
     "8": {
-      "title": "Score Evidence and Calibrate the Panel",
-      "start": 226,
-      "end": 228
+      "title": "Score Evidence and Calibrate the Panel with Copilot",
+      "start": 263,
+      "end": 265
     },
     "9": {
-      "title": "Give Evidence-Based Candidate Feedback",
-      "start": 229,
-      "end": 231
+      "title": "Draft Candidate Feedback with the Feedback Coach",
+      "start": 266,
+      "end": 268
     },
     "10": {
-      "title": "Capstone AI-Assisted Interview Role Play",
-      "start": 232,
-      "end": 234
+      "title": "Capstone: End-to-End AI-Assisted Hiring Round",
+      "start": 269,
+      "end": 271
     }
   },
   "markers": {}

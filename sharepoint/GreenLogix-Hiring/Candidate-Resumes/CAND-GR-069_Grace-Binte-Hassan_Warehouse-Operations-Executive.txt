@@ -1,0 +1,24 @@
+GRACE BINTE HASSAN
+Warehouse Operations Executive candidate  |  Candidate ID: CAND-GR-069
+grace.cand-gr-069@example-mail.test  |  +65 8558 4133  |  Singapore
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Nexus Consulting - Warehouse Operations Executive (2022 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with safety compliance, WMS, picking optimisation on recurring delivery.
+  Vertex Health - Junior Warehouse Operations Executive (2017 - 2022)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BBA Business Analytics, NTU
+
+SKILLS
+  safety compliance, WMS, picking optimisation, team supervision, inventory accuracy
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

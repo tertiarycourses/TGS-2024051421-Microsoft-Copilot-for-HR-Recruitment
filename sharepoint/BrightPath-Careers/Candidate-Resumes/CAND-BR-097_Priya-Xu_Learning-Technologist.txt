@@ -1,0 +1,27 @@
+PRIYA XU
+Learning Technologist candidate  |  Candidate ID: CAND-BR-097
+priya.cand-br-097@example-mail.test  |  +65 8734 8976  |  Singapore
+NRIC: S8••••••7D
+Date of Birth: 14 March 1989   |   Marital status: Married, 2 children
+Nationality: Malaysian (Singapore PR application in progress)
+
+PROFESSIONAL SUMMARY
+Learning Technologist with 13 years' experience in education and training. Core strengths: video production, LMS administration, accessibility, SCORM.
+
+KEY ACHIEVEMENT
+Migrated 120 courses to a new LMS with zero learner-facing downtime.
+
+EXPERIENCE
+  Cityline Telecom - Learning Technologist (2020 - Present)
+     - Migrated 120 courses to a new LMS with zero learner-facing downtime.
+     - Worked with video production, LMS administration, accessibility on recurring delivery.
+  Kallang Systems - Junior Learning Technologist (2013 - 2020)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BEd Education, Ngee Ann Poly
+
+SKILLS
+  video production, LMS administration, accessibility, SCORM, learning analytics
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

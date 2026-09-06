@@ -1,0 +1,26 @@
+SITI XU
+Supply Chain Analyst candidate  |  Candidate ID: CAND-GR-079
+siti.cand-gr-079@example-mail.test  |  +65 8999 7278  |  Singapore
+Nationality: Malaysian (Singapore PR application in progress)
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Supply Chain Analyst with 11 years' experience in logistics and supply chain. Core strengths: demand forecasting, supplier scorecards, SQL, Excel modelling.
+
+KEY ACHIEVEMENT
+Cut excess stock by SGD 1.2m by reworking the forecast for 60 slow-moving SKUs.
+
+EXPERIENCE
+  Vertex Health - Supply Chain Analyst (2021 - Present)
+     - Cut excess stock by SGD 1.2m by reworking the forecast for 60 slow-moving SKUs.
+     - Worked with demand forecasting, supplier scorecards, SQL on recurring delivery.
+  Kallang Systems - Junior Supply Chain Analyst (2015 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BEd Education, Singapore Poly
+
+SKILLS
+  demand forecasting, supplier scorecards, SQL, Excel modelling, inventory optimisation, SAP
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

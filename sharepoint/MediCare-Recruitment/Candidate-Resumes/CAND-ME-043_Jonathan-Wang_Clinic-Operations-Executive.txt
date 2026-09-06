@@ -1,0 +1,26 @@
+JONATHAN WANG
+Clinic Operations Executive candidate  |  Candidate ID: CAND-ME-043
+jonathan.cand-me-043@example-mail.test  |  +65 8127 1692  |  Singapore
+Age: 37
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Pinnacle Services - Clinic Operations Executive (2025 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with clinic workflow, vendor liaison, patient experience on recurring delivery.
+  BlueWave Media - Junior Clinic Operations Executive (2024 - 2025)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BEng Information Engineering, Republic Poly
+
+SKILLS
+  clinic workflow, vendor liaison, patient experience, billing, rostering, appointment scheduling
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

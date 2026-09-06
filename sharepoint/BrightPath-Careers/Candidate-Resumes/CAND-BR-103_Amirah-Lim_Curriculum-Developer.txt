@@ -1,0 +1,25 @@
+AMIRAH LIM
+Curriculum Developer candidate  |  Candidate ID: CAND-BR-103
+amirah.cand-br-103@example-mail.test  |  +65 8857 4871  |  Singapore
+Photograph attached (headshot, colour).
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Jurong Components - Curriculum Developer (2022 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with LMS authoring, instructional design, ADDIE on recurring delivery.
+  Straits Manufacturing - Junior Curriculum Developer (2017 - 2022)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  Diploma in Health Sciences, Temasek Poly
+
+SKILLS
+  LMS authoring, instructional design, ADDIE, assessment design, subject research
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

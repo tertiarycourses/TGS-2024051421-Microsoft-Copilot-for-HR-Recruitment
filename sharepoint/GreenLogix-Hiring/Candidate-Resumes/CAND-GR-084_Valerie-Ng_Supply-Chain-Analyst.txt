@@ -1,0 +1,26 @@
+VALERIE NG
+Supply Chain Analyst candidate  |  Candidate ID: CAND-GR-084
+valerie.cand-gr-084@example-mail.test  |  +65 8669 8789  |  Singapore
+NRIC: S8••••••7D
+
+PROFESSIONAL SUMMARY
+Supply Chain Analyst with 13 years' experience in logistics and supply chain. Core strengths: demand forecasting, SAP, inventory optimisation, Excel modelling.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Vertex Health - Supply Chain Analyst (2020 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with demand forecasting, SAP, inventory optimisation on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Nexus Consulting - Junior Supply Chain Analyst (2013 - 2020)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Nursing, SIT
+
+SKILLS
+  demand forecasting, SAP, inventory optimisation, Excel modelling, supplier scorecards, SQL
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

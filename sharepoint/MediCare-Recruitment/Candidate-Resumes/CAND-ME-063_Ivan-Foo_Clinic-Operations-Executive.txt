@@ -1,0 +1,26 @@
+IVAN FOO
+Clinic Operations Executive candidate  |  Candidate ID: CAND-ME-063
+ivan.cand-me-063@example-mail.test  |  +65 8708 3212  |  Singapore
+Photograph attached (headshot, colour).
+NRIC: S8••••••7D
+
+PROFESSIONAL SUMMARY
+Clinic Operations Executive with 5 years' experience in healthcare delivery. Core strengths: rostering, patient experience, clinic workflow, vendor liaison.
+
+KEY ACHIEVEMENT
+Redesigned appointment blocks (contribution shared across a team of four).
+
+EXPERIENCE
+  Redhill Software - Clinic Operations Executive (2024 - Present)
+     - Redesigned appointment blocks (contribution shared across a team of four).
+     - Worked with rostering, patient experience, clinic workflow on recurring delivery.
+  Meridian Finance - Junior Clinic Operations Executive (2021 - 2024)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BA Economics, SUTD
+
+SKILLS
+  rostering, patient experience, clinic workflow, vendor liaison, billing, appointment scheduling
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

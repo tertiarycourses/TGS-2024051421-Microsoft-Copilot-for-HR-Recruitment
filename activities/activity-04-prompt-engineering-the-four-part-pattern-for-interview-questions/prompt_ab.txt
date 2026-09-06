@@ -1,0 +1,11 @@
+--- WEAK PROMPT ---
+
+--- OUTPUT ---
+
+--- DEFECTS FOUND ---
+
+--- STRONG PROMPT (ROLE/CONTEXT/TASK/CONSTRAINTS) ---
+
+--- OUTPUT ---
+
+--- WHAT CHANGED AND WHY ---

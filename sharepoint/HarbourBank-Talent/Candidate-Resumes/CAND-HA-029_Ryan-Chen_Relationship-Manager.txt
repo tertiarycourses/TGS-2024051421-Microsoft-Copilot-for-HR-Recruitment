@@ -1,0 +1,25 @@
+RYAN CHEN
+Relationship Manager candidate  |  Candidate ID: CAND-HA-029
+ryan.cand-ha-029@example-mail.test  |  +65 8500 3445  |  Singapore
+Photograph attached (headshot, colour).
+
+PROFESSIONAL SUMMARY
+Relationship Manager with 9 years' experience in retail and commercial banking. Core strengths: cross-selling, credit assessment, client retention, portfolio growth.
+
+KEY ACHIEVEMENT
+Grew an SGD 42m portfolio by 18% while keeping attrition under 4%. (contribution shared across a team of four).
+
+EXPERIENCE
+  Meridian Finance - Relationship Manager (2022 - Present)
+     - Grew an SGD 42m portfolio by 18% while keeping attrition under 4%. (contribution shared across a team of four).
+     - Worked with cross-selling, credit assessment, client retention on recurring delivery.
+  Straits Manufacturing - Junior Relationship Manager (2017 - 2022)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Data Science, University of Melbourne
+
+SKILLS
+  cross-selling, credit assessment, client retention, portfolio growth, KYC, CRM
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

@@ -1,0 +1,27 @@
+SHANTI HO
+Staff Nurse candidate  |  Candidate ID: CAND-ME-046
+shanti.cand-me-046@example-mail.test  |  +65 8837 9737  |  Singapore
+Nationality: Malaysian (Singapore PR application in progress)
+Age: 37
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Pinnacle Services - Staff Nurse (2024 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with patient assessment, electronic health records, triage on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Novena Care - Junior Staff Nurse (2021 - 2024)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Supply Chain Management, SUSS
+
+SKILLS
+  patient assessment, electronic health records, triage, medication administration, wound care, infection control
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

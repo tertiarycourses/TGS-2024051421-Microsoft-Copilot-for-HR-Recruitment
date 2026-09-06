@@ -1,0 +1,25 @@
+GERMAINE HO
+Curriculum Developer candidate  |  Candidate ID: CAND-BR-095
+germaine.cand-br-095@example-mail.test  |  +65 8496 2366  |  Singapore
+NRIC: S8••••••7D
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Vertex Health - Curriculum Developer (2022 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with LMS authoring, subject research, assessment design on recurring delivery.
+  Nexus Consulting - Junior Curriculum Developer (2017 - 2022)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  Diploma in Business Informatics, SMU
+
+SKILLS
+  LMS authoring, subject research, assessment design, instructional design, ADDIE
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

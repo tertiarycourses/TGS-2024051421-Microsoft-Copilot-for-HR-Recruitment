@@ -1,0 +1,25 @@
+PEI SHAN ZHANG
+Product Manager candidate  |  Candidate ID: CAND-FU-013
+pei.cand-fu-013@example-mail.test  |  +65 8829 9505  |  Singapore
+Photograph attached (headshot, colour).
+
+PROFESSIONAL SUMMARY
+Product Manager with 10 years' experience in technology and data products. Core strengths: stakeholder alignment, user research, roadmapping, JIRA.
+
+KEY ACHIEVEMENT
+Launched self-serve onboarding; activation rose 34% in two quarters against a 15% target.
+
+EXPERIENCE
+  Meridian Finance - Product Manager (2021 - Present)
+     - Launched self-serve onboarding; activation rose 34% in two quarters against a 15% target.
+     - Worked with stakeholder alignment, user research, roadmapping on recurring delivery.
+  Redhill Software - Junior Product Manager (2016 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Supply Chain Management, SUTD
+
+SKILLS
+  stakeholder alignment, user research, roadmapping, JIRA, pricing, OKRs
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

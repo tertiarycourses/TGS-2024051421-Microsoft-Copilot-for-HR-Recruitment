@@ -1,0 +1,26 @@
+TERENCE TAN
+Data Engineer candidate  |  Candidate ID: CAND-FU-012
+terence.cand-fu-012@example-mail.test  |  +65 8708 5285  |  Singapore
+Age: 37
+
+PROFESSIONAL SUMMARY
+Data Engineer with 8 years' experience in technology and data products. Core strengths: Airflow, Terraform, Spark, ETL design.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Summit Analytics - Data Engineer (2022 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with Airflow, Terraform, Spark on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Kallang Systems - Junior Data Engineer (2018 - 2022)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Nursing, SIT
+
+SKILLS
+  Airflow, Terraform, Spark, ETL design, Snowflake, AWS
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

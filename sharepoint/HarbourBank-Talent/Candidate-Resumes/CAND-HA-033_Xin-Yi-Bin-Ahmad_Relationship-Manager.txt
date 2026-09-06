@@ -1,0 +1,24 @@
+XIN YI BIN AHMAD
+Relationship Manager candidate  |  Candidate ID: CAND-HA-033
+xin.cand-ha-033@example-mail.test  |  +65 8151 4415  |  Singapore
+
+PROFESSIONAL SUMMARY
+Relationship Manager with 5 years' experience in retail and commercial banking. Core strengths: cross-selling, client retention, portfolio growth, credit assessment.
+
+KEY ACHIEVEMENT
+Grew an SGD 42m portfolio by 18% while keeping attrition under 4%.
+
+EXPERIENCE
+  Vertex Health - Relationship Manager (2024 - Present)
+     - Grew an SGD 42m portfolio by 18% while keeping attrition under 4%.
+     - Worked with cross-selling, client retention, portfolio growth on recurring delivery.
+  Jurong Components - Junior Relationship Manager (2021 - 2024)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Computer Science, SIT
+
+SKILLS
+  cross-selling, client retention, portfolio growth, credit assessment, KYC, CRM
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

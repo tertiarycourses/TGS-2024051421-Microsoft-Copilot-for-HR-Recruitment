@@ -1,0 +1,26 @@
+VIKRAM KUMAR
+Software Engineer candidate  |  Candidate ID: CAND-FU-001
+vikram.cand-fu-001@example-mail.test  |  +65 8842 5687  |  Singapore
+Photograph attached (headshot, colour).
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Nexus Consulting - Software Engineer (2023 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with unit testing, CI/CD, Java on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Jurong Components - Junior Software Engineer (2020 - 2023)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  Diploma in Health Sciences, Curtin University
+
+SKILLS
+  unit testing, CI/CD, Java, TypeScript, REST APIs, React
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

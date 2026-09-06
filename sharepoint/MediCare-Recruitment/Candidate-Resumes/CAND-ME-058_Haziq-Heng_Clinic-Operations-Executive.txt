@@ -1,0 +1,24 @@
+HAZIQ HENG
+Clinic Operations Executive candidate  |  Candidate ID: CAND-ME-058
+haziq.cand-me-058@example-mail.test  |  +65 8497 4871  |  Singapore
+
+PROFESSIONAL SUMMARY
+Clinic Operations Executive with 4 years' experience in healthcare delivery. Core strengths: appointment scheduling, patient experience, billing, vendor liaison.
+
+KEY ACHIEVEMENT
+Redesigned appointment blocks; average patient wait fell from 48 to 19 minutes.
+
+EXPERIENCE
+  Redhill Software - Clinic Operations Executive (2024 - Present)
+     - Redesigned appointment blocks; average patient wait fell from 48 to 19 minutes.
+     - Worked with appointment scheduling, patient experience, billing on recurring delivery.
+  Jurong Components - Junior Clinic Operations Executive (2022 - 2024)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  Diploma in Business Informatics, University of Melbourne
+
+SKILLS
+  appointment scheduling, patient experience, billing, vendor liaison, clinic workflow, rostering
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

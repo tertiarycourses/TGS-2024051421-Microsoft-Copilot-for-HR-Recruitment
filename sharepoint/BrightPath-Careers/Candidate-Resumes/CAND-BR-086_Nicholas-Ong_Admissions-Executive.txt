@@ -1,0 +1,26 @@
+NICHOLAS ONG
+Admissions Executive candidate  |  Candidate ID: CAND-BR-086
+nicholas.cand-br-086@example-mail.test  |  +65 8120 8453  |  Singapore
+Photograph attached (headshot, colour).
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Pinnacle Services - Admissions Executive (2021 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with counselling, enrolment reporting, CRM on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Nexus Consulting - Junior Admissions Executive (2015 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  Diploma in Business Informatics, NUS
+
+SKILLS
+  counselling, enrolment reporting, CRM, stakeholder follow-up, events
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

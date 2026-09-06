@@ -1,0 +1,25 @@
+CHARMAINE XU
+Supply Chain Analyst candidate  |  Candidate ID: CAND-GR-065
+charmaine.cand-gr-065@example-mail.test  |  +65 8898 5889  |  Singapore
+NRIC: S8••••••7D
+
+PROFESSIONAL SUMMARY
+Supply Chain Analyst with 4 years' experience in logistics and supply chain. Core strengths: supplier scorecards, inventory optimisation, demand forecasting, SAP.
+
+KEY ACHIEVEMENT
+Cut excess stock by SGD 1.2m by reworking the forecast for 60 slow-moving SKUs.
+
+EXPERIENCE
+  Nexus Consulting - Supply Chain Analyst (2024 - Present)
+     - Cut excess stock by SGD 1.2m by reworking the forecast for 60 slow-moving SKUs.
+     - Worked with supplier scorecards, inventory optimisation, demand forecasting on recurring delivery.
+  Straits Manufacturing - Junior Supply Chain Analyst (2022 - 2024)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BEng Information Engineering, Temasek Poly
+
+SKILLS
+  supplier scorecards, inventory optimisation, demand forecasting, SAP, Excel modelling, SQL
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

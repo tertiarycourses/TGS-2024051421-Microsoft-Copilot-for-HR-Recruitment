@@ -1,0 +1,24 @@
+CHERYL RAJAN
+Software Engineer candidate  |  Candidate ID: CAND-FU-019
+cheryl.cand-fu-019@example-mail.test  |  +65 8121 1509  |  Singapore
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Vertex Health - Software Engineer (2021 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with Java, code review, unit testing on recurring delivery.
+  Meridian Finance - Junior Software Engineer (2015 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  Diploma in Business Informatics, Singapore Poly
+
+SKILLS
+  Java, code review, unit testing, TypeScript, REST APIs, React
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

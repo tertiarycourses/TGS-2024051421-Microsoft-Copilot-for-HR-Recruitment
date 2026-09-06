@@ -1,0 +1,25 @@
+RYAN LIU
+Product Manager candidate  |  Candidate ID: CAND-FU-021
+ryan.cand-fu-021@example-mail.test  |  +65 8479 2825  |  Singapore
+Nationality: Malaysian (Singapore PR application in progress)
+
+PROFESSIONAL SUMMARY
+Product Manager with 13 years' experience in technology and data products. Core strengths: user research, JIRA, A/B testing, analytics.
+
+KEY ACHIEVEMENT
+Launched self-serve onboarding; activation rose 34% in two quarters against a 15% target.
+
+EXPERIENCE
+  Novena Care - Product Manager (2020 - Present)
+     - Launched self-serve onboarding; activation rose 34% in two quarters against a 15% target.
+     - Worked with user research, JIRA, A/B testing on recurring delivery.
+  Lion City Logistics - Junior Product Manager (2013 - 2020)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BEng Information Engineering, NTU
+
+SKILLS
+  user research, JIRA, A/B testing, analytics, OKRs, roadmapping
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

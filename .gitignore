@@ -1,0 +1,34 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+courseware/.env
+reference/
+assessment/
+.claude/
+tmp/
+qa/rendered/
+qa/docx-render/
+qa/activity-render/
+__pycache__/
+*.pyc
+
+
+# Distribution archives (rebuildable - never pushed to GitHub)
+*.zip
+
+# Source material the project was derived from - not ours to republish.
+**/reference/
+
+# WSQ assessment materials (confidential - never pushed)
+/assessment/
+.playwright-mcp/
+
+# large staged upload payloads (regenerable)
+sharepoint/scripts/chunks/
+sharepoint/scripts/upload_payload.json
+sharepoint/scripts/run_*.js
+sharepoint/scripts/up_*.js
+agents/_*.js
+scripts/copilot_studio_api/_*.js
+scripts/copilot_studio_api/token.txt

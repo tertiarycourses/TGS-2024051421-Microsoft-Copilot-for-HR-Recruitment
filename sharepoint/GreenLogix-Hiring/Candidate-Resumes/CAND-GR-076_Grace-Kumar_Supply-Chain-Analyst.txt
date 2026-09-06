@@ -1,0 +1,26 @@
+GRACE KUMAR
+Supply Chain Analyst candidate  |  Candidate ID: CAND-GR-076
+grace.cand-gr-076@example-mail.test  |  +65 8509 6273  |  Singapore
+NRIC: S8••••••7D
+Date of Birth: 14 March 1989   |   Marital status: Married, 2 children
+
+PROFESSIONAL SUMMARY
+Supply Chain Analyst with 13 years' experience in logistics and supply chain. Core strengths: SQL, SAP, Excel modelling, inventory optimisation.
+
+KEY ACHIEVEMENT
+Cut excess stock by SGD 1.2m by reworking the forecast for 60 slow-moving SKUs.
+
+EXPERIENCE
+  Jurong Components - Supply Chain Analyst (2020 - Present)
+     - Cut excess stock by SGD 1.2m by reworking the forecast for 60 slow-moving SKUs.
+     - Worked with SQL, SAP, Excel modelling on recurring delivery.
+  Nexus Consulting - Junior Supply Chain Analyst (2013 - 2020)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BA Economics, Singapore Poly
+
+SKILLS
+  SQL, SAP, Excel modelling, inventory optimisation, demand forecasting, supplier scorecards
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

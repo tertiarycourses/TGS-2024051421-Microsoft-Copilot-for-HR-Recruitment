@@ -1,0 +1,26 @@
+EDWIN KOH
+Learning Technologist candidate  |  Candidate ID: CAND-BR-093
+edwin.cand-br-093@example-mail.test  |  +65 8972 8121  |  Singapore
+Nationality: Malaysian (Singapore PR application in progress)
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Learning Technologist with 3 years' experience in education and training. Core strengths: SCORM, video production, accessibility, LMS administration.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Kallang Systems - Learning Technologist (2025 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with SCORM, video production, accessibility on recurring delivery.
+  Orchid Retail Group - Junior Learning Technologist (2023 - 2025)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Information Systems, Singapore Poly
+
+SKILLS
+  SCORM, video production, accessibility, LMS administration, learning analytics
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

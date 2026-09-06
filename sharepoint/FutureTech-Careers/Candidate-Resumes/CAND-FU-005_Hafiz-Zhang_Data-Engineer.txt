@@ -1,0 +1,24 @@
+HAFIZ ZHANG
+Data Engineer candidate  |  Candidate ID: CAND-FU-005
+hafiz.cand-fu-005@example-mail.test  |  +65 8767 3383  |  Singapore
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Apex Digital - Data Engineer (2020 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with AWS, ETL design, SQL on recurring delivery.
+  Summit Analytics - Junior Data Engineer (2013 - 2020)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BEng Information Engineering, Monash University
+
+SKILLS
+  AWS, ETL design, SQL, Airflow, Snowflake, Terraform
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

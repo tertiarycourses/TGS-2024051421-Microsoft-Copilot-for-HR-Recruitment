@@ -1,0 +1,25 @@
+MARCUS SEAH
+Data Engineer candidate  |  Candidate ID: CAND-FU-004
+marcus.cand-fu-004@example-mail.test  |  +65 8551 5669  |  Singapore
+Photograph attached (headshot, colour).
+
+PROFESSIONAL SUMMARY
+Data Engineer with 11 years' experience in technology and data products. Core strengths: AWS, Snowflake, Python, Kafka.
+
+KEY ACHIEVEMENT
+Migrated 40+ batch jobs to Airflow (contribution shared across a team of four).
+
+EXPERIENCE
+  Kallang Systems - Data Engineer (2021 - Present)
+     - Migrated 40+ batch jobs to Airflow (contribution shared across a team of four).
+     - Worked with AWS, Snowflake, Python on recurring delivery.
+  Nexus Consulting - Junior Data Engineer (2015 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Supply Chain Management, Monash University
+
+SKILLS
+  AWS, Snowflake, Python, Kafka, ETL design, Airflow
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

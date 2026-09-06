@@ -1,0 +1,26 @@
+NURUL HO
+Clinic Operations Executive candidate  |  Candidate ID: CAND-ME-059
+nurul.cand-me-059@example-mail.test  |  +65 8297 8813  |  Singapore
+Photograph attached (headshot, colour).
+Age: 37
+
+PROFESSIONAL SUMMARY
+Clinic Operations Executive with 14 years' experience in healthcare delivery. Core strengths: rostering, vendor liaison, billing, clinic workflow.
+
+KEY ACHIEVEMENT
+Redesigned appointment blocks (contribution shared across a team of four).
+
+EXPERIENCE
+  Lion City Logistics - Clinic Operations Executive (2019 - Present)
+     - Redesigned appointment blocks (contribution shared across a team of four).
+     - Worked with rostering, vendor liaison, billing on recurring delivery.
+  Vertex Health - Junior Clinic Operations Executive (2012 - 2019)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BEng Information Engineering, University of Melbourne
+
+SKILLS
+  rostering, vendor liaison, billing, clinic workflow, appointment scheduling, patient experience
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

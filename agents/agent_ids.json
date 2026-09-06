@@ -1,0 +1,10 @@
+{
+ "environment_id": "80e43c74-22f2-e59c-a56c-f40835547497",
+ "agents": {
+  "Candidate Screener (KEEP)": "fc488ee5-2d14-4a7c-99fc-8bbf049bb748",
+  "Question Designer (KEEP)": "fb88dde0-bd55-4d41-bf50-8415eabd6b05",
+  "Evidence Scorer (KEEP)": "1b919e96-4bca-4b24-ac42-4e7c6193f708",
+  "Feedback Coach (KEEP)": "afc38614-7267-4906-8eeb-f1d0da6aae55",
+  "Interview Prep Coach (KEEP)": "6090a130-cfbc-47f9-b489-e0c4d6389bdd"
+ }
+}

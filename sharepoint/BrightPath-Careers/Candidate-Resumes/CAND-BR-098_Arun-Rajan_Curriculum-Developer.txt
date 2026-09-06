@@ -1,0 +1,25 @@
+ARUN RAJAN
+Curriculum Developer candidate  |  Candidate ID: CAND-BR-098
+arun.cand-br-098@example-mail.test  |  +65 8131 9573  |  Singapore
+
+PROFESSIONAL SUMMARY
+Curriculum Developer with 10 years' experience in education and training. Core strengths: LMS authoring, subject research, assessment design, ADDIE.
+
+KEY ACHIEVEMENT
+Redesigned a 6-module programme; assessment pass rates rose from 72% to 88%.
+
+EXPERIENCE
+  Meridian Finance - Curriculum Developer (2021 - Present)
+     - Redesigned a 6-module programme; assessment pass rates rose from 72% to 88%.
+     - Worked with LMS authoring, subject research, assessment design on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Summit Analytics - Junior Curriculum Developer (2016 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Supply Chain Management, SUTD
+
+SKILLS
+  LMS authoring, subject research, assessment design, ADDIE, instructional design
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

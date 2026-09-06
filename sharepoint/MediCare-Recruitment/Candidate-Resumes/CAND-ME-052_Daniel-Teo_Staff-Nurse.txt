@@ -1,0 +1,26 @@
+DANIEL TEO
+Staff Nurse candidate  |  Candidate ID: CAND-ME-052
+daniel.cand-me-052@example-mail.test  |  +65 8715 1169  |  Singapore
+Date of Birth: 14 March 1989   |   Marital status: Married, 2 children
+Age: 37
+
+PROFESSIONAL SUMMARY
+Staff Nurse with 8 years' experience in healthcare delivery. Core strengths: infection control, patient assessment, wound care, electronic health records.
+
+KEY ACHIEVEMENT
+Led a ward falls-prevention change (contribution shared across a team of four).
+
+EXPERIENCE
+  Pinnacle Services - Staff Nurse (2022 - Present)
+     - Led a ward falls-prevention change (contribution shared across a team of four).
+     - Worked with infection control, patient assessment, wound care on recurring delivery.
+  Summit Analytics - Junior Staff Nurse (2018 - 2022)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  Diploma in Health Sciences, Republic Poly
+
+SKILLS
+  infection control, patient assessment, wound care, electronic health records, triage, medication administration
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

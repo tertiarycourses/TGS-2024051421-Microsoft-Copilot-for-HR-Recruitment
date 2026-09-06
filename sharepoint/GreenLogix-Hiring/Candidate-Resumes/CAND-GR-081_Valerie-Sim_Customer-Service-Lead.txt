@@ -1,0 +1,27 @@
+VALERIE SIM
+Customer Service Lead candidate  |  Candidate ID: CAND-GR-081
+valerie.cand-gr-081@example-mail.test  |  +65 8420 4783  |  Singapore
+NRIC: S8••••••7D
+Nationality: Malaysian (Singapore PR application in progress)
+Age: 37
+
+PROFESSIONAL SUMMARY
+Customer Service Lead with 8 years' experience in logistics and supply chain. Core strengths: CRM, process improvement, SLA management, team coaching.
+
+KEY ACHIEVEMENT
+Improved first-contact resolution from 61% to 79% by rewriting escalation rules. (contribution shared across a team of four).
+
+EXPERIENCE
+  Orchid Retail Group - Customer Service Lead (2022 - Present)
+     - Improved first-contact resolution from 61% to 79% by rewriting escalation rules. (contribution shared across a team of four).
+     - Worked with CRM, process improvement, SLA management on recurring delivery.
+  Redhill Software - Junior Customer Service Lead (2018 - 2022)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BEng Information Engineering, SIT
+
+SKILLS
+  CRM, process improvement, SLA management, team coaching, escalation handling
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

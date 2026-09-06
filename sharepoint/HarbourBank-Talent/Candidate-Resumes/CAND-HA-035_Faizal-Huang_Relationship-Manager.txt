@@ -1,0 +1,24 @@
+FAIZAL HUANG
+Relationship Manager candidate  |  Candidate ID: CAND-HA-035
+faizal.cand-ha-035@example-mail.test  |  +65 8400 3376  |  Singapore
+
+PROFESSIONAL SUMMARY
+Relationship Manager with 14 years' experience in retail and commercial banking. Core strengths: portfolio growth, CRM, KYC, credit assessment.
+
+KEY ACHIEVEMENT
+Grew an SGD 42m portfolio by 18% while keeping attrition under 4%. (contribution shared across a team of four).
+
+EXPERIENCE
+  BlueWave Media - Relationship Manager (2019 - Present)
+     - Grew an SGD 42m portfolio by 18% while keeping attrition under 4%. (contribution shared across a team of four).
+     - Worked with portfolio growth, CRM, KYC on recurring delivery.
+  Kallang Systems - Junior Relationship Manager (2012 - 2019)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Data Science, SUSS
+
+SKILLS
+  portfolio growth, CRM, KYC, credit assessment, client retention, cross-selling
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

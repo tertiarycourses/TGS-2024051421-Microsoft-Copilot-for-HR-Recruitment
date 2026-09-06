@@ -1,0 +1,26 @@
+HAFIZ BIN AHMAD
+Relationship Manager candidate  |  Candidate ID: CAND-HA-028
+hafiz.cand-ha-028@example-mail.test  |  +65 8592 9799  |  Singapore
+NRIC: S8••••••7D
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Kallang Systems - Relationship Manager (2023 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with credit assessment, portfolio growth, KYC on recurring delivery.
+  Jurong Components - Junior Relationship Manager (2020 - 2023)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Computer Science, Ngee Ann Poly
+
+SKILLS
+  credit assessment, portfolio growth, KYC, client retention, cross-selling, CRM
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

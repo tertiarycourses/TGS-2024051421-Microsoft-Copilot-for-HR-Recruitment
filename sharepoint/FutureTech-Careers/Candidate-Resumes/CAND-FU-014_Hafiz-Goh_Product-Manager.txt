@@ -1,0 +1,28 @@
+HAFIZ GOH
+Product Manager candidate  |  Candidate ID: CAND-FU-014
+hafiz.cand-fu-014@example-mail.test  |  +65 8554 1607  |  Singapore
+Photograph attached (headshot, colour).
+Age: 37
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Product Manager with 6 years' experience in technology and data products. Core strengths: roadmapping, A/B testing, JIRA, stakeholder alignment.
+
+KEY ACHIEVEMENT
+Launched self-serve onboarding; activation rose 34% in two quarters against a 15% target.
+
+EXPERIENCE
+  Straits Manufacturing - Product Manager (2023 - Present)
+     - Launched self-serve onboarding; activation rose 34% in two quarters against a 15% target.
+     - Worked with roadmapping, A/B testing, JIRA on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  BlueWave Media - Junior Product Manager (2020 - 2023)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Supply Chain Management, Ngee Ann Poly
+
+SKILLS
+  roadmapping, A/B testing, JIRA, stakeholder alignment, analytics, user research
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

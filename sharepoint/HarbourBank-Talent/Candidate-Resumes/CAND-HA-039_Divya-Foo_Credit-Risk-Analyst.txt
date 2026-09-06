@@ -1,0 +1,25 @@
+DIVYA FOO
+Credit Risk Analyst candidate  |  Candidate ID: CAND-HA-039
+divya.cand-ha-039@example-mail.test  |  +65 8525 4477  |  Singapore
+
+PROFESSIONAL SUMMARY
+Credit Risk Analyst with 13 years' experience in retail and commercial banking. Core strengths: credit scoring, portfolio analytics, SAS, SQL.
+
+KEY ACHIEVEMENT
+Rebuilt the SME scorecard (contribution shared across a team of four).
+
+EXPERIENCE
+  Kallang Systems - Credit Risk Analyst (2020 - Present)
+     - Rebuilt the SME scorecard (contribution shared across a team of four).
+     - Worked with credit scoring, portfolio analytics, SAS on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Redhill Software - Junior Credit Risk Analyst (2013 - 2020)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Nursing, SMU
+
+SKILLS
+  credit scoring, portfolio analytics, SAS, SQL, IFRS 9, stress testing
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

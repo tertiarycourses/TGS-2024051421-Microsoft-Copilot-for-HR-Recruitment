@@ -1,0 +1,26 @@
+MEERA WONG
+Healthcare Data Analyst candidate  |  Candidate ID: CAND-ME-051
+meera.cand-me-051@example-mail.test  |  +65 8521 4176  |  Singapore
+NRIC: S8••••••7D
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Healthcare Data Analyst with 5 years' experience in healthcare delivery. Core strengths: Excel, HL7/FHIR basics, quality reporting, Power BI.
+
+KEY ACHIEVEMENT
+Automated monthly quality reporting, saving 3 days of manual work per cycle. (contribution shared across a team of four).
+
+EXPERIENCE
+  Redhill Software - Healthcare Data Analyst (2024 - Present)
+     - Automated monthly quality reporting, saving 3 days of manual work per cycle. (contribution shared across a team of four).
+     - Worked with Excel, HL7/FHIR basics, quality reporting on recurring delivery.
+  Vertex Health - Junior Healthcare Data Analyst (2021 - 2024)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BEng Information Engineering, SUTD
+
+SKILLS
+  Excel, HL7/FHIR basics, quality reporting, Power BI, clinical KPIs, SQL
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

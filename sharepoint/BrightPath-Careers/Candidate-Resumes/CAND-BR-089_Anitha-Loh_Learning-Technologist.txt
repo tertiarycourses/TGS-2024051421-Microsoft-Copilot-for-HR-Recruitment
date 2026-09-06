@@ -1,0 +1,25 @@
+ANITHA LOH
+Learning Technologist candidate  |  Candidate ID: CAND-BR-089
+anitha.cand-br-089@example-mail.test  |  +65 8576 3721  |  Singapore
+Nationality: Malaysian (Singapore PR application in progress)
+
+PROFESSIONAL SUMMARY
+Learning Technologist with 2 years' experience in education and training. Core strengths: SCORM, accessibility, LMS administration, learning analytics.
+
+KEY ACHIEVEMENT
+Migrated 120 courses to a new LMS with zero learner-facing downtime.
+
+EXPERIENCE
+  BlueWave Media - Learning Technologist (2025 - Present)
+     - Migrated 120 courses to a new LMS with zero learner-facing downtime.
+     - Worked with SCORM, accessibility, LMS administration on recurring delivery.
+  Orchid Retail Group - Junior Learning Technologist (2024 - 2025)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Information Systems, Singapore Poly
+
+SKILLS
+  SCORM, accessibility, LMS administration, learning analytics, video production
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

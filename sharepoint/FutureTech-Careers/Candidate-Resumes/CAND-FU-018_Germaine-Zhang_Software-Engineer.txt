@@ -1,0 +1,26 @@
+GERMAINE ZHANG
+Software Engineer candidate  |  Candidate ID: CAND-FU-018
+germaine.cand-fu-018@example-mail.test  |  +65 8895 3816  |  Singapore
+Date of Birth: 14 March 1989   |   Marital status: Married, 2 children
+Age: 37
+
+PROFESSIONAL SUMMARY
+Software Engineer with 10 years' experience in technology and data products. Core strengths: CI/CD, code review, TypeScript, unit testing.
+
+KEY ACHIEVEMENT
+Reduced p95 API latency from 820ms to 210ms by adding caching and fixing an N+1 query.
+
+EXPERIENCE
+  Summit Analytics - Software Engineer (2021 - Present)
+     - Reduced p95 API latency from 820ms to 210ms by adding caching and fixing an N+1 query.
+     - Worked with CI/CD, code review, TypeScript on recurring delivery.
+  Meridian Finance - Junior Software Engineer (2016 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Data Science, RMIT
+
+SKILLS
+  CI/CD, code review, TypeScript, unit testing, Docker, REST APIs
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

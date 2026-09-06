@@ -1,0 +1,25 @@
+ZHI WEI CHUA
+Senior Data Analyst candidate  |  Candidate ID: CAND-FU-007
+zhi.cand-fu-007@example-mail.test  |  +65 8997 9665  |  Singapore
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Senior Data Analyst with 11 years' experience in technology and data products. Core strengths: SQL, Power BI, dbt, Python.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Pinnacle Services - Senior Data Analyst (2021 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with SQL, Power BI, dbt on recurring delivery.
+  Apex Digital - Junior Senior Data Analyst (2015 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Computer Science, Temasek Poly
+
+SKILLS
+  SQL, Power BI, dbt, Python, Excel modelling, A/B testing
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

@@ -1,0 +1,26 @@
+JIA HUI ONG
+Learning Technologist candidate  |  Candidate ID: CAND-BR-091
+jia.cand-br-091@example-mail.test  |  +65 8215 8310  |  Singapore
+Photograph attached (headshot, colour).
+Age: 37
+
+PROFESSIONAL SUMMARY
+Learning Technologist with 12 years' experience in education and training. Core strengths: learning analytics, accessibility, LMS administration, SCORM.
+
+KEY ACHIEVEMENT
+Migrated 120 courses to a new LMS with zero learner-facing downtime. (contribution shared across a team of four).
+
+EXPERIENCE
+  Jurong Components - Learning Technologist (2020 - Present)
+     - Migrated 120 courses to a new LMS with zero learner-facing downtime. (contribution shared across a team of four).
+     - Worked with learning analytics, accessibility, LMS administration on recurring delivery.
+  Nexus Consulting - Junior Learning Technologist (2014 - 2020)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  Diploma in Business Informatics, Temasek Poly
+
+SKILLS
+  learning analytics, accessibility, LMS administration, SCORM, video production
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

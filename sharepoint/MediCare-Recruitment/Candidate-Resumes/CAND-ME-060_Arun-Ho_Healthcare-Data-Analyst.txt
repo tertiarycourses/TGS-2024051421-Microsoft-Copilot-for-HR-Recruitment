@@ -1,0 +1,25 @@
+ARUN HO
+Healthcare Data Analyst candidate  |  Candidate ID: CAND-ME-060
+arun.cand-me-060@example-mail.test  |  +65 8255 7617  |  Singapore
+Photograph attached (headshot, colour).
+
+PROFESSIONAL SUMMARY
+Healthcare Data Analyst with 8 years' experience in healthcare delivery. Core strengths: Power BI, clinical KPIs, quality reporting, Excel.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Redhill Software - Healthcare Data Analyst (2022 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with Power BI, clinical KPIs, quality reporting on recurring delivery.
+  Novena Care - Junior Healthcare Data Analyst (2018 - 2022)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BBA Business Analytics, Monash University
+
+SKILLS
+  Power BI, clinical KPIs, quality reporting, Excel, SQL, HL7/FHIR basics
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

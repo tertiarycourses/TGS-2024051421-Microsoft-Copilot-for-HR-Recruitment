@@ -1,0 +1,26 @@
+AISYAH MENON
+Product Manager candidate  |  Candidate ID: CAND-FU-016
+aisyah.cand-fu-016@example-mail.test  |  +65 8848 3342  |  Singapore
+Age: 37
+
+PROFESSIONAL SUMMARY
+Product Manager with 13 years' experience in technology and data products. Core strengths: JIRA, stakeholder alignment, pricing, analytics.
+
+KEY ACHIEVEMENT
+Launched self-serve onboarding (contribution shared across a team of four).
+
+EXPERIENCE
+  Novena Care - Product Manager (2020 - Present)
+     - Launched self-serve onboarding (contribution shared across a team of four).
+     - Worked with JIRA, stakeholder alignment, pricing on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Redhill Software - Junior Product Manager (2013 - 2020)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BEd Education, SUTD
+
+SKILLS
+  JIRA, stakeholder alignment, pricing, analytics, A/B testing, roadmapping
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

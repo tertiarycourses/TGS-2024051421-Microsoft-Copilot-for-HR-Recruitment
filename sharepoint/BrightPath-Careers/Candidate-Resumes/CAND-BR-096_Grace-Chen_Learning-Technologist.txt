@@ -1,0 +1,24 @@
+GRACE CHEN
+Learning Technologist candidate  |  Candidate ID: CAND-BR-096
+grace.cand-br-096@example-mail.test  |  +65 8705 1052  |  Singapore
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Orchid Retail Group - Learning Technologist (2024 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with video production, accessibility, learning analytics on recurring delivery.
+  Straits Manufacturing - Junior Learning Technologist (2022 - 2024)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Statistics, SUSS
+
+SKILLS
+  video production, accessibility, learning analytics, LMS administration, SCORM
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

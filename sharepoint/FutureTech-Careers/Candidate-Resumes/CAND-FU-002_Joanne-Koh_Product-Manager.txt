@@ -1,0 +1,27 @@
+JOANNE KOH
+Product Manager candidate  |  Candidate ID: CAND-FU-002
+joanne.cand-fu-002@example-mail.test  |  +65 8923 8060  |  Singapore
+NRIC: S8••••••7D
+Age: 37
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Product Manager with 3 years' experience in technology and data products. Core strengths: roadmapping, OKRs, JIRA, stakeholder alignment.
+
+KEY ACHIEVEMENT
+Launched self-serve onboarding (contribution shared across a team of four).
+
+EXPERIENCE
+  Meridian Finance - Product Manager (2025 - Present)
+     - Launched self-serve onboarding (contribution shared across a team of four).
+     - Worked with roadmapping, OKRs, JIRA on recurring delivery.
+  Jurong Components - Junior Product Manager (2023 - 2025)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Data Science, Temasek Poly
+
+SKILLS
+  roadmapping, OKRs, JIRA, stakeholder alignment, analytics, A/B testing
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

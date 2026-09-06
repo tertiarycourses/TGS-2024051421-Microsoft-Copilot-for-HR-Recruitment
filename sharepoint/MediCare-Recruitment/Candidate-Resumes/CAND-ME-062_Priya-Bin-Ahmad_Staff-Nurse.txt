@@ -1,0 +1,25 @@
+PRIYA BIN AHMAD
+Staff Nurse candidate  |  Candidate ID: CAND-ME-062
+priya.cand-me-062@example-mail.test  |  +65 8721 8709  |  Singapore
+Date of Birth: 14 March 1989   |   Marital status: Married, 2 children
+
+PROFESSIONAL SUMMARY
+Staff Nurse with 3 years' experience in healthcare delivery. Core strengths: patient assessment, wound care, medication administration, triage.
+
+KEY ACHIEVEMENT
+Led a ward falls-prevention change; falls dropped from 7 to 2 per quarter over 12 months.
+
+EXPERIENCE
+  Redhill Software - Staff Nurse (2025 - Present)
+     - Led a ward falls-prevention change; falls dropped from 7 to 2 per quarter over 12 months.
+     - Worked with patient assessment, wound care, medication administration on recurring delivery.
+  BlueWave Media - Junior Staff Nurse (2023 - 2025)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BA Economics, SMU
+
+SKILLS
+  patient assessment, wound care, medication administration, triage, infection control, electronic health records
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

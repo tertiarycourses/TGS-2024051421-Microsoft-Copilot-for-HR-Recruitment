@@ -1,0 +1,26 @@
+DANIEL LEE
+Learning Technologist candidate  |  Candidate ID: CAND-BR-100
+daniel.cand-br-100@example-mail.test  |  +65 8652 4496  |  Singapore
+Photograph attached (headshot, colour).
+
+PROFESSIONAL SUMMARY
+Learning Technologist with 8 years' experience in education and training. Core strengths: video production, learning analytics, SCORM, accessibility.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  BlueWave Media - Learning Technologist (2022 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with video production, learning analytics, SCORM on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Summit Analytics - Junior Learning Technologist (2018 - 2022)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Statistics, Curtin University
+
+SKILLS
+  video production, learning analytics, SCORM, accessibility, LMS administration
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

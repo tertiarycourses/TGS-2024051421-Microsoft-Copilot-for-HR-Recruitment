@@ -1,0 +1,27 @@
+PRIYA TAY
+Curriculum Developer candidate  |  Candidate ID: CAND-BR-092
+priya.cand-br-092@example-mail.test  |  +65 8268 9914  |  Singapore
+Date of Birth: 14 March 1989   |   Marital status: Married, 2 children
+Age: 37
+
+PROFESSIONAL SUMMARY
+Curriculum Developer with 5 years' experience in education and training. Core strengths: instructional design, LMS authoring, subject research, ADDIE.
+
+KEY ACHIEVEMENT
+Redesigned a 6-module programme (contribution shared across a team of four).
+
+EXPERIENCE
+  Apex Digital - Curriculum Developer (2024 - Present)
+     - Redesigned a 6-module programme (contribution shared across a team of four).
+     - Worked with instructional design, LMS authoring, subject research on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Kallang Systems - Junior Curriculum Developer (2021 - 2024)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BBA Business Analytics, NUS
+
+SKILLS
+  instructional design, LMS authoring, subject research, ADDIE, assessment design
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

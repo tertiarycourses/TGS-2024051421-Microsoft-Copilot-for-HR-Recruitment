@@ -1,0 +1,2997 @@
+[
+ {
+  "cid": "CAND-FU-001",
+  "name": "Vikram Kumar",
+  "role": "Software Engineer",
+  "yrs": 6,
+  "skills": [
+   "unit testing",
+   "CI/CD",
+   "Java",
+   "TypeScript",
+   "REST APIs",
+   "React"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo",
+   "gap",
+   "vague"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "Curtin University",
+  "degree": "Diploma in Health Sciences",
+  "prior": [
+   "Nexus Consulting",
+   "Jurong Components"
+  ],
+  "email": "vikram.cand-fu-001@example-mail.test",
+  "phone": "+65 8842 5687"
+ },
+ {
+  "cid": "CAND-FU-002",
+  "name": "Joanne Koh",
+  "role": "Product Manager",
+  "yrs": 3,
+  "skills": [
+   "roadmapping",
+   "OKRs",
+   "JIRA",
+   "stakeholder alignment",
+   "analytics",
+   "A/B testing"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "nric",
+   "age",
+   "salary"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "Temasek Poly",
+  "degree": "BSc Data Science",
+  "prior": [
+   "Meridian Finance",
+   "Jurong Components"
+  ],
+  "email": "joanne.cand-fu-002@example-mail.test",
+  "phone": "+65 8923 8060"
+ },
+ {
+  "cid": "CAND-FU-003",
+  "name": "Zul Ismail",
+  "role": "Data Engineer",
+  "yrs": 12,
+  "skills": [
+   "AWS",
+   "Airflow",
+   "Terraform",
+   "Snowflake",
+   "SQL",
+   "Python"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "nric",
+   "gap",
+   "age"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "Singapore Poly",
+  "degree": "BSc Computer Science",
+  "prior": [
+   "Redhill Software",
+   "Kallang Systems"
+  ],
+  "email": "zul.cand-fu-003@example-mail.test",
+  "phone": "+65 8316 1560"
+ },
+ {
+  "cid": "CAND-FU-004",
+  "name": "Marcus Seah",
+  "role": "Data Engineer",
+  "yrs": 11,
+  "skills": [
+   "AWS",
+   "Snowflake",
+   "Python",
+   "Kafka",
+   "ETL design",
+   "Airflow"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "photo"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "Monash University",
+  "degree": "BSc Supply Chain Management",
+  "prior": [
+   "Kallang Systems",
+   "Nexus Consulting"
+  ],
+  "email": "marcus.cand-fu-004@example-mail.test",
+  "phone": "+65 8551 5669"
+ },
+ {
+  "cid": "CAND-FU-005",
+  "name": "Hafiz Zhang",
+  "role": "Data Engineer",
+  "yrs": 13,
+  "skills": [
+   "AWS",
+   "ETL design",
+   "SQL",
+   "Airflow",
+   "Snowflake",
+   "Terraform"
+  ],
+  "tier": "weak",
+  "defects": [
+   "vague"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "Monash University",
+  "degree": "BEng Information Engineering",
+  "prior": [
+   "Apex Digital",
+   "Summit Analytics"
+  ],
+  "email": "hafiz.cand-fu-005@example-mail.test",
+  "phone": "+65 8767 3383"
+ },
+ {
+  "cid": "CAND-FU-006",
+  "name": "Deepa Quek",
+  "role": "Data Engineer",
+  "yrs": 7,
+  "skills": [
+   "Airflow",
+   "SQL",
+   "Kafka",
+   "AWS",
+   "Terraform",
+   "Spark"
+  ],
+  "tier": "strong",
+  "defects": [
+   "photo",
+   "nric",
+   "age",
+   "salary"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "NTU",
+  "degree": "BSc Data Science",
+  "prior": [
+   "Pinnacle Services",
+   "Orchid Retail Group"
+  ],
+  "email": "deepa.cand-fu-006@example-mail.test",
+  "phone": "+65 8692 3687"
+ },
+ {
+  "cid": "CAND-FU-007",
+  "name": "Zhi Wei Chua",
+  "role": "Senior Data Analyst",
+  "yrs": 11,
+  "skills": [
+   "SQL",
+   "Power BI",
+   "dbt",
+   "Python",
+   "Excel modelling",
+   "A/B testing"
+  ],
+  "tier": "weak",
+  "defects": [
+   "salary"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "Temasek Poly",
+  "degree": "BSc Computer Science",
+  "prior": [
+   "Pinnacle Services",
+   "Apex Digital"
+  ],
+  "email": "zhi.cand-fu-007@example-mail.test",
+  "phone": "+65 8997 9665"
+ },
+ {
+  "cid": "CAND-FU-008",
+  "name": "Anitha Wang",
+  "role": "Product Manager",
+  "yrs": 9,
+  "skills": [
+   "OKRs",
+   "user research",
+   "pricing",
+   "roadmapping",
+   "stakeholder alignment",
+   "JIRA"
+  ],
+  "tier": "strong",
+  "defects": [
+   "photo",
+   "injection"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "SUTD",
+  "degree": "Diploma in Health Sciences",
+  "prior": [
+   "Straits Manufacturing",
+   "Kallang Systems"
+  ],
+  "email": "anitha.cand-fu-008@example-mail.test",
+  "phone": "+65 8900 7709"
+ },
+ {
+  "cid": "CAND-FU-009",
+  "name": "Arun Tan",
+  "role": "Data Engineer",
+  "yrs": 4,
+  "skills": [
+   "ETL design",
+   "Airflow",
+   "Snowflake",
+   "AWS",
+   "Terraform",
+   "Python"
+  ],
+  "tier": "strong",
+  "defects": [
+   "photo",
+   "nationality"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "NTU",
+  "degree": "BSc Statistics",
+  "prior": [
+   "Summit Analytics",
+   "Kallang Systems"
+  ],
+  "email": "arun.cand-fu-009@example-mail.test",
+  "phone": "+65 8840 2501"
+ },
+ {
+  "cid": "CAND-FU-010",
+  "name": "Edwin Lee",
+  "role": "Product Manager",
+  "yrs": 11,
+  "skills": [
+   "stakeholder alignment",
+   "roadmapping",
+   "OKRs",
+   "pricing",
+   "A/B testing",
+   "analytics"
+  ],
+  "tier": "weak",
+  "defects": [
+   "age",
+   "salary",
+   "vague"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "NUS",
+  "degree": "BBA Business Analytics",
+  "prior": [
+   "Cityline Telecom",
+   "Summit Analytics"
+  ],
+  "email": "edwin.cand-fu-010@example-mail.test",
+  "phone": "+65 8542 4698"
+ },
+ {
+  "cid": "CAND-FU-011",
+  "name": "Marcus Neo",
+  "role": "Senior Data Analyst",
+  "yrs": 6,
+  "skills": [
+   "stakeholder reporting",
+   "Excel modelling",
+   "SQL",
+   "Python",
+   "dbt",
+   "data quality"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo",
+   "dob"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "SMU",
+  "degree": "BA Economics",
+  "prior": [
+   "BlueWave Media",
+   "Summit Analytics"
+  ],
+  "email": "marcus.cand-fu-011@example-mail.test",
+  "phone": "+65 8333 2087"
+ },
+ {
+  "cid": "CAND-FU-012",
+  "name": "Terence Tan",
+  "role": "Data Engineer",
+  "yrs": 8,
+  "skills": [
+   "Airflow",
+   "Terraform",
+   "Spark",
+   "ETL design",
+   "Snowflake",
+   "AWS"
+  ],
+  "tier": "weak",
+  "defects": [
+   "gap",
+   "age"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "SIT",
+  "degree": "BSc Nursing",
+  "prior": [
+   "Summit Analytics",
+   "Kallang Systems"
+  ],
+  "email": "terence.cand-fu-012@example-mail.test",
+  "phone": "+65 8708 5285"
+ },
+ {
+  "cid": "CAND-FU-013",
+  "name": "Pei Shan Zhang",
+  "role": "Product Manager",
+  "yrs": 10,
+  "skills": [
+   "stakeholder alignment",
+   "user research",
+   "roadmapping",
+   "JIRA",
+   "pricing",
+   "OKRs"
+  ],
+  "tier": "strong",
+  "defects": [
+   "photo"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "SUTD",
+  "degree": "BSc Supply Chain Management",
+  "prior": [
+   "Meridian Finance",
+   "Redhill Software"
+  ],
+  "email": "pei.cand-fu-013@example-mail.test",
+  "phone": "+65 8829 9505"
+ },
+ {
+  "cid": "CAND-FU-014",
+  "name": "Hafiz Goh",
+  "role": "Product Manager",
+  "yrs": 6,
+  "skills": [
+   "roadmapping",
+   "A/B testing",
+   "JIRA",
+   "stakeholder alignment",
+   "analytics",
+   "user research"
+  ],
+  "tier": "strong",
+  "defects": [
+   "photo",
+   "gap",
+   "age",
+   "salary"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "Ngee Ann Poly",
+  "degree": "BSc Supply Chain Management",
+  "prior": [
+   "Straits Manufacturing",
+   "BlueWave Media"
+  ],
+  "email": "hafiz.cand-fu-014@example-mail.test",
+  "phone": "+65 8554 1607"
+ },
+ {
+  "cid": "CAND-FU-015",
+  "name": "Grace Seah",
+  "role": "Product Manager",
+  "yrs": 11,
+  "skills": [
+   "roadmapping",
+   "OKRs",
+   "analytics",
+   "user research",
+   "stakeholder alignment",
+   "JIRA"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "dob"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "University of Melbourne",
+  "degree": "BEng Information Engineering",
+  "prior": [
+   "Kallang Systems",
+   "Lion City Logistics"
+  ],
+  "email": "grace.cand-fu-015@example-mail.test",
+  "phone": "+65 8783 3843"
+ },
+ {
+  "cid": "CAND-FU-016",
+  "name": "Aisyah Menon",
+  "role": "Product Manager",
+  "yrs": 13,
+  "skills": [
+   "JIRA",
+   "stakeholder alignment",
+   "pricing",
+   "analytics",
+   "A/B testing",
+   "roadmapping"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "gap",
+   "age"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "SUTD",
+  "degree": "BEd Education",
+  "prior": [
+   "Novena Care",
+   "Redhill Software"
+  ],
+  "email": "aisyah.cand-fu-016@example-mail.test",
+  "phone": "+65 8848 3342"
+ },
+ {
+  "cid": "CAND-FU-017",
+  "name": "Serene Ng",
+  "role": "Senior Data Analyst",
+  "yrs": 11,
+  "skills": [
+   "SQL",
+   "data quality",
+   "Excel modelling",
+   "Power BI",
+   "Python",
+   "A/B testing"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "photo",
+   "gap",
+   "salary"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "Republic Poly",
+  "degree": "BSc Supply Chain Management",
+  "prior": [
+   "Redhill Software",
+   "Apex Digital"
+  ],
+  "email": "serene.cand-fu-017@example-mail.test",
+  "phone": "+65 8633 1766"
+ },
+ {
+  "cid": "CAND-FU-018",
+  "name": "Germaine Zhang",
+  "role": "Software Engineer",
+  "yrs": 10,
+  "skills": [
+   "CI/CD",
+   "code review",
+   "TypeScript",
+   "unit testing",
+   "Docker",
+   "REST APIs"
+  ],
+  "tier": "strong",
+  "defects": [
+   "dob",
+   "age"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "RMIT",
+  "degree": "BSc Data Science",
+  "prior": [
+   "Summit Analytics",
+   "Meridian Finance"
+  ],
+  "email": "germaine.cand-fu-018@example-mail.test",
+  "phone": "+65 8895 3816"
+ },
+ {
+  "cid": "CAND-FU-019",
+  "name": "Cheryl Rajan",
+  "role": "Software Engineer",
+  "yrs": 11,
+  "skills": [
+   "Java",
+   "code review",
+   "unit testing",
+   "TypeScript",
+   "REST APIs",
+   "React"
+  ],
+  "tier": "weak",
+  "defects": [
+   "vague"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "Singapore Poly",
+  "degree": "Diploma in Business Informatics",
+  "prior": [
+   "Vertex Health",
+   "Meridian Finance"
+  ],
+  "email": "cheryl.cand-fu-019@example-mail.test",
+  "phone": "+65 8121 1509"
+ },
+ {
+  "cid": "CAND-FU-020",
+  "name": "Xin Yi Lee",
+  "role": "Product Manager",
+  "yrs": 11,
+  "skills": [
+   "stakeholder alignment",
+   "OKRs",
+   "roadmapping",
+   "JIRA",
+   "pricing",
+   "user research"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo",
+   "nric",
+   "dob",
+   "gap",
+   "salary",
+   "vague"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "University of Melbourne",
+  "degree": "BA Economics",
+  "prior": [
+   "Pinnacle Services",
+   "Kallang Systems"
+  ],
+  "email": "xin.cand-fu-020@example-mail.test",
+  "phone": "+65 8619 2356"
+ },
+ {
+  "cid": "CAND-FU-021",
+  "name": "Ryan Liu",
+  "role": "Product Manager",
+  "yrs": 13,
+  "skills": [
+   "user research",
+   "JIRA",
+   "A/B testing",
+   "analytics",
+   "OKRs",
+   "roadmapping"
+  ],
+  "tier": "strong",
+  "defects": [
+   "nationality"
+  ],
+  "company": "FutureTech Solutions Pte Ltd",
+  "comp_key": "futuretech",
+  "edu": "NTU",
+  "degree": "BEng Information Engineering",
+  "prior": [
+   "Novena Care",
+   "Lion City Logistics"
+  ],
+  "email": "ryan.cand-fu-021@example-mail.test",
+  "phone": "+65 8479 2825"
+ },
+ {
+  "cid": "CAND-HA-022",
+  "name": "Arun Toh",
+  "role": "Compliance Officer",
+  "yrs": 7,
+  "skills": [
+   "policy drafting",
+   "risk assessment",
+   "transaction monitoring",
+   "MAS Notice 626",
+   "AML/CFT",
+   "audit response"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo",
+   "nric",
+   "salary"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "Ngee Ann Poly",
+  "degree": "BBA Business Analytics",
+  "prior": [
+   "Cityline Telecom",
+   "Vertex Health"
+  ],
+  "email": "arun.cand-ha-022@example-mail.test",
+  "phone": "+65 8317 3275"
+ },
+ {
+  "cid": "CAND-HA-023",
+  "name": "Kenneth Lim",
+  "role": "Relationship Manager",
+  "yrs": 9,
+  "skills": [
+   "cross-selling",
+   "CRM",
+   "KYC",
+   "portfolio growth",
+   "client retention",
+   "credit assessment"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "dob",
+   "nationality",
+   "gap"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "University of Melbourne",
+  "degree": "BA Economics",
+  "prior": [
+   "Meridian Finance",
+   "Pinnacle Services"
+  ],
+  "email": "kenneth.cand-ha-023@example-mail.test",
+  "phone": "+65 8163 5620"
+ },
+ {
+  "cid": "CAND-HA-024",
+  "name": "Joanne Chan",
+  "role": "Relationship Manager",
+  "yrs": 4,
+  "skills": [
+   "credit assessment",
+   "KYC",
+   "client retention",
+   "CRM",
+   "cross-selling",
+   "portfolio growth"
+  ],
+  "tier": "strong",
+  "defects": [
+   "dob"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "SIT",
+  "degree": "Diploma in Health Sciences",
+  "prior": [
+   "Straits Manufacturing",
+   "Meridian Finance"
+  ],
+  "email": "joanne.cand-ha-024@example-mail.test",
+  "phone": "+65 8254 1003"
+ },
+ {
+  "cid": "CAND-HA-025",
+  "name": "Nicholas Lim",
+  "role": "Compliance Officer",
+  "yrs": 4,
+  "skills": [
+   "audit response",
+   "AML/CFT",
+   "policy drafting",
+   "risk assessment",
+   "transaction monitoring",
+   "MAS Notice 626"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo",
+   "vague"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "SMU",
+  "degree": "BEd Education",
+  "prior": [
+   "Lion City Logistics",
+   "Cityline Telecom"
+  ],
+  "email": "nicholas.cand-ha-025@example-mail.test",
+  "phone": "+65 8391 7884"
+ },
+ {
+  "cid": "CAND-HA-026",
+  "name": "Jia Hui Teo",
+  "role": "Relationship Manager",
+  "yrs": 8,
+  "skills": [
+   "CRM",
+   "KYC",
+   "credit assessment",
+   "client retention",
+   "cross-selling",
+   "portfolio growth"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "dob",
+   "salary"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "Republic Poly",
+  "degree": "BSc Statistics",
+  "prior": [
+   "Lion City Logistics",
+   "Cityline Telecom"
+  ],
+  "email": "jia.cand-ha-026@example-mail.test",
+  "phone": "+65 8967 6846"
+ },
+ {
+  "cid": "CAND-HA-027",
+  "name": "Cheryl Pillai",
+  "role": "Compliance Officer",
+  "yrs": 6,
+  "skills": [
+   "risk assessment",
+   "audit response",
+   "AML/CFT",
+   "transaction monitoring",
+   "MAS Notice 626",
+   "policy drafting"
+  ],
+  "tier": "weak",
+  "defects": [
+   "dob",
+   "vague"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "Singapore Poly",
+  "degree": "BA Economics",
+  "prior": [
+   "Novena Care",
+   "Lion City Logistics"
+  ],
+  "email": "cheryl.cand-ha-027@example-mail.test",
+  "phone": "+65 8157 6262"
+ },
+ {
+  "cid": "CAND-HA-028",
+  "name": "Hafiz Bin Ahmad",
+  "role": "Relationship Manager",
+  "yrs": 6,
+  "skills": [
+   "credit assessment",
+   "portfolio growth",
+   "KYC",
+   "client retention",
+   "cross-selling",
+   "CRM"
+  ],
+  "tier": "weak",
+  "defects": [
+   "nric",
+   "salary",
+   "vague"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "Ngee Ann Poly",
+  "degree": "BSc Computer Science",
+  "prior": [
+   "Kallang Systems",
+   "Jurong Components"
+  ],
+  "email": "hafiz.cand-ha-028@example-mail.test",
+  "phone": "+65 8592 9799"
+ },
+ {
+  "cid": "CAND-HA-029",
+  "name": "Ryan Chen",
+  "role": "Relationship Manager",
+  "yrs": 9,
+  "skills": [
+   "cross-selling",
+   "credit assessment",
+   "client retention",
+   "portfolio growth",
+   "KYC",
+   "CRM"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "photo"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "University of Melbourne",
+  "degree": "BSc Data Science",
+  "prior": [
+   "Meridian Finance",
+   "Straits Manufacturing"
+  ],
+  "email": "ryan.cand-ha-029@example-mail.test",
+  "phone": "+65 8500 3445"
+ },
+ {
+  "cid": "CAND-HA-030",
+  "name": "Melissa Zhang",
+  "role": "Credit Risk Analyst",
+  "yrs": 6,
+  "skills": [
+   "SAS",
+   "SQL",
+   "IFRS 9",
+   "credit scoring",
+   "stress testing",
+   "portfolio analytics"
+  ],
+  "tier": "weak",
+  "defects": [
+   "vague"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "Ngee Ann Poly",
+  "degree": "Diploma in Business Informatics",
+  "prior": [
+   "Nexus Consulting",
+   "Lion City Logistics"
+  ],
+  "email": "melissa.cand-ha-030@example-mail.test",
+  "phone": "+65 8323 2745"
+ },
+ {
+  "cid": "CAND-HA-031",
+  "name": "Jia Hui Menon",
+  "role": "Credit Risk Analyst",
+  "yrs": 2,
+  "skills": [
+   "SQL",
+   "MAS reporting",
+   "IFRS 9",
+   "portfolio analytics",
+   "SAS",
+   "stress testing"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo",
+   "dob",
+   "salary"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "University of Melbourne",
+  "degree": "Diploma in Business Informatics",
+  "prior": [
+   "Novena Care",
+   "Jurong Components"
+  ],
+  "email": "jia.cand-ha-031@example-mail.test",
+  "phone": "+65 8737 2285"
+ },
+ {
+  "cid": "CAND-HA-032",
+  "name": "Adrian Chan",
+  "role": "Relationship Manager",
+  "yrs": 2,
+  "skills": [
+   "CRM",
+   "KYC",
+   "credit assessment",
+   "client retention",
+   "portfolio growth",
+   "cross-selling"
+  ],
+  "tier": "strong",
+  "defects": [
+   "photo",
+   "nric",
+   "nationality",
+   "age"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "Monash University",
+  "degree": "BSc Information Systems",
+  "prior": [
+   "BlueWave Media",
+   "Nexus Consulting"
+  ],
+  "email": "adrian.cand-ha-032@example-mail.test",
+  "phone": "+65 8785 2827"
+ },
+ {
+  "cid": "CAND-HA-033",
+  "name": "Xin Yi Bin Ahmad",
+  "role": "Relationship Manager",
+  "yrs": 5,
+  "skills": [
+   "cross-selling",
+   "client retention",
+   "portfolio growth",
+   "credit assessment",
+   "KYC",
+   "CRM"
+  ],
+  "tier": "strong",
+  "defects": [],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "SIT",
+  "degree": "BSc Computer Science",
+  "prior": [
+   "Vertex Health",
+   "Jurong Components"
+  ],
+  "email": "xin.cand-ha-033@example-mail.test",
+  "phone": "+65 8151 4415"
+ },
+ {
+  "cid": "CAND-HA-034",
+  "name": "Aisyah Goh",
+  "role": "Compliance Officer",
+  "yrs": 7,
+  "skills": [
+   "AML/CFT",
+   "transaction monitoring",
+   "MAS Notice 626",
+   "risk assessment",
+   "audit response",
+   "policy drafting"
+  ],
+  "tier": "adequate",
+  "defects": [],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "Monash University",
+  "degree": "BA Economics",
+  "prior": [
+   "Jurong Components",
+   "Vertex Health"
+  ],
+  "email": "aisyah.cand-ha-034@example-mail.test",
+  "phone": "+65 8181 2774"
+ },
+ {
+  "cid": "CAND-HA-035",
+  "name": "Faizal Huang",
+  "role": "Relationship Manager",
+  "yrs": 14,
+  "skills": [
+   "portfolio growth",
+   "CRM",
+   "KYC",
+   "credit assessment",
+   "client retention",
+   "cross-selling"
+  ],
+  "tier": "adequate",
+  "defects": [],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "SUSS",
+  "degree": "BSc Data Science",
+  "prior": [
+   "BlueWave Media",
+   "Kallang Systems"
+  ],
+  "email": "faizal.cand-ha-035@example-mail.test",
+  "phone": "+65 8400 3376"
+ },
+ {
+  "cid": "CAND-HA-036",
+  "name": "Clarence Tay",
+  "role": "Relationship Manager",
+  "yrs": 12,
+  "skills": [
+   "credit assessment",
+   "portfolio growth",
+   "client retention",
+   "cross-selling",
+   "KYC",
+   "CRM"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo",
+   "dob",
+   "gap"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "SIT",
+  "degree": "BSc Information Systems",
+  "prior": [
+   "Redhill Software",
+   "Novena Care"
+  ],
+  "email": "clarence.cand-ha-036@example-mail.test",
+  "phone": "+65 8704 3377"
+ },
+ {
+  "cid": "CAND-HA-037",
+  "name": "Grace Kumar",
+  "role": "Compliance Officer",
+  "yrs": 9,
+  "skills": [
+   "MAS Notice 626",
+   "risk assessment",
+   "transaction monitoring",
+   "audit response",
+   "policy drafting",
+   "AML/CFT"
+  ],
+  "tier": "strong",
+  "defects": [
+   "gap"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "RMIT",
+  "degree": "BEd Education",
+  "prior": [
+   "Redhill Software",
+   "Apex Digital"
+  ],
+  "email": "grace.cand-ha-037@example-mail.test",
+  "phone": "+65 8255 3883"
+ },
+ {
+  "cid": "CAND-HA-038",
+  "name": "Hafiz Bin Ahmad",
+  "role": "Compliance Officer",
+  "yrs": 5,
+  "skills": [
+   "MAS Notice 626",
+   "transaction monitoring",
+   "policy drafting",
+   "AML/CFT",
+   "risk assessment",
+   "audit response"
+  ],
+  "tier": "weak",
+  "defects": [],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "Curtin University",
+  "degree": "BBA Business Analytics",
+  "prior": [
+   "Redhill Software",
+   "Apex Digital"
+  ],
+  "email": "hafiz.cand-ha-038@example-mail.test",
+  "phone": "+65 8336 2531"
+ },
+ {
+  "cid": "CAND-HA-039",
+  "name": "Divya Foo",
+  "role": "Credit Risk Analyst",
+  "yrs": 13,
+  "skills": [
+   "credit scoring",
+   "portfolio analytics",
+   "SAS",
+   "SQL",
+   "IFRS 9",
+   "stress testing"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "gap"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "SMU",
+  "degree": "BSc Nursing",
+  "prior": [
+   "Kallang Systems",
+   "Redhill Software"
+  ],
+  "email": "divya.cand-ha-039@example-mail.test",
+  "phone": "+65 8525 4477"
+ },
+ {
+  "cid": "CAND-HA-040",
+  "name": "Bryan Neo",
+  "role": "Relationship Manager",
+  "yrs": 8,
+  "skills": [
+   "KYC",
+   "credit assessment",
+   "cross-selling",
+   "CRM",
+   "client retention",
+   "portfolio growth"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo",
+   "salary"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "University of Melbourne",
+  "degree": "BSc Statistics",
+  "prior": [
+   "Nexus Consulting",
+   "Kallang Systems"
+  ],
+  "email": "bryan.cand-ha-040@example-mail.test",
+  "phone": "+65 8545 8552"
+ },
+ {
+  "cid": "CAND-HA-041",
+  "name": "Hafiz Ng",
+  "role": "Credit Risk Analyst",
+  "yrs": 14,
+  "skills": [
+   "MAS reporting",
+   "SQL",
+   "portfolio analytics",
+   "SAS",
+   "IFRS 9",
+   "stress testing"
+  ],
+  "tier": "weak",
+  "defects": [
+   "dob",
+   "nationality",
+   "gap"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "Monash University",
+  "degree": "BBA Business Analytics",
+  "prior": [
+   "Nexus Consulting",
+   "Cityline Telecom"
+  ],
+  "email": "hafiz.cand-ha-041@example-mail.test",
+  "phone": "+65 8291 4117"
+ },
+ {
+  "cid": "CAND-HA-042",
+  "name": "Amirah Goh",
+  "role": "Relationship Manager",
+  "yrs": 13,
+  "skills": [
+   "credit assessment",
+   "cross-selling",
+   "portfolio growth",
+   "KYC",
+   "CRM",
+   "client retention"
+  ],
+  "tier": "weak",
+  "defects": [
+   "nric",
+   "nationality",
+   "gap",
+   "vague"
+  ],
+  "company": "Harbour Bank Singapore",
+  "comp_key": "harbourbank",
+  "edu": "University of Melbourne",
+  "degree": "BBA Business Analytics",
+  "prior": [
+   "Lion City Logistics",
+   "Orchid Retail Group"
+  ],
+  "email": "amirah.cand-ha-042@example-mail.test",
+  "phone": "+65 8390 3353"
+ },
+ {
+  "cid": "CAND-ME-043",
+  "name": "Jonathan Wang",
+  "role": "Clinic Operations Executive",
+  "yrs": 2,
+  "skills": [
+   "clinic workflow",
+   "vendor liaison",
+   "patient experience",
+   "billing",
+   "rostering",
+   "appointment scheduling"
+  ],
+  "tier": "weak",
+  "defects": [
+   "age",
+   "salary",
+   "vague"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "Republic Poly",
+  "degree": "BEng Information Engineering",
+  "prior": [
+   "Pinnacle Services",
+   "BlueWave Media"
+  ],
+  "email": "jonathan.cand-me-043@example-mail.test",
+  "phone": "+65 8127 1692"
+ },
+ {
+  "cid": "CAND-ME-044",
+  "name": "Melissa Seah",
+  "role": "Clinic Operations Executive",
+  "yrs": 12,
+  "skills": [
+   "clinic workflow",
+   "appointment scheduling",
+   "rostering",
+   "billing",
+   "vendor liaison",
+   "patient experience"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "photo",
+   "salary"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "SUSS",
+  "degree": "BSc Information Systems",
+  "prior": [
+   "Cityline Telecom",
+   "Pinnacle Services"
+  ],
+  "email": "melissa.cand-me-044@example-mail.test",
+  "phone": "+65 8542 3920"
+ },
+ {
+  "cid": "CAND-ME-045",
+  "name": "Germaine Bin Ahmad",
+  "role": "Staff Nurse",
+  "yrs": 2,
+  "skills": [
+   "triage",
+   "patient assessment",
+   "electronic health records",
+   "infection control",
+   "wound care",
+   "medication administration"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo",
+   "vague"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "SUTD",
+  "degree": "BSc Information Systems",
+  "prior": [
+   "Summit Analytics",
+   "Apex Digital"
+  ],
+  "email": "germaine.cand-me-045@example-mail.test",
+  "phone": "+65 8424 1660"
+ },
+ {
+  "cid": "CAND-ME-046",
+  "name": "Shanti Ho",
+  "role": "Staff Nurse",
+  "yrs": 5,
+  "skills": [
+   "patient assessment",
+   "electronic health records",
+   "triage",
+   "medication administration",
+   "wound care",
+   "infection control"
+  ],
+  "tier": "weak",
+  "defects": [
+   "nationality",
+   "gap",
+   "age",
+   "vague"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "SUSS",
+  "degree": "BSc Supply Chain Management",
+  "prior": [
+   "Pinnacle Services",
+   "Novena Care"
+  ],
+  "email": "shanti.cand-me-046@example-mail.test",
+  "phone": "+65 8837 9737"
+ },
+ {
+  "cid": "CAND-ME-047",
+  "name": "Kenneth Chan",
+  "role": "Staff Nurse",
+  "yrs": 10,
+  "skills": [
+   "triage",
+   "electronic health records",
+   "patient assessment",
+   "infection control",
+   "medication administration",
+   "wound care"
+  ],
+  "tier": "adequate",
+  "defects": [],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "SUSS",
+  "degree": "BSc Data Science",
+  "prior": [
+   "Novena Care",
+   "Kallang Systems"
+  ],
+  "email": "kenneth.cand-me-047@example-mail.test",
+  "phone": "+65 8275 6186"
+ },
+ {
+  "cid": "CAND-ME-048",
+  "name": "Hafiz Neo",
+  "role": "Staff Nurse",
+  "yrs": 14,
+  "skills": [
+   "medication administration",
+   "patient assessment",
+   "electronic health records",
+   "wound care",
+   "triage",
+   "infection control"
+  ],
+  "tier": "strong",
+  "defects": [],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "University of Melbourne",
+  "degree": "BEd Education",
+  "prior": [
+   "Orchid Retail Group",
+   "Novena Care"
+  ],
+  "email": "hafiz.cand-me-048@example-mail.test",
+  "phone": "+65 8985 5769"
+ },
+ {
+  "cid": "CAND-ME-049",
+  "name": "Priya Nair",
+  "role": "Staff Nurse",
+  "yrs": 14,
+  "skills": [
+   "infection control",
+   "wound care",
+   "electronic health records",
+   "triage",
+   "medication administration",
+   "patient assessment"
+  ],
+  "tier": "strong",
+  "defects": [
+   "photo",
+   "dob",
+   "nationality"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "SMU",
+  "degree": "BA Economics",
+  "prior": [
+   "Novena Care",
+   "Meridian Finance"
+  ],
+  "email": "priya.cand-me-049@example-mail.test",
+  "phone": "+65 8158 1877"
+ },
+ {
+  "cid": "CAND-ME-050",
+  "name": "Charmaine Low",
+  "role": "Staff Nurse",
+  "yrs": 7,
+  "skills": [
+   "patient assessment",
+   "wound care",
+   "infection control",
+   "triage",
+   "electronic health records",
+   "medication administration"
+  ],
+  "tier": "weak",
+  "defects": [],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "Monash University",
+  "degree": "BSc Computer Science",
+  "prior": [
+   "BlueWave Media",
+   "Orchid Retail Group"
+  ],
+  "email": "charmaine.cand-me-050@example-mail.test",
+  "phone": "+65 8445 4491"
+ },
+ {
+  "cid": "CAND-ME-051",
+  "name": "Meera Wong",
+  "role": "Healthcare Data Analyst",
+  "yrs": 5,
+  "skills": [
+   "Excel",
+   "HL7/FHIR basics",
+   "quality reporting",
+   "Power BI",
+   "clinical KPIs",
+   "SQL"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "nric",
+   "salary"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "SUTD",
+  "degree": "BEng Information Engineering",
+  "prior": [
+   "Redhill Software",
+   "Vertex Health"
+  ],
+  "email": "meera.cand-me-051@example-mail.test",
+  "phone": "+65 8521 4176"
+ },
+ {
+  "cid": "CAND-ME-052",
+  "name": "Daniel Teo",
+  "role": "Staff Nurse",
+  "yrs": 8,
+  "skills": [
+   "infection control",
+   "patient assessment",
+   "wound care",
+   "electronic health records",
+   "triage",
+   "medication administration"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "dob",
+   "age"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "Republic Poly",
+  "degree": "Diploma in Health Sciences",
+  "prior": [
+   "Pinnacle Services",
+   "Summit Analytics"
+  ],
+  "email": "daniel.cand-me-052@example-mail.test",
+  "phone": "+65 8715 1169"
+ },
+ {
+  "cid": "CAND-ME-053",
+  "name": "Kenneth Menon",
+  "role": "Staff Nurse",
+  "yrs": 14,
+  "skills": [
+   "wound care",
+   "electronic health records",
+   "infection control",
+   "medication administration",
+   "triage",
+   "patient assessment"
+  ],
+  "tier": "weak",
+  "defects": [
+   "nationality"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "RMIT",
+  "degree": "Diploma in Health Sciences",
+  "prior": [
+   "Meridian Finance",
+   "Nexus Consulting"
+  ],
+  "email": "kenneth.cand-me-053@example-mail.test",
+  "phone": "+65 8575 4226"
+ },
+ {
+  "cid": "CAND-ME-054",
+  "name": "Xin Yi Toh",
+  "role": "Staff Nurse",
+  "yrs": 14,
+  "skills": [
+   "patient assessment",
+   "wound care",
+   "electronic health records",
+   "triage",
+   "medication administration",
+   "infection control"
+  ],
+  "tier": "weak",
+  "defects": [
+   "vague"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "NTU",
+  "degree": "BBA Business Analytics",
+  "prior": [
+   "Summit Analytics",
+   "BlueWave Media"
+  ],
+  "email": "xin.cand-me-054@example-mail.test",
+  "phone": "+65 8925 7442"
+ },
+ {
+  "cid": "CAND-ME-055",
+  "name": "Terence Poh",
+  "role": "Staff Nurse",
+  "yrs": 7,
+  "skills": [
+   "infection control",
+   "wound care",
+   "medication administration",
+   "patient assessment",
+   "electronic health records",
+   "triage"
+  ],
+  "tier": "strong",
+  "defects": [
+   "nationality"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "NTU",
+  "degree": "BSc Supply Chain Management",
+  "prior": [
+   "Jurong Components",
+   "BlueWave Media"
+  ],
+  "email": "terence.cand-me-055@example-mail.test",
+  "phone": "+65 8621 9680"
+ },
+ {
+  "cid": "CAND-ME-056",
+  "name": "Hui Ling Wang",
+  "role": "Staff Nurse",
+  "yrs": 12,
+  "skills": [
+   "electronic health records",
+   "infection control",
+   "patient assessment",
+   "triage",
+   "wound care",
+   "medication administration"
+  ],
+  "tier": "strong",
+  "defects": [
+   "photo",
+   "nationality"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "SIT",
+  "degree": "BSc Computer Science",
+  "prior": [
+   "BlueWave Media",
+   "Kallang Systems"
+  ],
+  "email": "hui.cand-me-056@example-mail.test",
+  "phone": "+65 8854 8978"
+ },
+ {
+  "cid": "CAND-ME-057",
+  "name": "Farhan Lim",
+  "role": "Healthcare Data Analyst",
+  "yrs": 4,
+  "skills": [
+   "Excel",
+   "clinical KPIs",
+   "Power BI",
+   "quality reporting",
+   "SQL",
+   "HL7/FHIR basics"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "photo",
+   "nationality"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "SUSS",
+  "degree": "BBA Business Analytics",
+  "prior": [
+   "Redhill Software",
+   "Novena Care"
+  ],
+  "email": "farhan.cand-me-057@example-mail.test",
+  "phone": "+65 8630 8882"
+ },
+ {
+  "cid": "CAND-ME-058",
+  "name": "Haziq Heng",
+  "role": "Clinic Operations Executive",
+  "yrs": 4,
+  "skills": [
+   "appointment scheduling",
+   "patient experience",
+   "billing",
+   "vendor liaison",
+   "clinic workflow",
+   "rostering"
+  ],
+  "tier": "strong",
+  "defects": [],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "University of Melbourne",
+  "degree": "Diploma in Business Informatics",
+  "prior": [
+   "Redhill Software",
+   "Jurong Components"
+  ],
+  "email": "haziq.cand-me-058@example-mail.test",
+  "phone": "+65 8497 4871"
+ },
+ {
+  "cid": "CAND-ME-059",
+  "name": "Nurul Ho",
+  "role": "Clinic Operations Executive",
+  "yrs": 14,
+  "skills": [
+   "rostering",
+   "vendor liaison",
+   "billing",
+   "clinic workflow",
+   "appointment scheduling",
+   "patient experience"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "photo",
+   "age"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "University of Melbourne",
+  "degree": "BEng Information Engineering",
+  "prior": [
+   "Lion City Logistics",
+   "Vertex Health"
+  ],
+  "email": "nurul.cand-me-059@example-mail.test",
+  "phone": "+65 8297 8813"
+ },
+ {
+  "cid": "CAND-ME-060",
+  "name": "Arun Ho",
+  "role": "Healthcare Data Analyst",
+  "yrs": 8,
+  "skills": [
+   "Power BI",
+   "clinical KPIs",
+   "quality reporting",
+   "Excel",
+   "SQL",
+   "HL7/FHIR basics"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "Monash University",
+  "degree": "BBA Business Analytics",
+  "prior": [
+   "Redhill Software",
+   "Novena Care"
+  ],
+  "email": "arun.cand-me-060@example-mail.test",
+  "phone": "+65 8255 7617"
+ },
+ {
+  "cid": "CAND-ME-061",
+  "name": "Marcus Teo",
+  "role": "Clinic Operations Executive",
+  "yrs": 7,
+  "skills": [
+   "clinic workflow",
+   "rostering",
+   "billing",
+   "patient experience",
+   "vendor liaison",
+   "appointment scheduling"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "age"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "Curtin University",
+  "degree": "BSc Supply Chain Management",
+  "prior": [
+   "Redhill Software",
+   "Jurong Components"
+  ],
+  "email": "marcus.cand-me-061@example-mail.test",
+  "phone": "+65 8329 3100"
+ },
+ {
+  "cid": "CAND-ME-062",
+  "name": "Priya Bin Ahmad",
+  "role": "Staff Nurse",
+  "yrs": 3,
+  "skills": [
+   "patient assessment",
+   "wound care",
+   "medication administration",
+   "triage",
+   "infection control",
+   "electronic health records"
+  ],
+  "tier": "strong",
+  "defects": [
+   "dob"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "SMU",
+  "degree": "BA Economics",
+  "prior": [
+   "Redhill Software",
+   "BlueWave Media"
+  ],
+  "email": "priya.cand-me-062@example-mail.test",
+  "phone": "+65 8721 8709"
+ },
+ {
+  "cid": "CAND-ME-063",
+  "name": "Ivan Foo",
+  "role": "Clinic Operations Executive",
+  "yrs": 5,
+  "skills": [
+   "rostering",
+   "patient experience",
+   "clinic workflow",
+   "vendor liaison",
+   "billing",
+   "appointment scheduling"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "photo",
+   "nric"
+  ],
+  "company": "MediCare Health Group",
+  "comp_key": "medicare",
+  "edu": "SUTD",
+  "degree": "BA Economics",
+  "prior": [
+   "Redhill Software",
+   "Meridian Finance"
+  ],
+  "email": "ivan.cand-me-063@example-mail.test",
+  "phone": "+65 8708 3212"
+ },
+ {
+  "cid": "CAND-GR-064",
+  "name": "Xin Yi Neo",
+  "role": "Customer Service Lead",
+  "yrs": 9,
+  "skills": [
+   "escalation handling",
+   "team coaching",
+   "process improvement",
+   "CRM",
+   "SLA management"
+  ],
+  "tier": "strong",
+  "defects": [
+   "age"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "NUS",
+  "degree": "BEng Information Engineering",
+  "prior": [
+   "Pinnacle Services",
+   "Lion City Logistics"
+  ],
+  "email": "xin.cand-gr-064@example-mail.test",
+  "phone": "+65 8232 1763"
+ },
+ {
+  "cid": "CAND-GR-065",
+  "name": "Charmaine Xu",
+  "role": "Supply Chain Analyst",
+  "yrs": 4,
+  "skills": [
+   "supplier scorecards",
+   "inventory optimisation",
+   "demand forecasting",
+   "SAP",
+   "Excel modelling",
+   "SQL"
+  ],
+  "tier": "strong",
+  "defects": [
+   "nric"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "Temasek Poly",
+  "degree": "BEng Information Engineering",
+  "prior": [
+   "Nexus Consulting",
+   "Straits Manufacturing"
+  ],
+  "email": "charmaine.cand-gr-065@example-mail.test",
+  "phone": "+65 8898 5889"
+ },
+ {
+  "cid": "CAND-GR-066",
+  "name": "Aisyah Ng",
+  "role": "Warehouse Operations Executive",
+  "yrs": 6,
+  "skills": [
+   "WMS",
+   "inventory accuracy",
+   "picking optimisation",
+   "safety compliance",
+   "team supervision"
+  ],
+  "tier": "strong",
+  "defects": [
+   "gap"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "Curtin University",
+  "degree": "Diploma in Business Informatics",
+  "prior": [
+   "Orchid Retail Group",
+   "Kallang Systems"
+  ],
+  "email": "aisyah.cand-gr-066@example-mail.test",
+  "phone": "+65 8670 9624"
+ },
+ {
+  "cid": "CAND-GR-067",
+  "name": "Deepa Neo",
+  "role": "Warehouse Operations Executive",
+  "yrs": 8,
+  "skills": [
+   "team supervision",
+   "WMS",
+   "picking optimisation",
+   "inventory accuracy",
+   "safety compliance"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "nationality",
+   "gap",
+   "age",
+   "salary"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "SUSS",
+  "degree": "BSc Computer Science",
+  "prior": [
+   "Apex Digital",
+   "Pinnacle Services"
+  ],
+  "email": "deepa.cand-gr-067@example-mail.test",
+  "phone": "+65 8174 3408"
+ },
+ {
+  "cid": "CAND-GR-068",
+  "name": "Michelle Chua",
+  "role": "Customer Service Lead",
+  "yrs": 5,
+  "skills": [
+   "process improvement",
+   "escalation handling",
+   "team coaching",
+   "CRM",
+   "SLA management"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "NUS",
+  "degree": "Diploma in Health Sciences",
+  "prior": [
+   "Redhill Software",
+   "Jurong Components"
+  ],
+  "email": "michelle.cand-gr-068@example-mail.test",
+  "phone": "+65 8277 6621"
+ },
+ {
+  "cid": "CAND-GR-069",
+  "name": "Grace Binte Hassan",
+  "role": "Warehouse Operations Executive",
+  "yrs": 9,
+  "skills": [
+   "safety compliance",
+   "WMS",
+   "picking optimisation",
+   "team supervision",
+   "inventory accuracy"
+  ],
+  "tier": "weak",
+  "defects": [
+   "vague"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "NTU",
+  "degree": "BBA Business Analytics",
+  "prior": [
+   "Nexus Consulting",
+   "Vertex Health"
+  ],
+  "email": "grace.cand-gr-069@example-mail.test",
+  "phone": "+65 8558 4133"
+ },
+ {
+  "cid": "CAND-GR-070",
+  "name": "Arun Liu",
+  "role": "Customer Service Lead",
+  "yrs": 9,
+  "skills": [
+   "escalation handling",
+   "team coaching",
+   "SLA management",
+   "process improvement",
+   "CRM"
+  ],
+  "tier": "weak",
+  "defects": [
+   "nric",
+   "gap",
+   "salary"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "NTU",
+  "degree": "BSc Computer Science",
+  "prior": [
+   "Jurong Components",
+   "Vertex Health"
+  ],
+  "email": "arun.cand-gr-070@example-mail.test",
+  "phone": "+65 8945 5882"
+ },
+ {
+  "cid": "CAND-GR-071",
+  "name": "Melissa Loh",
+  "role": "Supply Chain Analyst",
+  "yrs": 9,
+  "skills": [
+   "SAP",
+   "Excel modelling",
+   "demand forecasting",
+   "supplier scorecards",
+   "SQL",
+   "inventory optimisation"
+  ],
+  "tier": "strong",
+  "defects": [
+   "photo",
+   "dob"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "NUS",
+  "degree": "BBA Business Analytics",
+  "prior": [
+   "Nexus Consulting",
+   "Pinnacle Services"
+  ],
+  "email": "melissa.cand-gr-071@example-mail.test",
+  "phone": "+65 8264 1126"
+ },
+ {
+  "cid": "CAND-GR-072",
+  "name": "Joanne Tay",
+  "role": "Customer Service Lead",
+  "yrs": 6,
+  "skills": [
+   "team coaching",
+   "CRM",
+   "escalation handling",
+   "process improvement",
+   "SLA management"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "photo",
+   "gap"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "RMIT",
+  "degree": "BA Economics",
+  "prior": [
+   "Jurong Components",
+   "Summit Analytics"
+  ],
+  "email": "joanne.cand-gr-072@example-mail.test",
+  "phone": "+65 8346 7071"
+ },
+ {
+  "cid": "CAND-GR-073",
+  "name": "Haziq Sim",
+  "role": "Customer Service Lead",
+  "yrs": 13,
+  "skills": [
+   "team coaching",
+   "escalation handling",
+   "process improvement",
+   "SLA management",
+   "CRM"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "photo",
+   "dob",
+   "salary"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "Republic Poly",
+  "degree": "BSc Statistics",
+  "prior": [
+   "Pinnacle Services",
+   "Redhill Software"
+  ],
+  "email": "haziq.cand-gr-073@example-mail.test",
+  "phone": "+65 8201 7320"
+ },
+ {
+  "cid": "CAND-GR-074",
+  "name": "Jonathan Toh",
+  "role": "Warehouse Operations Executive",
+  "yrs": 11,
+  "skills": [
+   "WMS",
+   "safety compliance",
+   "picking optimisation",
+   "inventory accuracy",
+   "team supervision"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "photo",
+   "nric",
+   "gap",
+   "age"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "Ngee Ann Poly",
+  "degree": "BBA Business Analytics",
+  "prior": [
+   "Kallang Systems",
+   "Straits Manufacturing"
+  ],
+  "email": "jonathan.cand-gr-074@example-mail.test",
+  "phone": "+65 8704 7174"
+ },
+ {
+  "cid": "CAND-GR-075",
+  "name": "Shanti Chen",
+  "role": "Supply Chain Analyst",
+  "yrs": 11,
+  "skills": [
+   "inventory optimisation",
+   "SQL",
+   "SAP",
+   "Excel modelling",
+   "supplier scorecards",
+   "demand forecasting"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "photo",
+   "age"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "Ngee Ann Poly",
+  "degree": "BBA Business Analytics",
+  "prior": [
+   "Cityline Telecom",
+   "Jurong Components"
+  ],
+  "email": "shanti.cand-gr-075@example-mail.test",
+  "phone": "+65 8911 7275"
+ },
+ {
+  "cid": "CAND-GR-076",
+  "name": "Grace Kumar",
+  "role": "Supply Chain Analyst",
+  "yrs": 13,
+  "skills": [
+   "SQL",
+   "SAP",
+   "Excel modelling",
+   "inventory optimisation",
+   "demand forecasting",
+   "supplier scorecards"
+  ],
+  "tier": "strong",
+  "defects": [
+   "nric",
+   "dob"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "Singapore Poly",
+  "degree": "BA Economics",
+  "prior": [
+   "Jurong Components",
+   "Nexus Consulting"
+  ],
+  "email": "grace.cand-gr-076@example-mail.test",
+  "phone": "+65 8509 6273"
+ },
+ {
+  "cid": "CAND-GR-077",
+  "name": "Clarence Rajan",
+  "role": "Warehouse Operations Executive",
+  "yrs": 2,
+  "skills": [
+   "picking optimisation",
+   "team supervision",
+   "safety compliance",
+   "inventory accuracy",
+   "WMS"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "salary"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "SUSS",
+  "degree": "BA Economics",
+  "prior": [
+   "Apex Digital",
+   "Vertex Health"
+  ],
+  "email": "clarence.cand-gr-077@example-mail.test",
+  "phone": "+65 8552 2645"
+ },
+ {
+  "cid": "CAND-GR-078",
+  "name": "Ivan Goh",
+  "role": "Customer Service Lead",
+  "yrs": 14,
+  "skills": [
+   "team coaching",
+   "SLA management",
+   "CRM",
+   "process improvement",
+   "escalation handling"
+  ],
+  "tier": "weak",
+  "defects": [
+   "age",
+   "vague"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "University of Melbourne",
+  "degree": "BSc Computer Science",
+  "prior": [
+   "Meridian Finance",
+   "Apex Digital"
+  ],
+  "email": "ivan.cand-gr-078@example-mail.test",
+  "phone": "+65 8796 2920"
+ },
+ {
+  "cid": "CAND-GR-079",
+  "name": "Siti Xu",
+  "role": "Supply Chain Analyst",
+  "yrs": 11,
+  "skills": [
+   "demand forecasting",
+   "supplier scorecards",
+   "SQL",
+   "Excel modelling",
+   "inventory optimisation",
+   "SAP"
+  ],
+  "tier": "strong",
+  "defects": [
+   "nationality",
+   "salary"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "Singapore Poly",
+  "degree": "BEd Education",
+  "prior": [
+   "Vertex Health",
+   "Kallang Systems"
+  ],
+  "email": "siti.cand-gr-079@example-mail.test",
+  "phone": "+65 8999 7278"
+ },
+ {
+  "cid": "CAND-GR-080",
+  "name": "Ganesh Liu",
+  "role": "Customer Service Lead",
+  "yrs": 7,
+  "skills": [
+   "SLA management",
+   "CRM",
+   "team coaching",
+   "process improvement",
+   "escalation handling"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "salary"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "NUS",
+  "degree": "BSc Supply Chain Management",
+  "prior": [
+   "Straits Manufacturing",
+   "Lion City Logistics"
+  ],
+  "email": "ganesh.cand-gr-080@example-mail.test",
+  "phone": "+65 8926 1064"
+ },
+ {
+  "cid": "CAND-GR-081",
+  "name": "Valerie Sim",
+  "role": "Customer Service Lead",
+  "yrs": 8,
+  "skills": [
+   "CRM",
+   "process improvement",
+   "SLA management",
+   "team coaching",
+   "escalation handling"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "nric",
+   "nationality",
+   "age"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "SIT",
+  "degree": "BEng Information Engineering",
+  "prior": [
+   "Orchid Retail Group",
+   "Redhill Software"
+  ],
+  "email": "valerie.cand-gr-081@example-mail.test",
+  "phone": "+65 8420 4783"
+ },
+ {
+  "cid": "CAND-GR-082",
+  "name": "Jia Hui Toh",
+  "role": "Customer Service Lead",
+  "yrs": 11,
+  "skills": [
+   "CRM",
+   "process improvement",
+   "escalation handling",
+   "team coaching",
+   "SLA management"
+  ],
+  "tier": "strong",
+  "defects": [
+   "photo",
+   "dob"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "NUS",
+  "degree": "Diploma in Health Sciences",
+  "prior": [
+   "Orchid Retail Group",
+   "Cityline Telecom"
+  ],
+  "email": "jia.cand-gr-082@example-mail.test",
+  "phone": "+65 8546 7072"
+ },
+ {
+  "cid": "CAND-GR-083",
+  "name": "Meera Menon",
+  "role": "Supply Chain Analyst",
+  "yrs": 10,
+  "skills": [
+   "demand forecasting",
+   "Excel modelling",
+   "supplier scorecards",
+   "SAP",
+   "inventory optimisation",
+   "SQL"
+  ],
+  "tier": "weak",
+  "defects": [
+   "nric",
+   "vague"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "Republic Poly",
+  "degree": "Diploma in Business Informatics",
+  "prior": [
+   "Jurong Components",
+   "BlueWave Media"
+  ],
+  "email": "meera.cand-gr-083@example-mail.test",
+  "phone": "+65 8596 4009"
+ },
+ {
+  "cid": "CAND-GR-084",
+  "name": "Valerie Ng",
+  "role": "Supply Chain Analyst",
+  "yrs": 13,
+  "skills": [
+   "demand forecasting",
+   "SAP",
+   "inventory optimisation",
+   "Excel modelling",
+   "supplier scorecards",
+   "SQL"
+  ],
+  "tier": "weak",
+  "defects": [
+   "nric",
+   "gap"
+  ],
+  "company": "GreenLogix Supply Chain",
+  "comp_key": "greenlogix",
+  "edu": "SIT",
+  "degree": "BSc Nursing",
+  "prior": [
+   "Vertex Health",
+   "Nexus Consulting"
+  ],
+  "email": "valerie.cand-gr-084@example-mail.test",
+  "phone": "+65 8669 8789"
+ },
+ {
+  "cid": "CAND-BR-085",
+  "name": "Rachel Foo",
+  "role": "Learning Technologist",
+  "yrs": 8,
+  "skills": [
+   "accessibility",
+   "learning analytics",
+   "video production",
+   "SCORM",
+   "LMS administration"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "salary"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "RMIT",
+  "degree": "BSc Information Systems",
+  "prior": [
+   "Summit Analytics",
+   "Vertex Health"
+  ],
+  "email": "rachel.cand-br-085@example-mail.test",
+  "phone": "+65 8436 1003"
+ },
+ {
+  "cid": "CAND-BR-086",
+  "name": "Nicholas Ong",
+  "role": "Admissions Executive",
+  "yrs": 11,
+  "skills": [
+   "counselling",
+   "enrolment reporting",
+   "CRM",
+   "stakeholder follow-up",
+   "events"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo",
+   "gap",
+   "vague"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "NUS",
+  "degree": "Diploma in Business Informatics",
+  "prior": [
+   "Pinnacle Services",
+   "Nexus Consulting"
+  ],
+  "email": "nicholas.cand-br-086@example-mail.test",
+  "phone": "+65 8120 8453"
+ },
+ {
+  "cid": "CAND-BR-087",
+  "name": "Yun Xi Ismail",
+  "role": "Curriculum Developer",
+  "yrs": 4,
+  "skills": [
+   "LMS authoring",
+   "instructional design",
+   "subject research",
+   "assessment design",
+   "ADDIE"
+  ],
+  "tier": "strong",
+  "defects": [
+   "nationality"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "SMU",
+  "degree": "BBA Business Analytics",
+  "prior": [
+   "Pinnacle Services",
+   "Kallang Systems"
+  ],
+  "email": "yun.cand-br-087@example-mail.test",
+  "phone": "+65 8660 9400"
+ },
+ {
+  "cid": "CAND-BR-088",
+  "name": "Yun Xi Chan",
+  "role": "Admissions Executive",
+  "yrs": 4,
+  "skills": [
+   "enrolment reporting",
+   "events",
+   "stakeholder follow-up",
+   "counselling",
+   "CRM"
+  ],
+  "tier": "strong",
+  "defects": [
+   "photo",
+   "dob",
+   "age"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "Temasek Poly",
+  "degree": "BSc Computer Science",
+  "prior": [
+   "Lion City Logistics",
+   "Nexus Consulting"
+  ],
+  "email": "yun.cand-br-088@example-mail.test",
+  "phone": "+65 8707 2942"
+ },
+ {
+  "cid": "CAND-BR-089",
+  "name": "Anitha Loh",
+  "role": "Learning Technologist",
+  "yrs": 2,
+  "skills": [
+   "SCORM",
+   "accessibility",
+   "LMS administration",
+   "learning analytics",
+   "video production"
+  ],
+  "tier": "strong",
+  "defects": [
+   "nationality"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "Singapore Poly",
+  "degree": "BSc Information Systems",
+  "prior": [
+   "BlueWave Media",
+   "Orchid Retail Group"
+  ],
+  "email": "anitha.cand-br-089@example-mail.test",
+  "phone": "+65 8576 3721"
+ },
+ {
+  "cid": "CAND-BR-090",
+  "name": "Farhan Tan",
+  "role": "Curriculum Developer",
+  "yrs": 9,
+  "skills": [
+   "ADDIE",
+   "subject research",
+   "assessment design",
+   "instructional design",
+   "LMS authoring"
+  ],
+  "tier": "strong",
+  "defects": [
+   "gap",
+   "salary"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "Republic Poly",
+  "degree": "BA Economics",
+  "prior": [
+   "BlueWave Media",
+   "Redhill Software"
+  ],
+  "email": "farhan.cand-br-090@example-mail.test",
+  "phone": "+65 8688 6225"
+ },
+ {
+  "cid": "CAND-BR-091",
+  "name": "Jia Hui Ong",
+  "role": "Learning Technologist",
+  "yrs": 12,
+  "skills": [
+   "learning analytics",
+   "accessibility",
+   "LMS administration",
+   "SCORM",
+   "video production"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "photo",
+   "age"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "Temasek Poly",
+  "degree": "Diploma in Business Informatics",
+  "prior": [
+   "Jurong Components",
+   "Nexus Consulting"
+  ],
+  "email": "jia.cand-br-091@example-mail.test",
+  "phone": "+65 8215 8310"
+ },
+ {
+  "cid": "CAND-BR-092",
+  "name": "Priya Tay",
+  "role": "Curriculum Developer",
+  "yrs": 5,
+  "skills": [
+   "instructional design",
+   "LMS authoring",
+   "subject research",
+   "ADDIE",
+   "assessment design"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "dob",
+   "gap",
+   "age"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "NUS",
+  "degree": "BBA Business Analytics",
+  "prior": [
+   "Apex Digital",
+   "Kallang Systems"
+  ],
+  "email": "priya.cand-br-092@example-mail.test",
+  "phone": "+65 8268 9914"
+ },
+ {
+  "cid": "CAND-BR-093",
+  "name": "Edwin Koh",
+  "role": "Learning Technologist",
+  "yrs": 3,
+  "skills": [
+   "SCORM",
+   "video production",
+   "accessibility",
+   "LMS administration",
+   "learning analytics"
+  ],
+  "tier": "weak",
+  "defects": [
+   "nationality",
+   "salary"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "Singapore Poly",
+  "degree": "BSc Information Systems",
+  "prior": [
+   "Kallang Systems",
+   "Orchid Retail Group"
+  ],
+  "email": "edwin.cand-br-093@example-mail.test",
+  "phone": "+65 8972 8121"
+ },
+ {
+  "cid": "CAND-BR-094",
+  "name": "Hafiz Xu",
+  "role": "Admissions Executive",
+  "yrs": 2,
+  "skills": [
+   "stakeholder follow-up",
+   "enrolment reporting",
+   "counselling",
+   "events",
+   "CRM"
+  ],
+  "tier": "weak",
+  "defects": [
+   "gap"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "Temasek Poly",
+  "degree": "BSc Information Systems",
+  "prior": [
+   "Redhill Software",
+   "Orchid Retail Group"
+  ],
+  "email": "hafiz.cand-br-094@example-mail.test",
+  "phone": "+65 8716 8436"
+ },
+ {
+  "cid": "CAND-BR-095",
+  "name": "Germaine Ho",
+  "role": "Curriculum Developer",
+  "yrs": 9,
+  "skills": [
+   "LMS authoring",
+   "subject research",
+   "assessment design",
+   "instructional design",
+   "ADDIE"
+  ],
+  "tier": "weak",
+  "defects": [
+   "nric",
+   "vague"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "SMU",
+  "degree": "Diploma in Business Informatics",
+  "prior": [
+   "Vertex Health",
+   "Nexus Consulting"
+  ],
+  "email": "germaine.cand-br-095@example-mail.test",
+  "phone": "+65 8496 2366"
+ },
+ {
+  "cid": "CAND-BR-096",
+  "name": "Grace Chen",
+  "role": "Learning Technologist",
+  "yrs": 4,
+  "skills": [
+   "video production",
+   "accessibility",
+   "learning analytics",
+   "LMS administration",
+   "SCORM"
+  ],
+  "tier": "weak",
+  "defects": [
+   "vague"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "SUSS",
+  "degree": "BSc Statistics",
+  "prior": [
+   "Orchid Retail Group",
+   "Straits Manufacturing"
+  ],
+  "email": "grace.cand-br-096@example-mail.test",
+  "phone": "+65 8705 1052"
+ },
+ {
+  "cid": "CAND-BR-097",
+  "name": "Priya Xu",
+  "role": "Learning Technologist",
+  "yrs": 13,
+  "skills": [
+   "video production",
+   "LMS administration",
+   "accessibility",
+   "SCORM",
+   "learning analytics"
+  ],
+  "tier": "strong",
+  "defects": [
+   "nric",
+   "dob",
+   "nationality"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "Ngee Ann Poly",
+  "degree": "BEd Education",
+  "prior": [
+   "Cityline Telecom",
+   "Kallang Systems"
+  ],
+  "email": "priya.cand-br-097@example-mail.test",
+  "phone": "+65 8734 8976"
+ },
+ {
+  "cid": "CAND-BR-098",
+  "name": "Arun Rajan",
+  "role": "Curriculum Developer",
+  "yrs": 10,
+  "skills": [
+   "LMS authoring",
+   "subject research",
+   "assessment design",
+   "ADDIE",
+   "instructional design"
+  ],
+  "tier": "strong",
+  "defects": [
+   "gap"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "SUTD",
+  "degree": "BSc Supply Chain Management",
+  "prior": [
+   "Meridian Finance",
+   "Summit Analytics"
+  ],
+  "email": "arun.cand-br-098@example-mail.test",
+  "phone": "+65 8131 9573"
+ },
+ {
+  "cid": "CAND-BR-099",
+  "name": "Ryan Wong",
+  "role": "Learning Technologist",
+  "yrs": 14,
+  "skills": [
+   "learning analytics",
+   "video production",
+   "accessibility",
+   "LMS administration",
+   "SCORM"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo",
+   "dob",
+   "vague"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "University of Melbourne",
+  "degree": "BSc Information Systems",
+  "prior": [
+   "Orchid Retail Group",
+   "Jurong Components"
+  ],
+  "email": "ryan.cand-br-099@example-mail.test",
+  "phone": "+65 8961 4471"
+ },
+ {
+  "cid": "CAND-BR-100",
+  "name": "Daniel Lee",
+  "role": "Learning Technologist",
+  "yrs": 8,
+  "skills": [
+   "video production",
+   "learning analytics",
+   "SCORM",
+   "accessibility",
+   "LMS administration"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo",
+   "gap"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "Curtin University",
+  "degree": "BSc Statistics",
+  "prior": [
+   "BlueWave Media",
+   "Summit Analytics"
+  ],
+  "email": "daniel.cand-br-100@example-mail.test",
+  "phone": "+65 8652 4496"
+ },
+ {
+  "cid": "CAND-BR-101",
+  "name": "Haziq Huang",
+  "role": "Admissions Executive",
+  "yrs": 4,
+  "skills": [
+   "CRM",
+   "events",
+   "stakeholder follow-up",
+   "enrolment reporting",
+   "counselling"
+  ],
+  "tier": "strong",
+  "defects": [
+   "nric",
+   "dob"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "RMIT",
+  "degree": "BEng Information Engineering",
+  "prior": [
+   "Meridian Finance",
+   "BlueWave Media"
+  ],
+  "email": "haziq.cand-br-101@example-mail.test",
+  "phone": "+65 8157 4991"
+ },
+ {
+  "cid": "CAND-BR-102",
+  "name": "Meera Huang",
+  "role": "Learning Technologist",
+  "yrs": 3,
+  "skills": [
+   "SCORM",
+   "learning analytics",
+   "video production",
+   "accessibility",
+   "LMS administration"
+  ],
+  "tier": "weak",
+  "defects": [
+   "gap",
+   "vague"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "University of Melbourne",
+  "degree": "BSc Computer Science",
+  "prior": [
+   "Summit Analytics",
+   "Nexus Consulting"
+  ],
+  "email": "meera.cand-br-102@example-mail.test",
+  "phone": "+65 8733 9851"
+ },
+ {
+  "cid": "CAND-BR-103",
+  "name": "Amirah Lim",
+  "role": "Curriculum Developer",
+  "yrs": 9,
+  "skills": [
+   "LMS authoring",
+   "instructional design",
+   "ADDIE",
+   "assessment design",
+   "subject research"
+  ],
+  "tier": "weak",
+  "defects": [
+   "photo",
+   "vague"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "Temasek Poly",
+  "degree": "Diploma in Health Sciences",
+  "prior": [
+   "Jurong Components",
+   "Straits Manufacturing"
+  ],
+  "email": "amirah.cand-br-103@example-mail.test",
+  "phone": "+65 8857 4871"
+ },
+ {
+  "cid": "CAND-BR-104",
+  "name": "Charmaine Ng",
+  "role": "Admissions Executive",
+  "yrs": 11,
+  "skills": [
+   "counselling",
+   "stakeholder follow-up",
+   "events",
+   "CRM",
+   "enrolment reporting"
+  ],
+  "tier": "adequate",
+  "defects": [
+   "photo",
+   "nric",
+   "nationality"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "SUSS",
+  "degree": "Diploma in Health Sciences",
+  "prior": [
+   "Orchid Retail Group",
+   "Summit Analytics"
+  ],
+  "email": "charmaine.cand-br-104@example-mail.test",
+  "phone": "+65 8297 4111"
+ },
+ {
+  "cid": "CAND-BR-105",
+  "name": "Clarence Menon",
+  "role": "Learning Technologist",
+  "yrs": 5,
+  "skills": [
+   "accessibility",
+   "LMS administration",
+   "SCORM",
+   "learning analytics",
+   "video production"
+  ],
+  "tier": "strong",
+  "defects": [
+   "age",
+   "salary"
+  ],
+  "company": "BrightPath Education Group",
+  "comp_key": "brightpath",
+  "edu": "NUS",
+  "degree": "BEd Education",
+  "prior": [
+   "Pinnacle Services",
+   "Jurong Components"
+  ],
+  "email": "clarence.cand-br-105@example-mail.test",
+  "phone": "+65 8235 8729"
+ }
+]

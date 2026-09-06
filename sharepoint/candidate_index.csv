@@ -1,0 +1,106 @@
+candidate_id,name,role,company,years_experience,evidence_tier,seeded_defects,email
+CAND-FU-001,Vikram Kumar,Software Engineer,FutureTech Solutions Pte Ltd,6,weak,photo|gap|vague,vikram.cand-fu-001@example-mail.test
+CAND-FU-002,Joanne Koh,Product Manager,FutureTech Solutions Pte Ltd,3,adequate,nric|age|salary,joanne.cand-fu-002@example-mail.test
+CAND-FU-003,Zul Ismail,Data Engineer,FutureTech Solutions Pte Ltd,12,adequate,nric|gap|age,zul.cand-fu-003@example-mail.test
+CAND-FU-004,Marcus Seah,Data Engineer,FutureTech Solutions Pte Ltd,11,adequate,photo,marcus.cand-fu-004@example-mail.test
+CAND-FU-005,Hafiz Zhang,Data Engineer,FutureTech Solutions Pte Ltd,13,weak,vague,hafiz.cand-fu-005@example-mail.test
+CAND-FU-006,Deepa Quek,Data Engineer,FutureTech Solutions Pte Ltd,7,strong,photo|nric|age|salary,deepa.cand-fu-006@example-mail.test
+CAND-FU-007,Zhi Wei Chua,Senior Data Analyst,FutureTech Solutions Pte Ltd,11,weak,salary,zhi.cand-fu-007@example-mail.test
+CAND-FU-008,Anitha Wang,Product Manager,FutureTech Solutions Pte Ltd,9,strong,photo|injection,anitha.cand-fu-008@example-mail.test
+CAND-FU-009,Arun Tan,Data Engineer,FutureTech Solutions Pte Ltd,4,strong,photo|nationality,arun.cand-fu-009@example-mail.test
+CAND-FU-010,Edwin Lee,Product Manager,FutureTech Solutions Pte Ltd,11,weak,age|salary|vague,edwin.cand-fu-010@example-mail.test
+CAND-FU-011,Marcus Neo,Senior Data Analyst,FutureTech Solutions Pte Ltd,6,weak,photo|dob,marcus.cand-fu-011@example-mail.test
+CAND-FU-012,Terence Tan,Data Engineer,FutureTech Solutions Pte Ltd,8,weak,gap|age,terence.cand-fu-012@example-mail.test
+CAND-FU-013,Pei Shan Zhang,Product Manager,FutureTech Solutions Pte Ltd,10,strong,photo,pei.cand-fu-013@example-mail.test
+CAND-FU-014,Hafiz Goh,Product Manager,FutureTech Solutions Pte Ltd,6,strong,photo|gap|age|salary,hafiz.cand-fu-014@example-mail.test
+CAND-FU-015,Grace Seah,Product Manager,FutureTech Solutions Pte Ltd,11,adequate,dob,grace.cand-fu-015@example-mail.test
+CAND-FU-016,Aisyah Menon,Product Manager,FutureTech Solutions Pte Ltd,13,adequate,gap|age,aisyah.cand-fu-016@example-mail.test
+CAND-FU-017,Serene Ng,Senior Data Analyst,FutureTech Solutions Pte Ltd,11,adequate,photo|gap|salary,serene.cand-fu-017@example-mail.test
+CAND-FU-018,Germaine Zhang,Software Engineer,FutureTech Solutions Pte Ltd,10,strong,dob|age,germaine.cand-fu-018@example-mail.test
+CAND-FU-019,Cheryl Rajan,Software Engineer,FutureTech Solutions Pte Ltd,11,weak,vague,cheryl.cand-fu-019@example-mail.test
+CAND-FU-020,Xin Yi Lee,Product Manager,FutureTech Solutions Pte Ltd,11,weak,photo|nric|dob|gap|salary|vague,xin.cand-fu-020@example-mail.test
+CAND-FU-021,Ryan Liu,Product Manager,FutureTech Solutions Pte Ltd,13,strong,nationality,ryan.cand-fu-021@example-mail.test
+CAND-HA-022,Arun Toh,Compliance Officer,Harbour Bank Singapore,7,weak,photo|nric|salary,arun.cand-ha-022@example-mail.test
+CAND-HA-023,Kenneth Lim,Relationship Manager,Harbour Bank Singapore,9,adequate,dob|nationality|gap,kenneth.cand-ha-023@example-mail.test
+CAND-HA-024,Joanne Chan,Relationship Manager,Harbour Bank Singapore,4,strong,dob,joanne.cand-ha-024@example-mail.test
+CAND-HA-025,Nicholas Lim,Compliance Officer,Harbour Bank Singapore,4,weak,photo|vague,nicholas.cand-ha-025@example-mail.test
+CAND-HA-026,Jia Hui Teo,Relationship Manager,Harbour Bank Singapore,8,adequate,dob|salary,jia.cand-ha-026@example-mail.test
+CAND-HA-027,Cheryl Pillai,Compliance Officer,Harbour Bank Singapore,6,weak,dob|vague,cheryl.cand-ha-027@example-mail.test
+CAND-HA-028,Hafiz Bin Ahmad,Relationship Manager,Harbour Bank Singapore,6,weak,nric|salary|vague,hafiz.cand-ha-028@example-mail.test
+CAND-HA-029,Ryan Chen,Relationship Manager,Harbour Bank Singapore,9,adequate,photo,ryan.cand-ha-029@example-mail.test
+CAND-HA-030,Melissa Zhang,Credit Risk Analyst,Harbour Bank Singapore,6,weak,vague,melissa.cand-ha-030@example-mail.test
+CAND-HA-031,Jia Hui Menon,Credit Risk Analyst,Harbour Bank Singapore,2,weak,photo|dob|salary,jia.cand-ha-031@example-mail.test
+CAND-HA-032,Adrian Chan,Relationship Manager,Harbour Bank Singapore,2,strong,photo|nric|nationality|age,adrian.cand-ha-032@example-mail.test
+CAND-HA-033,Xin Yi Bin Ahmad,Relationship Manager,Harbour Bank Singapore,5,strong,,xin.cand-ha-033@example-mail.test
+CAND-HA-034,Aisyah Goh,Compliance Officer,Harbour Bank Singapore,7,adequate,,aisyah.cand-ha-034@example-mail.test
+CAND-HA-035,Faizal Huang,Relationship Manager,Harbour Bank Singapore,14,adequate,,faizal.cand-ha-035@example-mail.test
+CAND-HA-036,Clarence Tay,Relationship Manager,Harbour Bank Singapore,12,weak,photo|dob|gap,clarence.cand-ha-036@example-mail.test
+CAND-HA-037,Grace Kumar,Compliance Officer,Harbour Bank Singapore,9,strong,gap,grace.cand-ha-037@example-mail.test
+CAND-HA-038,Hafiz Bin Ahmad,Compliance Officer,Harbour Bank Singapore,5,weak,,hafiz.cand-ha-038@example-mail.test
+CAND-HA-039,Divya Foo,Credit Risk Analyst,Harbour Bank Singapore,13,adequate,gap,divya.cand-ha-039@example-mail.test
+CAND-HA-040,Bryan Neo,Relationship Manager,Harbour Bank Singapore,8,weak,photo|salary,bryan.cand-ha-040@example-mail.test
+CAND-HA-041,Hafiz Ng,Credit Risk Analyst,Harbour Bank Singapore,14,weak,dob|nationality|gap,hafiz.cand-ha-041@example-mail.test
+CAND-HA-042,Amirah Goh,Relationship Manager,Harbour Bank Singapore,13,weak,nric|nationality|gap|vague,amirah.cand-ha-042@example-mail.test
+CAND-ME-043,Jonathan Wang,Clinic Operations Executive,MediCare Health Group,2,weak,age|salary|vague,jonathan.cand-me-043@example-mail.test
+CAND-ME-044,Melissa Seah,Clinic Operations Executive,MediCare Health Group,12,adequate,photo|salary,melissa.cand-me-044@example-mail.test
+CAND-ME-045,Germaine Bin Ahmad,Staff Nurse,MediCare Health Group,2,weak,photo|vague,germaine.cand-me-045@example-mail.test
+CAND-ME-046,Shanti Ho,Staff Nurse,MediCare Health Group,5,weak,nationality|gap|age|vague,shanti.cand-me-046@example-mail.test
+CAND-ME-047,Kenneth Chan,Staff Nurse,MediCare Health Group,10,adequate,,kenneth.cand-me-047@example-mail.test
+CAND-ME-048,Hafiz Neo,Staff Nurse,MediCare Health Group,14,strong,,hafiz.cand-me-048@example-mail.test
+CAND-ME-049,Priya Nair,Staff Nurse,MediCare Health Group,14,strong,photo|dob|nationality,priya.cand-me-049@example-mail.test
+CAND-ME-050,Charmaine Low,Staff Nurse,MediCare Health Group,7,weak,,charmaine.cand-me-050@example-mail.test
+CAND-ME-051,Meera Wong,Healthcare Data Analyst,MediCare Health Group,5,adequate,nric|salary,meera.cand-me-051@example-mail.test
+CAND-ME-052,Daniel Teo,Staff Nurse,MediCare Health Group,8,adequate,dob|age,daniel.cand-me-052@example-mail.test
+CAND-ME-053,Kenneth Menon,Staff Nurse,MediCare Health Group,14,weak,nationality,kenneth.cand-me-053@example-mail.test
+CAND-ME-054,Xin Yi Toh,Staff Nurse,MediCare Health Group,14,weak,vague,xin.cand-me-054@example-mail.test
+CAND-ME-055,Terence Poh,Staff Nurse,MediCare Health Group,7,strong,nationality,terence.cand-me-055@example-mail.test
+CAND-ME-056,Hui Ling Wang,Staff Nurse,MediCare Health Group,12,strong,photo|nationality,hui.cand-me-056@example-mail.test
+CAND-ME-057,Farhan Lim,Healthcare Data Analyst,MediCare Health Group,4,adequate,photo|nationality,farhan.cand-me-057@example-mail.test
+CAND-ME-058,Haziq Heng,Clinic Operations Executive,MediCare Health Group,4,strong,,haziq.cand-me-058@example-mail.test
+CAND-ME-059,Nurul Ho,Clinic Operations Executive,MediCare Health Group,14,adequate,photo|age,nurul.cand-me-059@example-mail.test
+CAND-ME-060,Arun Ho,Healthcare Data Analyst,MediCare Health Group,8,weak,photo,arun.cand-me-060@example-mail.test
+CAND-ME-061,Marcus Teo,Clinic Operations Executive,MediCare Health Group,7,adequate,age,marcus.cand-me-061@example-mail.test
+CAND-ME-062,Priya Bin Ahmad,Staff Nurse,MediCare Health Group,3,strong,dob,priya.cand-me-062@example-mail.test
+CAND-ME-063,Ivan Foo,Clinic Operations Executive,MediCare Health Group,5,adequate,photo|nric,ivan.cand-me-063@example-mail.test
+CAND-GR-064,Xin Yi Neo,Customer Service Lead,GreenLogix Supply Chain,9,strong,age,xin.cand-gr-064@example-mail.test
+CAND-GR-065,Charmaine Xu,Supply Chain Analyst,GreenLogix Supply Chain,4,strong,nric,charmaine.cand-gr-065@example-mail.test
+CAND-GR-066,Aisyah Ng,Warehouse Operations Executive,GreenLogix Supply Chain,6,strong,gap,aisyah.cand-gr-066@example-mail.test
+CAND-GR-067,Deepa Neo,Warehouse Operations Executive,GreenLogix Supply Chain,8,adequate,nationality|gap|age|salary,deepa.cand-gr-067@example-mail.test
+CAND-GR-068,Michelle Chua,Customer Service Lead,GreenLogix Supply Chain,5,weak,photo,michelle.cand-gr-068@example-mail.test
+CAND-GR-069,Grace Binte Hassan,Warehouse Operations Executive,GreenLogix Supply Chain,9,weak,vague,grace.cand-gr-069@example-mail.test
+CAND-GR-070,Arun Liu,Customer Service Lead,GreenLogix Supply Chain,9,weak,nric|gap|salary,arun.cand-gr-070@example-mail.test
+CAND-GR-071,Melissa Loh,Supply Chain Analyst,GreenLogix Supply Chain,9,strong,photo|dob,melissa.cand-gr-071@example-mail.test
+CAND-GR-072,Joanne Tay,Customer Service Lead,GreenLogix Supply Chain,6,adequate,photo|gap,joanne.cand-gr-072@example-mail.test
+CAND-GR-073,Haziq Sim,Customer Service Lead,GreenLogix Supply Chain,13,adequate,photo|dob|salary,haziq.cand-gr-073@example-mail.test
+CAND-GR-074,Jonathan Toh,Warehouse Operations Executive,GreenLogix Supply Chain,11,adequate,photo|nric|gap|age,jonathan.cand-gr-074@example-mail.test
+CAND-GR-075,Shanti Chen,Supply Chain Analyst,GreenLogix Supply Chain,11,adequate,photo|age,shanti.cand-gr-075@example-mail.test
+CAND-GR-076,Grace Kumar,Supply Chain Analyst,GreenLogix Supply Chain,13,strong,nric|dob,grace.cand-gr-076@example-mail.test
+CAND-GR-077,Clarence Rajan,Warehouse Operations Executive,GreenLogix Supply Chain,2,adequate,salary,clarence.cand-gr-077@example-mail.test
+CAND-GR-078,Ivan Goh,Customer Service Lead,GreenLogix Supply Chain,14,weak,age|vague,ivan.cand-gr-078@example-mail.test
+CAND-GR-079,Siti Xu,Supply Chain Analyst,GreenLogix Supply Chain,11,strong,nationality|salary,siti.cand-gr-079@example-mail.test
+CAND-GR-080,Ganesh Liu,Customer Service Lead,GreenLogix Supply Chain,7,adequate,salary,ganesh.cand-gr-080@example-mail.test
+CAND-GR-081,Valerie Sim,Customer Service Lead,GreenLogix Supply Chain,8,adequate,nric|nationality|age,valerie.cand-gr-081@example-mail.test
+CAND-GR-082,Jia Hui Toh,Customer Service Lead,GreenLogix Supply Chain,11,strong,photo|dob,jia.cand-gr-082@example-mail.test
+CAND-GR-083,Meera Menon,Supply Chain Analyst,GreenLogix Supply Chain,10,weak,nric|vague,meera.cand-gr-083@example-mail.test
+CAND-GR-084,Valerie Ng,Supply Chain Analyst,GreenLogix Supply Chain,13,weak,nric|gap,valerie.cand-gr-084@example-mail.test
+CAND-BR-085,Rachel Foo,Learning Technologist,BrightPath Education Group,8,adequate,salary,rachel.cand-br-085@example-mail.test
+CAND-BR-086,Nicholas Ong,Admissions Executive,BrightPath Education Group,11,weak,photo|gap|vague,nicholas.cand-br-086@example-mail.test
+CAND-BR-087,Yun Xi Ismail,Curriculum Developer,BrightPath Education Group,4,strong,nationality,yun.cand-br-087@example-mail.test
+CAND-BR-088,Yun Xi Chan,Admissions Executive,BrightPath Education Group,4,strong,photo|dob|age,yun.cand-br-088@example-mail.test
+CAND-BR-089,Anitha Loh,Learning Technologist,BrightPath Education Group,2,strong,nationality,anitha.cand-br-089@example-mail.test
+CAND-BR-090,Farhan Tan,Curriculum Developer,BrightPath Education Group,9,strong,gap|salary,farhan.cand-br-090@example-mail.test
+CAND-BR-091,Jia Hui Ong,Learning Technologist,BrightPath Education Group,12,adequate,photo|age,jia.cand-br-091@example-mail.test
+CAND-BR-092,Priya Tay,Curriculum Developer,BrightPath Education Group,5,adequate,dob|gap|age,priya.cand-br-092@example-mail.test
+CAND-BR-093,Edwin Koh,Learning Technologist,BrightPath Education Group,3,weak,nationality|salary,edwin.cand-br-093@example-mail.test
+CAND-BR-094,Hafiz Xu,Admissions Executive,BrightPath Education Group,2,weak,gap,hafiz.cand-br-094@example-mail.test
+CAND-BR-095,Germaine Ho,Curriculum Developer,BrightPath Education Group,9,weak,nric|vague,germaine.cand-br-095@example-mail.test
+CAND-BR-096,Grace Chen,Learning Technologist,BrightPath Education Group,4,weak,vague,grace.cand-br-096@example-mail.test
+CAND-BR-097,Priya Xu,Learning Technologist,BrightPath Education Group,13,strong,nric|dob|nationality,priya.cand-br-097@example-mail.test
+CAND-BR-098,Arun Rajan,Curriculum Developer,BrightPath Education Group,10,strong,gap,arun.cand-br-098@example-mail.test
+CAND-BR-099,Ryan Wong,Learning Technologist,BrightPath Education Group,14,weak,photo|dob|vague,ryan.cand-br-099@example-mail.test
+CAND-BR-100,Daniel Lee,Learning Technologist,BrightPath Education Group,8,weak,photo|gap,daniel.cand-br-100@example-mail.test
+CAND-BR-101,Haziq Huang,Admissions Executive,BrightPath Education Group,4,strong,nric|dob,haziq.cand-br-101@example-mail.test
+CAND-BR-102,Meera Huang,Learning Technologist,BrightPath Education Group,3,weak,gap|vague,meera.cand-br-102@example-mail.test
+CAND-BR-103,Amirah Lim,Curriculum Developer,BrightPath Education Group,9,weak,photo|vague,amirah.cand-br-103@example-mail.test
+CAND-BR-104,Charmaine Ng,Admissions Executive,BrightPath Education Group,11,adequate,photo|nric|nationality,charmaine.cand-br-104@example-mail.test
+CAND-BR-105,Clarence Menon,Learning Technologist,BrightPath Education Group,5,strong,age|salary,clarence.cand-br-105@example-mail.test

@@ -1,0 +1,26 @@
+ARUN TAN
+Data Engineer candidate  |  Candidate ID: CAND-FU-009
+arun.cand-fu-009@example-mail.test  |  +65 8840 2501  |  Singapore
+Photograph attached (headshot, colour).
+Nationality: Malaysian (Singapore PR application in progress)
+
+PROFESSIONAL SUMMARY
+Data Engineer with 4 years' experience in technology and data products. Core strengths: ETL design, Airflow, Snowflake, AWS.
+
+KEY ACHIEVEMENT
+Migrated 40+ batch jobs to Airflow; pipeline failures fell from 12/month to 1/month.
+
+EXPERIENCE
+  Summit Analytics - Data Engineer (2024 - Present)
+     - Migrated 40+ batch jobs to Airflow; pipeline failures fell from 12/month to 1/month.
+     - Worked with ETL design, Airflow, Snowflake on recurring delivery.
+  Kallang Systems - Junior Data Engineer (2022 - 2024)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Statistics, NTU
+
+SKILLS
+  ETL design, Airflow, Snowflake, AWS, Terraform, Python
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

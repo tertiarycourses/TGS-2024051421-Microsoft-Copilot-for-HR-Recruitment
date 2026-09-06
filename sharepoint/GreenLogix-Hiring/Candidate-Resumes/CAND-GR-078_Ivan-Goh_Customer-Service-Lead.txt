@@ -1,0 +1,25 @@
+IVAN GOH
+Customer Service Lead candidate  |  Candidate ID: CAND-GR-078
+ivan.cand-gr-078@example-mail.test  |  +65 8796 2920  |  Singapore
+Age: 37
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Meridian Finance - Customer Service Lead (2019 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with team coaching, SLA management, CRM on recurring delivery.
+  Apex Digital - Junior Customer Service Lead (2012 - 2019)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Computer Science, University of Melbourne
+
+SKILLS
+  team coaching, SLA management, CRM, process improvement, escalation handling
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

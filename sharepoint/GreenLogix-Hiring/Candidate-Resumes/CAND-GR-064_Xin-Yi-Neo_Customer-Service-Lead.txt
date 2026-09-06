@@ -1,0 +1,25 @@
+XIN YI NEO
+Customer Service Lead candidate  |  Candidate ID: CAND-GR-064
+xin.cand-gr-064@example-mail.test  |  +65 8232 1763  |  Singapore
+Age: 37
+
+PROFESSIONAL SUMMARY
+Customer Service Lead with 9 years' experience in logistics and supply chain. Core strengths: escalation handling, team coaching, process improvement, CRM.
+
+KEY ACHIEVEMENT
+Improved first-contact resolution from 61% to 79% by rewriting escalation rules.
+
+EXPERIENCE
+  Pinnacle Services - Customer Service Lead (2022 - Present)
+     - Improved first-contact resolution from 61% to 79% by rewriting escalation rules.
+     - Worked with escalation handling, team coaching, process improvement on recurring delivery.
+  Lion City Logistics - Junior Customer Service Lead (2017 - 2022)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BEng Information Engineering, NUS
+
+SKILLS
+  escalation handling, team coaching, process improvement, CRM, SLA management
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

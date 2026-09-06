@@ -1,0 +1,27 @@
+SERENE NG
+Senior Data Analyst candidate  |  Candidate ID: CAND-FU-017
+serene.cand-fu-017@example-mail.test  |  +65 8633 1766  |  Singapore
+Photograph attached (headshot, colour).
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Senior Data Analyst with 11 years' experience in technology and data products. Core strengths: SQL, data quality, Excel modelling, Power BI.
+
+KEY ACHIEVEMENT
+Rebuilt the weekly revenue dashboard (contribution shared across a team of four).
+
+EXPERIENCE
+  Redhill Software - Senior Data Analyst (2021 - Present)
+     - Rebuilt the weekly revenue dashboard (contribution shared across a team of four).
+     - Worked with SQL, data quality, Excel modelling on recurring delivery.
+  Career break Jan 2022 - Mar 2023 (personal reasons, not elaborated).
+  Apex Digital - Junior Senior Data Analyst (2015 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Supply Chain Management, Republic Poly
+
+SKILLS
+  SQL, data quality, Excel modelling, Power BI, Python, A/B testing
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

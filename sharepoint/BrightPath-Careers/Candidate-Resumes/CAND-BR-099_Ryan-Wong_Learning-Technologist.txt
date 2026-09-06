@@ -1,0 +1,26 @@
+RYAN WONG
+Learning Technologist candidate  |  Candidate ID: CAND-BR-099
+ryan.cand-br-099@example-mail.test  |  +65 8961 4471  |  Singapore
+Photograph attached (headshot, colour).
+Date of Birth: 14 March 1989   |   Marital status: Married, 2 children
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Orchid Retail Group - Learning Technologist (2019 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with learning analytics, video production, accessibility on recurring delivery.
+  Jurong Components - Junior Learning Technologist (2012 - 2019)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Information Systems, University of Melbourne
+
+SKILLS
+  learning analytics, video production, accessibility, LMS administration, SCORM
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

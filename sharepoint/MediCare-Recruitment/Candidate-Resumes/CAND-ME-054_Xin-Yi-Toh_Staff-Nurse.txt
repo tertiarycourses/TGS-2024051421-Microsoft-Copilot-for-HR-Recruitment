@@ -1,0 +1,24 @@
+XIN YI TOH
+Staff Nurse candidate  |  Candidate ID: CAND-ME-054
+xin.cand-me-054@example-mail.test  |  +65 8925 7442  |  Singapore
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Summit Analytics - Staff Nurse (2019 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with patient assessment, wound care, electronic health records on recurring delivery.
+  BlueWave Media - Junior Staff Nurse (2012 - 2019)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BBA Business Analytics, NTU
+
+SKILLS
+  patient assessment, wound care, electronic health records, triage, medication administration, infection control
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

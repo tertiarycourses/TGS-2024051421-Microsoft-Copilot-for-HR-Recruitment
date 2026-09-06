@@ -1,0 +1,24 @@
+MELISSA ZHANG
+Credit Risk Analyst candidate  |  Candidate ID: CAND-HA-030
+melissa.cand-ha-030@example-mail.test  |  +65 8323 2745  |  Singapore
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Nexus Consulting - Credit Risk Analyst (2023 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with SAS, SQL, IFRS 9 on recurring delivery.
+  Lion City Logistics - Junior Credit Risk Analyst (2020 - 2023)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  Diploma in Business Informatics, Ngee Ann Poly
+
+SKILLS
+  SAS, SQL, IFRS 9, credit scoring, stress testing, portfolio analytics
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

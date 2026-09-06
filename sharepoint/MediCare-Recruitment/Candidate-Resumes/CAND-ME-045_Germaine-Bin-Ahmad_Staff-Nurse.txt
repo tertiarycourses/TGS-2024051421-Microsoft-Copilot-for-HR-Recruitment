@@ -1,0 +1,25 @@
+GERMAINE BIN AHMAD
+Staff Nurse candidate  |  Candidate ID: CAND-ME-045
+germaine.cand-me-045@example-mail.test  |  +65 8424 1660  |  Singapore
+Photograph attached (headshot, colour).
+
+PROFESSIONAL SUMMARY
+Responsible for various analytics duties and helped the team achieve good results.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  Summit Analytics - Staff Nurse (2025 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with triage, patient assessment, electronic health records on recurring delivery.
+  Apex Digital - Junior Staff Nurse (2024 - 2025)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Information Systems, SUTD
+
+SKILLS
+  triage, patient assessment, electronic health records, infection control, wound care, medication administration
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

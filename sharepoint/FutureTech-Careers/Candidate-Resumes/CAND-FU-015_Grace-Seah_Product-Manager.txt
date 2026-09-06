@@ -1,0 +1,25 @@
+GRACE SEAH
+Product Manager candidate  |  Candidate ID: CAND-FU-015
+grace.cand-fu-015@example-mail.test  |  +65 8783 3843  |  Singapore
+Date of Birth: 14 March 1989   |   Marital status: Married, 2 children
+
+PROFESSIONAL SUMMARY
+Product Manager with 11 years' experience in technology and data products. Core strengths: roadmapping, OKRs, analytics, user research.
+
+KEY ACHIEVEMENT
+Launched self-serve onboarding (contribution shared across a team of four).
+
+EXPERIENCE
+  Kallang Systems - Product Manager (2021 - Present)
+     - Launched self-serve onboarding (contribution shared across a team of four).
+     - Worked with roadmapping, OKRs, analytics on recurring delivery.
+  Lion City Logistics - Junior Product Manager (2015 - 2021)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BEng Information Engineering, University of Melbourne
+
+SKILLS
+  roadmapping, OKRs, analytics, user research, stakeholder alignment, JIRA
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

@@ -1,0 +1,26 @@
+MARCUS NEO
+Senior Data Analyst candidate  |  Candidate ID: CAND-FU-011
+marcus.cand-fu-011@example-mail.test  |  +65 8333 2087  |  Singapore
+Photograph attached (headshot, colour).
+Date of Birth: 14 March 1989   |   Marital status: Married, 2 children
+
+PROFESSIONAL SUMMARY
+Senior Data Analyst with 6 years' experience in technology and data products. Core strengths: stakeholder reporting, Excel modelling, SQL, Python.
+
+KEY ACHIEVEMENT
+Supported the team on day-to-day tasks and assisted with reports and improvements.
+
+EXPERIENCE
+  BlueWave Media - Senior Data Analyst (2023 - Present)
+     - Supported the team on day-to-day tasks and assisted with reports and improvements.
+     - Worked with stakeholder reporting, Excel modelling, SQL on recurring delivery.
+  Summit Analytics - Junior Senior Data Analyst (2020 - 2023)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BA Economics, SMU
+
+SKILLS
+  stakeholder reporting, Excel modelling, SQL, Python, dbt, data quality
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

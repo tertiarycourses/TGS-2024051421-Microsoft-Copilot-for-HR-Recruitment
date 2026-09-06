@@ -1,0 +1,25 @@
+RACHEL FOO
+Learning Technologist candidate  |  Candidate ID: CAND-BR-085
+rachel.cand-br-085@example-mail.test  |  +65 8436 1003  |  Singapore
+Current salary: SGD 7,800/month. Expected: SGD 9,500/month (negotiable).
+
+PROFESSIONAL SUMMARY
+Learning Technologist with 8 years' experience in education and training. Core strengths: accessibility, learning analytics, video production, SCORM.
+
+KEY ACHIEVEMENT
+Migrated 120 courses to a new LMS with zero learner-facing downtime. (contribution shared across a team of four).
+
+EXPERIENCE
+  Summit Analytics - Learning Technologist (2022 - Present)
+     - Migrated 120 courses to a new LMS with zero learner-facing downtime. (contribution shared across a team of four).
+     - Worked with accessibility, learning analytics, video production on recurring delivery.
+  Vertex Health - Junior Learning Technologist (2018 - 2022)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BSc Information Systems, RMIT
+
+SKILLS
+  accessibility, learning analytics, video production, SCORM, LMS administration
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --

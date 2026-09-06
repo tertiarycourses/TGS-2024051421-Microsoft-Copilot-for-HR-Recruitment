@@ -1,0 +1,26 @@
+MELISSA LOH
+Supply Chain Analyst candidate  |  Candidate ID: CAND-GR-071
+melissa.cand-gr-071@example-mail.test  |  +65 8264 1126  |  Singapore
+Photograph attached (headshot, colour).
+Date of Birth: 14 March 1989   |   Marital status: Married, 2 children
+
+PROFESSIONAL SUMMARY
+Supply Chain Analyst with 9 years' experience in logistics and supply chain. Core strengths: SAP, Excel modelling, demand forecasting, supplier scorecards.
+
+KEY ACHIEVEMENT
+Cut excess stock by SGD 1.2m by reworking the forecast for 60 slow-moving SKUs.
+
+EXPERIENCE
+  Nexus Consulting - Supply Chain Analyst (2022 - Present)
+     - Cut excess stock by SGD 1.2m by reworking the forecast for 60 slow-moving SKUs.
+     - Worked with SAP, Excel modelling, demand forecasting on recurring delivery.
+  Pinnacle Services - Junior Supply Chain Analyst (2017 - 2022)
+     - Supported reporting, documentation and stakeholder requests.
+
+EDUCATION
+  BBA Business Analytics, NUS
+
+SKILLS
+  SAP, Excel modelling, demand forecasting, supplier scorecards, SQL, inventory optimisation
+
+-- SYNTHETIC TRAINING DATA. Not a real person. TGS-2024051421 --
