@@ -1,19 +1,25 @@
 """Single source for TGS-2024051421 courseware, activities and assessment."""
 
-TITLE = "Generative AI for Interviewing"
-SHORT_TITLE = "Generative AI for Interviewing"
+TITLE = "Microsoft Copilot for HR Recruitment"
+SHORT_TITLE = "Microsoft Copilot for HR Recruitment"
 COURSE_CODE = "TGS-2024051421"
 TSC_TITLE = "Interviewing"
 TSC_CODE = "RET-PMD-4003-1.1"
-VERSION = "6.0"
-VERSION_DATE = "6 September 2026"
+VERSION = "6.1"
+VERSION_DATE = "27 September 2026"
 ORG = "Tertiary Infotech Academy Pte Ltd"
 UEN = "201200696W"
 TRAINER = "Dr Alfred Ang"
-COURSE_URL = "https://www.tertiarycourses.com.sg/wsq-generative-ai-for-interviewing.html"
+# Earlier releases shown above the current row in the LP/LG version-control record.
+VERSION_HISTORY = {
+    "LG": [("6.0", "6 September 2026", "Rebuilt around Microsoft 365 Copilot and prompt engineering: lab sign-in, the four-part prompt pattern, a live Copilot Studio environment with five published agents and three reference workflows named for the activities they support (Activity 3, 5 and 8), and a SharePoint corpus of synthetic candidate and HR policy documents. Adds the Lab Prompt Pack, per-activity figures and a Markdown mirror; retains fairness, privacy and human-oversight controls throughout.")],
+    "LP": [("6.0", "6 September 2026", "Rebuilt one-day plan (9:30am-6:30pm, 8.0 instructional hours) for three topics and 10 Copilot-based activities, with exact slide references from slide_map.json. Reference workflows are named for the activities they support (Activity 3, 5 and 8). Assessment remains WA plus Role Play, 30 minutes each.")],
+}
+RETITLE_NOTE = "Course retitled from Generative AI for Interviewing to Microsoft Copilot for HR Recruitment (course code TGS-2024051421 unchanged); course page and GitHub links updated. Content, activities, schedule and assessment unchanged."
+COURSE_URL = "https://www.tertiarycourses.com.sg/wsq-microsoft-copilot-for-hr-recruitment.html"
 HR_TOOL_URL = "https://alfredang.github.io/hr-recruitment/"
 AI_PRACTICE_URL = "https://alfredang.github.io/AIInterviewing/"
-GITHUB_URL = "https://github.com/tertiarycourses/TGS-2024051421-Generative-AI-for-Interviewing"
+GITHUB_URL = "https://github.com/tertiarycourses/TGS-2024051421-Microsoft-Copilot-for-HR-Recruitment"
 LMS_URL = "https://lms-tms.tertiaryinfotech.com/"
 PRACTICE_EXAM_URL = "https://exams.tertiaryinfotech.com/"
 

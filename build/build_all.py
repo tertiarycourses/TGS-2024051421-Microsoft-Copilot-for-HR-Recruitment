@@ -528,7 +528,7 @@ def practice_exam_slide():
         add_rect(slide, Inches(1.18 + i*0.22), Inches(2.30), Inches(0.14), Inches(0.14), c, radius=True)
     add_rect(slide, Inches(1.92), Inches(2.26), Inches(5.35), Inches(0.24), WHITE, LINE, True)
     add_text(slide, Inches(2.02), Inches(2.26), Inches(5.15), Inches(0.24), PRACTICE_EXAM_URL, 9, BLUE, False, valign=MSO_ANCHOR.MIDDLE)
-    add_text(slide, Inches(1.28), Inches(2.78), Inches(5.95), Inches(0.36), "Generative AI for Interviewing - Practice Exam", 14, INK, True)
+    add_text(slide, Inches(1.28), Inches(2.78), Inches(5.95), Inches(0.36), f"{SHORT_TITLE} - Practice Exam", 14, INK, True)
     add_text(slide, Inches(1.28), Inches(3.20), Inches(5.95), Inches(0.30), "Multiple attempts | Instant feedback | Same K1-K6 coverage as the WA", 10.5, GREY)
     for i, q in enumerate(["Q1  Which control must be applied before prompting with a CV?",
                            "Q2  A rater has no evidence for a competency. What is recorded?",
@@ -676,7 +676,7 @@ def lms_orientation_slide():
     for i,label in enumerate(["Overview","Materials","Activities","Assessment"]):
         color = TEAL if label == "Materials" else WHITE
         add_text(slide, Inches(1.18), Inches(3.48+i*0.54), Inches(1.08), Inches(0.30), label, 9.5, color, label=="Materials")
-    add_text(slide, Inches(2.88), Inches(2.65), Inches(5.45), Inches(0.42), "Generative AI for Interviewing", 19, INK, True)
+    add_text(slide, Inches(2.88), Inches(2.65), Inches(5.45), Inches(0.42), SHORT_TITLE, 19, INK, True)
     add_text(slide, Inches(2.88), Inches(3.10), Inches(5.45), Inches(0.28), COURSE_CODE, 10.5, GREY, True)
     materials = [("Slides", "PPTX + PDF"), ("Learner Guide", "DOCX + PDF"), ("Lesson Plan", "Trainer reference"), ("Activities", "10 folders")]
     for i,(name,meta) in enumerate(materials):
@@ -880,15 +880,18 @@ def _cover(doc, instrument):
     doc.add_page_break()
 
 
-def _version_and_toc(doc, changes):
+def _version_and_toc(doc, changes, history=()):
     doc.add_heading("DOCUMENT VERSION CONTROL RECORD", level=1)
-    table = doc.add_table(rows=2, cols=4); table.alignment=WD_TABLE_ALIGNMENT.CENTER; table.autofit=False
+    rows = list(history) + [(VERSION, VERSION_DATE, changes)]
+    table = doc.add_table(rows=len(rows)+1, cols=4); table.alignment=WD_TABLE_ALIGNMENT.CENTER; table.autofit=False
     headers=["Version Number","Effective Date of Release","Summary of Included Changes","Author"]
     widths=[0.95,1.35,3.65,1.05]
+    for j,w in enumerate(widths): table.columns[j].width=DInches(w)
     for j,h in enumerate(headers): _set_cell_text(table.cell(0,j),h,True,9,"FFFFFF"); _shade(table.cell(0,j),"1F6FEB"); table.cell(0,j).width=DInches(widths[j]); _set_cell_margins(table.cell(0,j))
     _repeat_header(table.rows[0]); _cant_split(table.rows[0])
-    vals=[VERSION,VERSION_DATE,changes,"Dr Alfred Ang"]
-    for j,v in enumerate(vals): _set_cell_text(table.cell(1,j),v,False,9); table.cell(1,j).width=DInches(widths[j]); _set_cell_margins(table.cell(1,j))
+    for i,(ver,date,text) in enumerate(rows,1):
+        for j,v in enumerate([ver,date,text,TRAINER]): _set_cell_text(table.cell(i,j),v,False,9); table.cell(i,j).width=DInches(widths[j]); _set_cell_margins(table.cell(i,j))
+        _cant_split(table.rows[i])
     doc.add_page_break(); doc.add_heading("TABLE OF CONTENTS", level=1)
     p=doc.add_paragraph(); _field(p, 'TOC \\o "1-3" \\h \\z \\u')
     doc.add_paragraph("Open in Microsoft Word and update the table if page numbers change.")
@@ -1004,7 +1007,7 @@ def _activity_image(activity):
 
 def build_learner_guide():
     doc=Document(); _doc_styles(doc); _cover(doc,"Learner Guide")
-    _version_and_toc(doc,"Rebuilt around Microsoft 365 Copilot and prompt engineering: lab sign-in, the four-part prompt pattern, a live Copilot Studio environment with five published agents and three reference workflows named for the activities they support (Activity 3, 5 and 8), and a SharePoint corpus of synthetic candidate and HR policy documents. Adds the Lab Prompt Pack, per-activity figures and a Markdown mirror; retains fairness, privacy and human-oversight controls throughout.")
+    _version_and_toc(doc,RETITLE_NOTE,VERSION_HISTORY["LG"])
     doc.add_heading("How to Use This Guide", level=1)
     doc.add_paragraph("Use the concept sections before each activity, then follow the detailed steps in the matching activity folder. Work only with de-identified training data. The slides explain mechanisms and decision rules; this guide contains the complete operational procedure.")
     p=doc.add_paragraph(); _hyperlink(p,"Course LMS",LMS_URL); p.add_run(" | "); _hyperlink(p,"Microsoft 365 Copilot",M365_PORTAL); p.add_run(" | "); _hyperlink(p,"Copilot Studio environment",COPILOT_AGENTS_URL); p.add_run(" | "); _hyperlink(p,"AI Interview Practice Lab",AI_PRACTICE_URL)
@@ -1073,7 +1076,7 @@ def build_learner_guide():
 
 def build_lesson_plan():
     doc=Document(); _doc_styles(doc); _cover(doc,"Lesson Plan")
-    _version_and_toc(doc,"Rebuilt one-day plan (9:30am-6:30pm, 8.0 instructional hours) for three topics and 10 Copilot-based activities, with exact slide references from slide_map.json. Reference workflows are named for the activities they support (Activity 3, 5 and 8). Assessment remains WA plus Role Play, 30 minutes each.")
+    _version_and_toc(doc,RETITLE_NOTE,VERSION_HISTORY["LP"])
     doc.add_heading("Course Overview",level=1)
     doc.add_paragraph("A one-day, 8-hour WSQ programme for interviewers and interviewees to plan, conduct, evaluate and improve structured interviews with accountable generative-AI support.")
     doc.add_heading("Learning Outcomes",level=1)

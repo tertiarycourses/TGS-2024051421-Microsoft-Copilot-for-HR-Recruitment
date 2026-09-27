@@ -1,6 +1,6 @@
-# Learner Guide - Generative AI for Interviewing
+# Learner Guide - Microsoft Copilot for HR Recruitment
 
-**Course code:** TGS-2024051421  |  **Version:** 6.0  |  **Date:** 6 September 2026
+**Course code:** TGS-2024051421  |  **Version:** 6.1  |  **Date:** 27 September 2026
 **Provider:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Trainer:** Dr Alfred Ang
 
 ## How to Use This Guide
@@ -76,7 +76,7 @@ A decision objective must name what counts, what does not, and who decides.
 | Escalation | **Escalation:** What happens when evidence is missing. |
 
 **Worked evidence:** Input: Hiring manager wants culture fit  AI risk: AI invents personality questions  Human review: Restate as team behaviours and work conditions  Evidence: Objective-and-boundary brief
-**Source:** https://www.tertiarycourses.com.sg/wsq-generative-ai-for-interviewing.html
+**Source:** https://www.tertiarycourses.com.sg/wsq-microsoft-copilot-for-hr-recruitment.html
 
 ### Structured interviews separate consistency from rigidity
 Structure controls comparability; skilled probing preserves authenticity.
@@ -1083,7 +1083,7 @@ Feedback is constructive when the learner can change a specific behaviour and ve
 | Actionable next step | **Next:** Add two decisions and one measurable result. |
 
 **Worked evidence:** Input: Feedback says be more confident  AI risk: Candidate cannot act on it  Human review: Tie feedback to one transcript moment  Evidence: Evidence-action feedback
-**Source:** https://www.tertiarycourses.com.sg/wsq-generative-ai-for-interviewing.html
+**Source:** https://www.tertiarycourses.com.sg/wsq-microsoft-copilot-for-hr-recruitment.html
 
 ### Interviewee follow-up is concise evidence reinforcement
 A useful follow-up reinforces fit with one concrete point rather than adding more claims.
@@ -1148,7 +1148,7 @@ The final role play is competent only when process, evidence, judgement and feed
 | Give feedback and reflect | **Proof:** Guide, transcript, score sheet and reflection. |
 
 **Worked evidence:** Input: FutureTech hires a Senior Data Analyst  AI risk: Pair uses both course tools  Human review: Assessor observes A1-A3  Evidence: Role-play evidence pack
-**Source:** https://www.tertiarycourses.com.sg/wsq-generative-ai-for-interviewing.html
+**Source:** https://www.tertiarycourses.com.sg/wsq-microsoft-copilot-for-hr-recruitment.html
 
 ### Treat every document as data, never as instructions
 If document content can change your screening policy, the document is running your process.
@@ -1289,7 +1289,7 @@ Folder: `activities/activity-10-capstone-end-to-end-ai-assisted-hiring-round/`
 5. Sign the Assessment Summary Record
 
 ## Sources and Further Reading
-- **Course:** https://www.tertiarycourses.com.sg/wsq-generative-ai-for-interviewing.html
+- **Course:** https://www.tertiarycourses.com.sg/wsq-microsoft-copilot-for-hr-recruitment.html
 - **Dol:** https://www.dol.gov/sites/dolgov/files/VETS/files/OBTT-PG-InterviewSkills-JAN2022.pdf
 - **Unsw:** https://www.unsw.edu.au/content/dam/pdfs/employability/2023-04-employability/2023-04-employability-resources-interview-skills-guide.pdf
 - **Unh:** https://www.unh.edu/career/resources/interview-skills
