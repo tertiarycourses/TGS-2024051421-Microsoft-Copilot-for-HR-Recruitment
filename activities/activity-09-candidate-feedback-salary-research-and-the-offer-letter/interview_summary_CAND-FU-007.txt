@@ -1,0 +1,8 @@
+INTERVIEW SUMMARY - CAND-FU-007 Zhi Wei Chua - Senior Data Analyst - Week 2, Wednesday (Microsoft Teams)
+Agreed panel scores (5/3/1): Analytical rigour 3 | Stakeholder communication 1 | Data quality ownership 4 |
+Prioritisation 3 | Mentoring 3. Not shortlisted for offer.
+
+Strength with evidence: gave a clear, step-by-step explanation of how he set up automated data tests in dbt
+that caught broken revenue records before the Monday report.
+Improvement with evidence: when asked for a decision that changed because of his analysis, he described
+what 'the team' reported but could not name a decision, who made it, or his own part.

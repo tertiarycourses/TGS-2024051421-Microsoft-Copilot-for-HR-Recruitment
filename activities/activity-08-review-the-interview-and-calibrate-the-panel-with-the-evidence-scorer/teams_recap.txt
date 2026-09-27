@@ -1,0 +1,9 @@
+MICROSOFT TEAMS - COPILOT INTERVIEW RECAP (AI-generated, NOT yet checked)
+Meeting: Senior Data Analyst interview - Serene Ng
+
+- Serene cut report preparation time by 60% on the revenue dashboard project she led.
+- She independently rebuilt the full revenue pipeline and its Airflow orchestration.
+- She presented the dashboard to the CFO, who approved a budget change.
+- She fixed an activation tracking issue that saved around S$40,000.
+- Strong on prioritisation; mentoring discussed briefly.
+- Recommendation: strong hire.

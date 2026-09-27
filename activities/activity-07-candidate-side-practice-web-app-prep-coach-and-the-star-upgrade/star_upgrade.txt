@@ -1,8 +1,0 @@
-BEFORE:
-
-SITUATION/TASK (brief):
-ACTION (my specific decisions):
-RESULT (metric or consequence):
-REFLECTION:
-
-GAPS I DID NOT INVENT: [candidate to supply]

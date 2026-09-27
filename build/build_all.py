@@ -92,7 +92,7 @@ def add_text(slide, x, y, w, h, text, size=14, color=INK, bold=False,
 
 def fit_title_size(title):
     n = len(title)
-    return 29 if n <= 52 else 26 if n <= 65 else 23 if n <= 82 else 21
+    return 29 if n <= 52 else 26 if n <= 62 else 23 if n <= 72 else 21 if n <= 80 else 19
 
 
 def footer(slide, number):
@@ -193,9 +193,9 @@ def cards_slide(title, cards, kicker, source=None, accent=BLUE, takeaway=None):
         add_text(slide, x+Inches(0.82), Inches(2.02), Inches(1.65), Inches(0.52), head, 13.5, INK, True)
         add_text(slide, x+Inches(0.28), Inches(2.72), Inches(2.18), Inches(1.45), body, 11.2, GREY)
         add_rect(slide, x+Inches(0.28), Inches(4.18), Inches(1.30), Inches(0.30), color, radius=True)
-        add_text(slide, x+Inches(0.28), Inches(4.18), Inches(1.30), Inches(0.28), "EVIDENCE", 9, WHITE, True, PP_ALIGN.CENTER, MSO_ANCHOR.MIDDLE)
+        add_text(slide, x+Inches(0.28), Inches(4.18), Inches(1.30), Inches(0.28), "KEY POINT", 9, WHITE, True, PP_ALIGN.CENTER, MSO_ANCHOR.MIDDLE)
     add_rect(slide, Inches(0.72), Inches(4.88), Inches(11.85), Inches(1.35), LIGHT)
-    add_text(slide, Inches(1.00), Inches(5.04), Inches(2.1), Inches(0.28), "DECISION RULE", 11, accent, True)
+    add_text(slide, Inches(1.00), Inches(5.04), Inches(2.1), Inches(0.28), "KEY TAKEAWAY", 11, accent, True)
     add_text(slide, Inches(1.00), Inches(5.43), Inches(11.20), Inches(0.54), takeaway or "Apply the rule consistently and retain the evidence used.", 13.5, INK, True)
     if source: add_source(slide, source)
     return slide
@@ -203,14 +203,14 @@ def cards_slide(title, cards, kicker, source=None, accent=BLUE, takeaway=None):
 
 def control_slide(item, variant=0):
     if variant == 0:
-        return cards_slide(item["title"] + " - controls and decision rules", item["controls"],
-                           f'{item["codes"]} | CONTROL MATRIX', item["source"],
+        return cards_slide(item["title"] + " - good practice", item["controls"],
+                           f'{item["codes"]} | GOOD PRACTICE', item["source"],
                            PALETTE[(item["topic"]-1)%4], item["rule"])
-    slide = new_slide(item["title"] + " - controls and decision rules",
-                      f'{item["codes"]} | CONTROL EVIDENCE', PALETTE[(item["topic"]-1)%4])
+    slide = new_slide(item["title"] + " - good practice",
+                      f'{item["codes"]} | GOOD PRACTICE', PALETTE[(item["topic"]-1)%4])
     if variant == 1:
-        add_text(slide, Inches(0.92), Inches(1.78), Inches(4.0), Inches(0.30), "CONTROL TO APPLY", 11, BLUE, True)
-        add_text(slide, Inches(7.08), Inches(1.78), Inches(4.0), Inches(0.30), "EVIDENCE TO RETAIN", 11, TEAL, True)
+        add_text(slide, Inches(0.92), Inches(1.78), Inches(4.0), Inches(0.30), "PRACTICE", 11, BLUE, True)
+        add_text(slide, Inches(7.08), Inches(1.78), Inches(4.0), Inches(0.30), "WHAT IT MEANS", 11, TEAL, True)
         for i, (head, body) in enumerate(item["controls"]):
             y = Inches(2.22 + i*0.86); color = PALETTE[i]
             add_rect(slide, Inches(0.92), y, Inches(5.15), Inches(0.66), LIGHT, LINE, True)
@@ -220,14 +220,14 @@ def control_slide(item, variant=0):
     elif variant == 2:
         add_rect(slide, Inches(0.82), Inches(1.84), Inches(5.65), Inches(3.82), RGBColor(0xFF,0xF4,0xF2), LINE, True)
         add_rect(slide, Inches(6.86), Inches(1.84), Inches(5.65), Inches(3.82), RGBColor(0xF1,0xFA,0xF7), LINE, True)
-        add_text(slide, Inches(1.12), Inches(2.10), Inches(5.0), Inches(0.34), "RISK IF UNCONTROLLED", 12, RED, True)
-        add_text(slide, Inches(7.16), Inches(2.10), Inches(5.0), Inches(0.34), "CONTROLLED PRACTICE", 12, TEAL, True)
+        add_text(slide, Inches(1.12), Inches(2.10), Inches(5.0), Inches(0.34), "KEY POINTS", 12, RED, True)
+        add_text(slide, Inches(7.16), Inches(2.10), Inches(5.0), Inches(0.34), "IN PRACTICE", 12, TEAL, True)
         for i, (head, body) in enumerate(item["controls"]):
             add_text(slide, Inches(1.12), Inches(2.72+i*0.65), Inches(4.95), Inches(0.45), f"- {head}", 12, INK, True)
             add_text(slide, Inches(7.16), Inches(2.72+i*0.65), Inches(4.95), Inches(0.45), f"+ {body}", 11.3, INK, True)
     else:
         add_rect(slide, Inches(4.66), Inches(2.38), Inches(4.00), Inches(1.72), VIOLET, radius=True)
-        add_text(slide, Inches(5.02), Inches(2.62), Inches(3.28), Inches(0.30), "DECISION GATE", 12, WHITE, True, PP_ALIGN.CENTER)
+        add_text(slide, Inches(5.02), Inches(2.62), Inches(3.28), Inches(0.30), "KEY RULE", 12, WHITE, True, PP_ALIGN.CENTER)
         add_text(slide, Inches(5.02), Inches(3.05), Inches(3.28), Inches(0.72), item["rule"], 11.2, WHITE, True, PP_ALIGN.CENTER, MSO_ANCHOR.MIDDLE)
         positions = [(0.82,1.82),(8.96,1.82),(0.82,4.30),(8.96,4.30)]
         for i, ((head, body), (x,y)) in enumerate(zip(item["controls"], positions)):
@@ -241,11 +241,11 @@ def control_slide(item, variant=0):
 
 
 def process_slide(concept_item, variant=0):
-    slide = new_slide(concept_item["title"], f'{concept_item["codes"]} | MECHANISM', PALETTE[(concept_item["topic"]-1)%4])
+    slide = new_slide(concept_item["title"], f'{concept_item["codes"]} | HOW IT WORKS', PALETTE[(concept_item["topic"]-1)%4])
     stages = concept_item["mechanism"]
     if variant == 1:
-        add_text(slide, Inches(0.82), Inches(1.82), Inches(2.15), Inches(0.28), "INTERVIEWER LANE", 11, BLUE, True)
-        add_text(slide, Inches(0.82), Inches(4.08), Inches(2.15), Inches(0.28), "CANDIDATE / EVIDENCE LANE", 11, TEAL, True)
+        add_text(slide, Inches(0.82), Inches(1.82), Inches(2.15), Inches(0.28), "GET STARTED", 11, BLUE, True)
+        add_text(slide, Inches(0.82), Inches(4.08), Inches(2.15), Inches(0.28), "FOLLOW THROUGH", 11, TEAL, True)
         for i, stage in enumerate(stages):
             x = Inches(3.05 + (i % 2) * 4.70); y = Inches(1.80 + (i // 2) * 2.25)
             color = PALETTE[i]
@@ -265,7 +265,7 @@ def process_slide(concept_item, variant=0):
             add_text(slide, Inches(x+0.22), Inches(y+0.20), Inches(0.55), Inches(0.38), f"0{i+1}", 15, color, True)
             add_text(slide, Inches(x+0.88), Inches(y+0.20), Inches(2.40), Inches(0.86), stage, 13.5, INK, True, valign=MSO_ANCHOR.MIDDLE)
         add_rect(slide, Inches(4.86), Inches(2.82), Inches(3.58), Inches(2.18), VIOLET, radius=True)
-        add_text(slide, Inches(5.06), Inches(3.05), Inches(3.18), Inches(0.30), "HUMAN JUDGEMENT", 11, WHITE, True, PP_ALIGN.CENTER)
+        add_text(slide, Inches(5.06), Inches(3.05), Inches(3.18), Inches(0.30), "YOUR JUDGEMENT", 11, WHITE, True, PP_ALIGN.CENTER)
         add_text(slide, Inches(5.06), Inches(3.60), Inches(3.18), Inches(0.90), concept_item["rule"], 11.5, WHITE, True, PP_ALIGN.CENTER, MSO_ANCHOR.MIDDLE)
         add_source(slide, concept_item["source"])
         return
@@ -276,11 +276,11 @@ def process_slide(concept_item, variant=0):
             color = PALETTE[i]
             add_rect(slide, Inches(x), Inches(2.15), Inches(width), Inches(2.80), LIGHT, LINE, True)
             add_rect(slide, Inches(x), Inches(2.15), Inches(width), Inches(0.11), color)
-            add_text(slide, Inches(x+0.22), Inches(2.52), Inches(width-0.44), Inches(0.35), ["INPUT", "TRANSFORM", "REVIEW", "RETAIN"][i], 11, color, True)
+            add_text(slide, Inches(x+0.22), Inches(2.52), Inches(width-0.44), Inches(0.35), ["START", "DO", "CHECK", "KEEP"][i], 11, color, True)
             add_text(slide, Inches(x+0.22), Inches(3.25), Inches(width-0.44), Inches(1.05), stage, 15, INK, True, PP_ALIGN.CENTER, MSO_ANCHOR.MIDDLE)
             x += width + 0.18
         add_rect(slide, Inches(0.82), Inches(5.28), Inches(11.65), Inches(0.78), LIGHT, LINE, True)
-        add_text(slide, Inches(1.08), Inches(5.47), Inches(11.1), Inches(0.36), f"Acceptance evidence: {concept_item['case'][3]}", 12.2, TEAL, True)
+        add_text(slide, Inches(1.08), Inches(5.47), Inches(11.1), Inches(0.36), f"What you produce: {concept_item['case'][3]}", 12.2, TEAL, True)
         add_source(slide, concept_item["source"])
         return
     xs = [0.85, 3.24, 5.64, 8.03]
@@ -298,16 +298,16 @@ def process_slide(concept_item, variant=0):
             tail = OxmlElement('a:tailEnd'); tail.set('type', 'triangle'); ln.append(tail)
     add_rect(slide, Inches(10.43), Inches(2.00), Inches(2.05), Inches(3.05), LIGHT)
     add_rect(slide, Inches(10.43), Inches(2.00), Inches(2.05), Inches(0.10), RED)
-    add_text(slide, Inches(10.70), Inches(2.40), Inches(1.50), Inches(0.32), "CONTROL POINT", 11, RED, True, PP_ALIGN.CENTER)
+    add_text(slide, Inches(10.70), Inches(2.40), Inches(1.50), Inches(0.32), "KEY RULE", 11, RED, True, PP_ALIGN.CENTER)
     add_text(slide, Inches(10.68), Inches(3.15), Inches(1.55), Inches(1.35), concept_item["rule"], 12, INK, True, PP_ALIGN.CENTER, MSO_ANCHOR.MIDDLE)
     add_rect(slide, Inches(0.85), Inches(5.35), Inches(11.63), Inches(0.82), LIGHT)
-    add_text(slide, Inches(1.10), Inches(5.55), Inches(11.1), Inches(0.40), f"Observable output: {concept_item['case'][3]}", 12.5, TEAL, True)
+    add_text(slide, Inches(1.10), Inches(5.55), Inches(11.1), Inches(0.40), f"What you produce: {concept_item['case'][3]}", 12.5, TEAL, True)
     add_source(slide, concept_item["source"])
 
 
 def chart_slide(item):
     cats, values, insight = item["chart"]
-    slide = new_slide(item["title"] + " - editable evidence chart", f'{item["codes"]} | NATIVE POWERPOINT CHART', PALETTE[(item["topic"]-1)%4])
+    slide = new_slide(item["title"] + " - at a glance", f'{item["codes"]} | AT A GLANCE', PALETTE[(item["topic"]-1)%4])
     data = ChartData(); data.categories = cats; data.add_series("Indicative value", values)
     chart = slide.shapes.add_chart(XL_CHART_TYPE.COLUMN_CLUSTERED, Inches(0.88), Inches(1.88), Inches(7.40), Inches(4.42), data).chart
     chart.has_title = False; chart.has_legend = False
@@ -333,35 +333,31 @@ def chart_slide(item):
     for i, point in enumerate(plot.series[0].points):
         point.format.fill.solid(); point.format.fill.fore_color.rgb = PALETTE[i % len(PALETTE)]
     add_rect(slide, Inches(8.65), Inches(1.88), Inches(3.82), Inches(4.42), LIGHT)
-    add_text(slide, Inches(8.95), Inches(2.15), Inches(3.20), Inches(0.30), "WHAT THE DATA SHOWS", 11.5, TEAL, True)
+    add_text(slide, Inches(8.95), Inches(2.15), Inches(3.20), Inches(0.30), "WHAT THIS SHOWS", 11.5, TEAL, True)
     add_text(slide, Inches(8.95), Inches(2.78), Inches(3.18), Inches(1.62), insight, 16, INK, True)
-    add_text(slide, Inches(8.95), Inches(4.78), Inches(3.18), Inches(0.82), "Indicative teaching figures. Interpret the mechanism; do not treat these values as a universal benchmark.", 10.5, GREY)
+    add_text(slide, Inches(8.95), Inches(4.78), Inches(3.18), Inches(0.82), "Illustrative figures for discussion, not a benchmark.", 10.5, GREY)
     add_source(slide, item["source"])
 
 
 def case_slide(item):
     special = None
     title_l = item["title"].lower()
-    if "hr question generator" in title_l:
-        special = ASSETS / "hr-question-generator.png"
-    elif "ai interview practice lab" in title_l:
-        special = ASSETS / "ai-interview-practice.png"
-    elif "candidate ai feedback" in title_l:
-        special = ASSETS / "candidate-ai-practice.png"
-    elif "feedback should" in title_l:
+    if "public ai" in title_l:
+        special = ASSETS / "copilot-chat-tgfep.png"
+    elif title_l.startswith("feedback:"):
         special = ASSETS / "evidence-feedback.png"
-    slide = new_slide(item["title"] + " - worked evidence trace", f'{item["codes"]} | CASE AND EVIDENCE', PALETTE[(item["topic"]-1)%4])
+    slide = new_slide(item["title"] + " - worked example", f'{item["codes"]} | WORKED EXAMPLE', PALETTE[(item["topic"]-1)%4])
     if special:
         add_rect(slide, Inches(0.72), Inches(1.82), Inches(6.65), Inches(4.68), LIGHT)
         picture_fit(slide, special, Inches(0.85), Inches(1.95), Inches(3.72), Inches(4.38))
         add_rect(slide, Inches(4.72), Inches(2.02), Inches(2.40), Inches(1.78), WHITE, LINE, True)
         picture_crop(slide, special, Inches(4.80), Inches(2.10), Inches(2.24), Inches(1.62), 0.0, 0.0, 0.48, 0.48)
-        add_text(slide, Inches(4.80), Inches(3.88), Inches(2.24), Inches(0.25), "INPUT / RUBRIC ZOOM", 9.2, BLUE, True, PP_ALIGN.CENTER)
+        add_text(slide, Inches(4.80), Inches(3.88), Inches(2.24), Inches(0.25), "CLOSE-UP", 9.2, BLUE, True, PP_ALIGN.CENTER)
         add_rect(slide, Inches(4.72), Inches(4.28), Inches(2.40), Inches(1.78), WHITE, LINE, True)
         picture_crop(slide, special, Inches(4.80), Inches(4.36), Inches(2.24), Inches(1.62), 0.45, 0.38, 0.0, 0.0)
         x0 = Inches(7.70); w = Inches(4.87)
-        labels = [("SCENARIO", item["case"][0]), ("AI OUTPUT / RISK", item["case"][1]),
-                  ("HUMAN REVIEW", item["case"][2]), ("EVIDENCE", item["case"][3])]
+        labels = [("SITUATION", item["case"][0]), ("WHAT CAN GO WRONG", item["case"][1]),
+                  ("WHAT YOU DO", item["case"][2]), ("WHAT YOU KEEP", item["case"][3])]
         for i, (label, body) in enumerate(labels):
             y = Inches(1.83 + i*1.10); color = PALETTE[i]
             add_rect(slide, x0, y, w, Inches(0.94), LIGHT)
@@ -369,8 +365,8 @@ def case_slide(item):
             add_text(slide, x0+Inches(0.22), y+Inches(0.10), w-Inches(0.42), Inches(0.22), label, 9.5, color, True)
             add_text(slide, x0+Inches(0.22), y+Inches(0.37), w-Inches(0.42), Inches(0.48), body, 10.7, INK, True)
     else:
-        labels = [("INPUT", item["case"][0]), ("AI OUTPUT / RISK", item["case"][1]),
-                  ("HUMAN DECISION", item["case"][2]), ("AUDIT EVIDENCE", item["case"][3])]
+        labels = [("SITUATION", item["case"][0]), ("WHAT CAN GO WRONG", item["case"][1]),
+                  ("WHAT YOU DO", item["case"][2]), ("WHAT YOU KEEP", item["case"][3])]
         positions = [(0.72, 1.85), (6.72, 1.85), (0.72, 4.02), (6.72, 4.02)]
         for i, ((label, body), (x, y)) in enumerate(zip(labels, positions)):
             color = PALETTE[i]
@@ -384,9 +380,10 @@ def case_slide(item):
 def activity_slides(activity):
     start = len(prs.slides) + 1
     n = activity["num"]
-    slide = new_slide(f'Activity {n}: {activity["title"]}', f'TOPIC {activity["topic"]} | ROLE PLAY AND PRACTICE', TEAL)
+    slide = new_slide(f'Activity {n}: {activity["title"]}', f'TOPIC {activity["topic"]} | HANDS-ON ACTIVITY', TEAL)
     add_rect(slide, Inches(0.72), Inches(1.84), Inches(1.58), Inches(0.46), TEAL, radius=True)
     add_text(slide, Inches(0.72), Inches(1.86), Inches(1.58), Inches(0.40), f"ACTIVITY {n}", 13, WHITE, True, PP_ALIGN.CENTER, MSO_ANCHOR.MIDDLE)
+    add_text(slide, Inches(2.50), Inches(1.88), Inches(5.5), Inches(0.40), f'CASE STUDY  |  {activity["when"].upper()}', 11, GREY, True, valign=MSO_ANCHOR.MIDDLE)
     add_text(slide, Inches(10.55), Inches(1.84), Inches(2.02), Inches(0.46), f'{activity["duration"]} MIN', 13, TEAL, True, PP_ALIGN.RIGHT)
     add_text(slide, Inches(0.72), Inches(2.62), Inches(11.85), Inches(0.86), activity["scenario"], 18, INK, True)
     cards = [("ROLES", activity["roles"]), ("TOOLS", activity["tools"]), ("OUTPUT", activity["outcome"])]
@@ -396,22 +393,10 @@ def activity_slides(activity):
         add_rect(slide, Inches(xs[i]), Inches(4.00), Inches(3.72), Inches(0.10), PALETTE[i])
         add_text(slide, Inches(xs[i]+0.25), Inches(4.25), Inches(3.15), Inches(0.28), label, 11, PALETTE[i], True)
         add_text(slide, Inches(xs[i]+0.25), Inches(4.76), Inches(3.15), Inches(0.72), body, 12.5, INK, True)
-    add_text(slide, Inches(0.72), Inches(6.34), Inches(11.85), Inches(0.28), f"Detailed procedure and acceptance checklist: Learner Guide and activities/activity-{n:02d}/", 10, GREY, True)
+    add_text(slide, Inches(0.72), Inches(6.34), Inches(11.85), Inches(0.28), f"Step-by-step instructions and checklist: Learner Guide and activities/activity-{n:02d}/", 10, GREY, True)
 
-    workflows = {
-        1:["Frame role", "Map competency", "Define evidence", "Assign panel", "Approve contract"],
-        2:["Classify data", "Redact", "Threat-test", "Audit questions", "Record controls"],
-        3:["Set inputs", "Generate pack", "Inspect gaps", "Review questions", "Approve guide"],
-        4:["Select incident", "Draft item", "Create probes", "Anchor 1/3/5", "Pilot"],
-        5:["Open", "Ask core", "Probe", "Close", "Debrief"],
-        6:["Choose role", "Review rubric", "Interview", "Read evidence", "Retry"],
-        7:["Check access", "Set cues", "Simulate failure", "Recover", "Document"],
-        8:["Highlight evidence", "Score alone", "Reveal", "Calibrate", "Record"],
-        9:["Select evidence", "State impact", "Suggest action", "Confirm", "Observe"],
-        10:["Prepare", "Conduct", "Score", "Feedback", "Reflect"],
-    }
-    slide = new_slide(f'Activity {n} - mechanism and role hand-offs', f'TOPIC {activity["topic"]} | HIGH-LEVEL WORKFLOW', TEAL)
-    stages = workflows[n]
+    slide = new_slide(f'Activity {n} - steps at a glance', f'TOPIC {activity["topic"]} | STEPS', TEAL)
+    stages = activity["stages"]
     if n % 2:
         for i, stage in enumerate(stages):
             x = Inches(0.85 + i*2.39); color = PALETTE[i%4]
@@ -425,8 +410,8 @@ def activity_slides(activity):
                 conn.line.color.rgb = color; conn.line.width = Pt(2)
                 tail = OxmlElement('a:tailEnd'); tail.set('type', 'triangle'); conn._element.spPr.ln.append(tail)
     else:
-        add_text(slide, Inches(0.90), Inches(1.86), Inches(2.05), Inches(0.28), "PERFORM", 11, BLUE, True)
-        add_text(slide, Inches(0.90), Inches(4.18), Inches(2.05), Inches(0.28), "REVIEW + RETAIN", 11, TEAL, True)
+        add_text(slide, Inches(0.90), Inches(1.86), Inches(2.05), Inches(0.28), "DO", 11, BLUE, True)
+        add_text(slide, Inches(0.90), Inches(4.18), Inches(2.05), Inches(0.28), "CHECK AND KEEP", 11, TEAL, True)
         positions=[(3.05,1.84),(7.70,1.84),(3.05,4.12),(7.70,4.12),(10.12,2.98)]
         for i,(stage,(x,y)) in enumerate(zip(stages,positions)):
             color=PALETTE[i%4]
@@ -434,9 +419,9 @@ def activity_slides(activity):
             add_text(slide, Inches(x+0.18), Inches(y+0.14), Inches(0.40), Inches(0.28), str(i+1), 13, color, True)
             add_text(slide, Inches(x+0.63), Inches(y+0.15), Inches(1.38), Inches(0.68), stage, 12.5, INK, True, PP_ALIGN.CENTER, MSO_ANCHOR.MIDDLE)
     add_rect(slide, Inches(0.85), Inches(5.40), Inches(11.63), Inches(0.72), LIGHT)
-    add_text(slide, Inches(1.10), Inches(5.58), Inches(11.0), Inches(0.32), "This slide shows control hand-offs only. Full click paths, scripts and recovery steps stay in the Learner Guide.", 11.8, TEAL, True)
+    add_text(slide, Inches(1.10), Inches(5.58), Inches(11.0), Inches(0.32), "Full click-by-click steps, prompts and tips are in the Learner Guide and the Lab Prompt Pack.", 11.8, TEAL, True)
 
-    slide = new_slide(f'Activity {n} - evidence and acceptance', f'TOPIC {activity["topic"]} | VERIFY', TEAL)
+    slide = new_slide(f'Activity {n} - done when', f'TOPIC {activity["topic"]} | CHECKLIST', TEAL)
     checks = activity["checklist"][:5]
     if n % 2:
         for i, check in enumerate(checks):
@@ -453,7 +438,7 @@ def activity_slides(activity):
             add_text(slide, Inches(x+0.20), Inches(y+0.27), Inches(0.48), Inches(0.42), "OK", 9, WHITE, True, PP_ALIGN.CENTER, MSO_ANCHOR.MIDDLE)
             add_text(slide, Inches(x+0.88), Inches(y+0.18), Inches(4.35), Inches(0.62), check, 12.2, INK, True, valign=MSO_ANCHOR.MIDDLE)
     add_rect(slide, Inches(0.72), Inches(6.42), Inches(11.85), Inches(0.28), TEAL)
-    add_text(slide, Inches(0.90), Inches(6.42), Inches(11.4), Inches(0.25), f"Evidence pack: {activity['outcome']}", 9.5, WHITE, True, PP_ALIGN.CENTER, MSO_ANCHOR.MIDDLE)
+    add_text(slide, Inches(0.90), Inches(6.42), Inches(11.4), Inches(0.25), f"You will have: {activity['outcome']}", 9.5, WHITE, True, PP_ALIGN.CENTER, MSO_ANCHOR.MIDDLE)
     slide_map["activities"][str(n)] = {"title": activity["title"], "start": start, "end": len(prs.slides)}
 
 
@@ -570,10 +555,10 @@ def lab_login_slide():
     add_rect(slide, Inches(6.82), Inches(1.78), Inches(5.75), Inches(0.10), TEAL)
     add_text(slide, Inches(7.05), Inches(2.00), Inches(5.3), Inches(0.30), "WHAT YOU WILL USE TODAY", 11, TEAL, True)
     for i, line in enumerate([
-            "Copilot Chat - prompt engineering for interviews",
-            "Copilot Studio - build and publish your own agent",
-            "SharePoint - the synthetic candidate and policy corpus",
-            "Five reference agents, already published for you"]):
+            "Copilot Chat - ask, draft and research",
+            "Copilot in Word and Outlook - JD, offer letter, emails",
+            "Ready-made recruitment agents - screen, interview, score",
+            "SharePoint - practice resumes and HR policies"]):
         add_text(slide, Inches(7.05), Inches(2.38 + i*0.52), Inches(5.3), Inches(0.46), chr(8226) + "  " + line, 12, INK)
 
     add_rect(slide, Inches(0.72), Inches(5.02), Inches(11.85), Inches(1.12), WHITE, RED, True)
@@ -586,25 +571,39 @@ def lab_login_slide():
 
 
 def copilot_env_slide():
-    """The dedicated course environment, agents and workflows."""
-    slide = new_slide("Your Copilot Studio Environment", "COPILOT STUDIO | COURSE ENVIRONMENT", VIOLET)
-    add_rect(slide, Inches(0.72), Inches(1.78), Inches(11.85), Inches(0.86), LIGHT)
-    add_rect(slide, Inches(0.72), Inches(1.78), Inches(11.85), Inches(0.10), VIOLET)
-    add_text(slide, Inches(0.95), Inches(1.98), Inches(11.4), Inches(0.30), "ENVIRONMENT", 10.5, VIOLET, True)
-    add_text(slide, Inches(0.95), Inches(2.24), Inches(11.4), Inches(0.32), COPILOT_STUDIO_ENV, 14, INK, True)
-    rows = [(n, d) for n, d, _u in COPILOT_AGENTS]
-    for i, (name, desc) in enumerate(rows):
-        y = 2.86 + i*0.66
-        add_rect(slide, Inches(0.72), Inches(y), Inches(11.85), Inches(0.58), WHITE, LINE, True)
-        add_rect(slide, Inches(0.72), Inches(y), Inches(0.09), Inches(0.58), PALETTE[i % 4])
-        add_text(slide, Inches(0.98), Inches(y+0.05), Inches(3.55), Inches(0.48), name, 11.5, INK, True, valign=MSO_ANCHOR.MIDDLE)
-        add_text(slide, Inches(4.60), Inches(y+0.05), Inches(7.85), Inches(0.48), desc, 10.5, GREY, valign=MSO_ANCHOR.MIDDLE)
-    wf = "   |   ".join(f"Activity {n}" for n, _t, _d in COPILOT_WORKFLOWS)
-    add_text(slide, Inches(0.72), Inches(6.16), Inches(11.85), Inches(0.28),
-             f"Workflows, named for the activity they support:  {wf}", 11, VIOLET, True, PP_ALIGN.CENTER)
-    add_text(slide, Inches(0.72), Inches(6.44), Inches(11.85), Inches(0.28),
-             "All five agents are published. Anything marked DO NOT DELETE is a shared class asset.",
-             10.5, GREY, True, PP_ALIGN.CENTER)
+    """The ready-made course agents plus the agents built into Copilot Chat."""
+    slide = new_slide("Your Recruitment Agents", "COPILOT AGENTS | READY TO USE", VIOLET)
+    rows = [(n, d, "COURSE AGENT") for n, d, _u in COPILOT_AGENTS] + [(n, d, "BUILT INTO COPILOT") for n, d in BUILTIN_AGENTS]
+    for i, (name, desc, kind) in enumerate(rows):
+        y = 1.84 + i*0.70
+        color = PALETTE[i % 4] if kind == "COURSE AGENT" else TEAL
+        add_rect(slide, Inches(0.72), Inches(y), Inches(11.85), Inches(0.60), WHITE, LINE, True)
+        add_rect(slide, Inches(0.72), Inches(y), Inches(0.09), Inches(0.60), color)
+        add_text(slide, Inches(0.98), Inches(y+0.06), Inches(2.45), Inches(0.48), name, 12.5, INK, True, valign=MSO_ANCHOR.MIDDLE)
+        add_text(slide, Inches(3.45), Inches(y+0.06), Inches(1.75), Inches(0.48), kind, 8.5, color, True, valign=MSO_ANCHOR.MIDDLE)
+        add_text(slide, Inches(5.20), Inches(y+0.04), Inches(7.20), Inches(0.52), desc, 10.3, GREY, valign=MSO_ANCHOR.MIDDLE)
+    add_rect(slide, Inches(0.72), Inches(6.12), Inches(11.85), Inches(0.46), LIGHT)
+    add_text(slide, Inches(0.95), Inches(6.18), Inches(11.4), Inches(0.34),
+             "Open an agent, ask in plain English, review the draft - you make the decision. Links are in the Learner Guide and Lab Prompt Pack.",
+             11, VIOLET, True, PP_ALIGN.CENTER, MSO_ANCHOR.MIDDLE)
+
+
+def scenario_slide():
+    """Microsoft Adoption scenario: Streamline your recruiting process (six steps)."""
+    slide = new_slide("Microsoft's Recruiting Scenario in Six Steps", "MICROSOFT ADOPTION | STREAMLINE YOUR RECRUITING PROCESS", BLUE)
+    for i, (step, app, prompt) in enumerate(MS_SCENARIO):
+        col = i % 3; row = i // 3
+        x = Inches(0.72 + col*4.00); y = Inches(1.80 + row*2.12); color = PALETTE[i % 4]
+        add_rect(slide, x, y, Inches(3.82), Inches(1.94), LIGHT, LINE, True)
+        add_rect(slide, x, y, Inches(3.82), Inches(0.09), color)
+        add_rect(slide, x+Inches(0.18), y+Inches(0.24), Inches(0.46), Inches(0.46), color, radius=True)
+        add_text(slide, x+Inches(0.18), y+Inches(0.25), Inches(0.46), Inches(0.42), str(i+1), 15, WHITE, True, PP_ALIGN.CENTER, MSO_ANCHOR.MIDDLE)
+        add_text(slide, x+Inches(0.76), y+Inches(0.20), Inches(2.92), Inches(0.30), step, 12.5, INK, True)
+        add_text(slide, x+Inches(0.76), y+Inches(0.50), Inches(2.92), Inches(0.24), app.upper(), 8.8, color, True)
+        add_text(slide, x+Inches(0.20), y+Inches(0.88), Inches(3.42), Inches(0.94), f"\u201c{prompt}\u201d", 9.8, GREY)
+    add_text(slide, Inches(0.72), Inches(6.12), Inches(8.6), Inches(0.28),
+             "Measure the benefit: " + ", ".join(MS_SCENARIO_KPIS) + ".", 10, TEAL, True)
+    add_link_text(slide, Inches(9.30), Inches(6.12), Inches(3.27), Inches(0.28), "Open the Microsoft scenario", MS_SCENARIO_URL, 10, BLUE)
 
 
 def sharepoint_corpus_slide():
@@ -622,12 +621,69 @@ def sharepoint_corpus_slide():
         add_text(slide, Inches(9.80), Inches(y+0.04), Inches(2.65), Inches(0.48), "Resumes | HR policies | JD", 10, GREY, valign=MSO_ANCHOR.MIDDLE)
     add_rect(slide, Inches(0.72), Inches(6.02), Inches(11.85), Inches(0.60), WHITE, RED, True)
     add_text(slide, Inches(0.95), Inches(6.12), Inches(11.4), Inches(0.42),
-             "Every resume is synthetic. One of them hides a prompt-injection instruction - your screening agent must catch it, not obey it.",
+             "Every resume is invented for training. One hides text asking the AI to rank it first - you will see the Candidate Screener flag it.",
              11.5, INK, True)
 
 
+def case_slides():
+    """The course case study: one FutureTech hiring round followed through every activity."""
+    slide = new_slide(f"Our Case Study: {CASE['company'].replace(' Pte Ltd','')} Hires a {CASE['role']}", "COURSE CASE STUDY | FOLLOWED THROUGH ALL 10 ACTIVITIES", TEAL)
+    add_rect(slide, Inches(0.72), Inches(1.80), Inches(6.55), Inches(4.30), LIGHT)
+    add_rect(slide, Inches(0.72), Inches(1.80), Inches(6.55), Inches(0.09), TEAL)
+    add_text(slide, Inches(0.98), Inches(2.02), Inches(6.0), Inches(0.28), "THE COMPANY", 10.5, TEAL, True)
+    add_text(slide, Inches(0.98), Inches(2.32), Inches(6.0), Inches(0.62), CASE["about"], 12.5, INK, True)
+    add_text(slide, Inches(0.98), Inches(3.02), Inches(6.0), Inches(0.28), "WHY THEY ARE HIRING", 10.5, TEAL, True)
+    add_text(slide, Inches(0.98), Inches(3.32), Inches(6.0), Inches(0.95), CASE["why"], 11.5, INK)
+    add_text(slide, Inches(0.98), Inches(4.36), Inches(6.0), Inches(0.28), "THE HIRING MANAGER'S BRIEF", 10.5, TEAL, True)
+    add_text(slide, Inches(0.98), Inches(4.66), Inches(6.0), Inches(1.30), "“" + CASE["brief_quote"] + "”  - Priya Nair", 11, GREY)
+    facts = [("ROLE", CASE["role"]), ("START DATE", CASE["start"]), ("PAY BAND", CASE["band"]),
+             ("JOB DESCRIPTION", CASE["jd_file"] + " (FutureTech-Careers site)")]
+    for i, (h, b) in enumerate(facts):
+        y = Inches(1.80 + i*1.10); color = PALETTE[i % 4]
+        add_rect(slide, Inches(7.55), y, Inches(5.02), Inches(0.94), WHITE, LINE, True)
+        add_rect(slide, Inches(7.55), y, Inches(0.09), Inches(0.94), color)
+        add_text(slide, Inches(7.82), y+Inches(0.12), Inches(4.6), Inches(0.26), h, 10, color, True)
+        add_text(slide, Inches(7.82), y+Inches(0.42), Inches(4.6), Inches(0.44), b, 12, INK, True)
+    add_text(slide, Inches(0.72), Inches(6.30), Inches(11.85), Inches(0.28),
+             "Spot the problem in the brief? You will fix it in Activity 2.", 11.5, TEAL, True, PP_ALIGN.CENTER)
+
+    slide = new_slide("Meet the Hiring Team and the Applicants", "COURSE CASE STUDY | WHO IS WHO", TEAL)
+    for i, (name, title, note) in enumerate(CASE_CAST):
+        x = Inches(0.72 + i*3.0); color = PALETTE[i % 4]
+        add_rect(slide, x, Inches(1.78), Inches(2.82), Inches(1.72), LIGHT)
+        add_rect(slide, x, Inches(1.78), Inches(2.82), Inches(0.09), color)
+        add_text(slide, x+Inches(0.20), Inches(1.98), Inches(2.45), Inches(0.28), name, 13, INK, True)
+        add_text(slide, x+Inches(0.20), Inches(2.28), Inches(2.45), Inches(0.24), title.upper(), 9, color, True)
+        add_text(slide, x+Inches(0.20), Inches(2.58), Inches(2.45), Inches(0.82), note, 9.8, GREY)
+    add_text(slide, Inches(0.72), Inches(3.66), Inches(6.0), Inches(0.26), "THE APPLICANTS (PRACTICE FILES IN SHAREPOINT)", 10, TEAL, True)
+    for i, (cid, name, applied, note) in enumerate(CASE_CANDIDATES):
+        y = Inches(3.98 + i*0.50)
+        add_rect(slide, Inches(0.72), y, Inches(11.85), Inches(0.44), WHITE, LINE, True)
+        add_text(slide, Inches(0.92), y+Inches(0.07), Inches(1.45), Inches(0.30), cid, 10, BLUE, True)
+        add_text(slide, Inches(2.40), y+Inches(0.07), Inches(1.65), Inches(0.30), name, 10.5, INK, True)
+        add_text(slide, Inches(4.05), y+Inches(0.07), Inches(1.85), Inches(0.30), applied, 9.5, GREY, True)
+        add_text(slide, Inches(5.95), y+Inches(0.05), Inches(6.50), Inches(0.36), note, 9.3, INK)
+
+    slide = new_slide("The Hiring Round, Week by Week", "COURSE CASE STUDY | TIMELINE", TEAL)
+    for i, (when, what, acts) in enumerate(CASE_TIMELINE):
+        col = i % 3; row = i // 3
+        x = Inches(0.72 + col*4.00); y = Inches(1.80 + row*1.50); color = PALETTE[i % 4]
+        add_rect(slide, x, y, Inches(3.82), Inches(1.32), LIGHT, LINE, True)
+        add_rect(slide, x, y, Inches(0.09), Inches(1.32), color)
+        add_text(slide, x+Inches(0.24), y+Inches(0.12), Inches(2.2), Inches(0.26), when.upper(), 9.5, color, True)
+        add_text(slide, x+Inches(2.30), y+Inches(0.12), Inches(1.38), Inches(0.26), acts, 9, GREY, True, PP_ALIGN.RIGHT)
+        add_text(slide, x+Inches(0.24), y+Inches(0.46), Inches(3.40), Inches(0.78), what, 11.5, INK, True)
+    add_text(slide, Inches(0.72), Inches(6.36), Inches(11.85), Inches(0.28),
+             "Each activity is the next step in this hiring round - your outputs carry forward.", 11.5, TEAL, True, PP_ALIGN.CENTER)
+
+
+def case_outcome_slide():
+    cards_slide("Case Study: How the Hiring Round Ended", CASE_OUTCOME[:4], "COURSE CASE STUDY | OUTCOME", accent=TEAL,
+                takeaway=CASE_OUTCOME[4][1] + " Copilot drafted every step; the hiring team made every decision.")
+
+
 def prompt_pattern_slide():
-    slide = new_slide("The Four-Part Prompt Pattern", "PROMPT ENGINEERING | CORE METHOD", BLUE)
+    slide = new_slide("Write Better Prompts: Goal, Context, Source, Expectations", "PROMPTING | THE CORE HABIT", BLUE)
     for i, (part, desc) in enumerate(PROMPT_PATTERN):
         x = Inches(0.72 + i*2.99)
         add_rect(slide, x, Inches(2.05), Inches(2.78), Inches(2.62), LIGHT)
@@ -638,12 +694,12 @@ def prompt_pattern_slide():
         add_text(slide, x+Inches(0.16), Inches(3.50), Inches(2.46), Inches(1.02), desc, 10.5, GREY, align=PP_ALIGN.CENTER)
     add_rect(slide, Inches(0.72), Inches(4.94), Inches(11.85), Inches(1.16), WHITE, LINE, True)
     add_text(slide, Inches(0.95), Inches(5.04), Inches(11.4), Inches(0.28), "WEAK PROMPT", 10.5, RED, True)
-    add_text(slide, Inches(0.95), Inches(5.30), Inches(11.4), Inches(0.30), "\"Give me interview questions for a data analyst.\"", 12, GREY)
+    add_text(slide, Inches(0.95), Inches(5.30), Inches(11.4), Inches(0.30), "\"Give me interview questions for a data analyst.\"  (generic, not about your role)", 12, GREY)
     add_text(slide, Inches(0.95), Inches(5.62), Inches(11.4), Inches(0.28), "STRONG PROMPT", 10.5, TEAL, True)
     add_text(slide, Inches(0.95), Inches(5.86), Inches(11.4), Inches(0.30),
-             "Role + the approved JD + one task + constraints (no protected traits, one competency per question, anchors required).", 11.5, INK)
+             "Goal: 6 questions | Context: Senior Data Analyst, 1st round | Source: /JD | Expectations: one requirement each, no personal topics", 11.5, INK)
     add_text(slide, Inches(0.72), Inches(6.26), Inches(11.85), Inches(0.30),
-             "Most bad AI output is a good model answering a bad prompt.", 11.5, GREY, True, PP_ALIGN.CENTER)
+             "The more Copilot knows about what you need, the better the draft.", 11.5, GREY, True, PP_ALIGN.CENTER)
 
 
 def tool_screenshot_slide(title, image, url, points):
@@ -698,7 +754,7 @@ def source_slides():
     items = list(SOURCES.items())
     chunk = 7
     for page, start in enumerate(range(0, len(items), chunk), 1):
-        slide = new_slide(f"Sources and further reading ({page})", "REFERENCE | ACCESSED AUGUST 2026", BLUE)
+        slide = new_slide(f"Sources and further reading ({page})", "REFERENCE | ACCESSED SEPTEMBER 2026", BLUE)
         subset = items[start:start+chunk]
         for i, (key, url) in enumerate(subset):
             y = Inches(1.82 + i*0.67); color = PALETTE[i%4]
@@ -729,36 +785,27 @@ def build_deck():
     trainer_profile_slide(TRAINER, "PhD | Founder, Tertiary Infotech Academy | 15+ years in AI and automation",
                           ["Founder and technical trainer at Tertiary Infotech Academy.",
                            "Specialises in AI, cloud, automation and applied workplace learning.",
-                           "Teaches mechanism-led, evidence-based practice, not tool tours.",
+                           "Teaches practical, hands-on use of AI in everyday work.",
                            "Contact: enquiry@tertiaryinfotech.com"], accent=VIOLET)
-    admin_cards("Learner Introduction", [("YOUR ROLE", "Interviewer, interviewee or both?"), ("ONE CHALLENGE", "What makes interviews difficult?"), ("ONE GOAL", "What evidence do you want to improve?"), ("PAIR UP", "You will rotate roles during activities.")])
-    admin_cards("Ground Rules", [("RESPECT", "Protect role-play safety and confidentiality."), ("PARTICIPATE", "Practise, observe and give evidence-based feedback."), ("PRIVACY", "Use only de-identified training data in AI tools."), ("CHALLENGE", "Question AI output and document human decisions.")])
+    admin_cards("Learner Introduction", [("YOUR ROLE", "HR, recruiter or hiring manager?"), ("ONE CHALLENGE", "What slows your hiring down today?"), ("ONE GOAL", "What would you like Copilot to take off your plate?"), ("PAIR UP", "You will swap roles during activities.")])
+    admin_cards("Ground Rules", [("RESPECT", "Protect role-play safety and confidentiality."), ("PARTICIPATE", "Practise, observe and give evidence-based feedback."), ("PRIVACY", "Use only de-identified training data in AI tools."), ("CHECK", "Review every Copilot draft; people make the decisions.")])
     admin_cards("Course Roadmap", [("TOPIC 1", TOPICS[0][1]), ("TOPIC 2", TOPICS[1][1]), ("TOPIC 3", TOPICS[2][1]), ("PRACTICE", "10 progressive activities and a capstone role play.")], accent=TEAL)
-    admin_cards("Learning Outcomes", [("LO1", LEARNING_OUTCOMES[0]), ("LO2", LEARNING_OUTCOMES[1]), ("LO3", LEARNING_OUTCOMES[2]), ("EVIDENCE", "Guide, transcript, scoring and feedback artefacts.")], accent=BLUE)
+    admin_cards("Learning Outcomes", [("LO1", LEARNING_OUTCOMES[0]), ("LO2", LEARNING_OUTCOMES[1]), ("LO3", LEARNING_OUTCOMES[2]), ("YOU WILL MAKE", "Shortlist, interview kit, scores, feedback and onboarding plan.")], accent=BLUE)
     admin_cards("Skills Framework", [("TSC", f"{TSC_TITLE} | {TSC_CODE}"), ("KNOWLEDGE", "K1-K6: types, outcomes, constraints, objectives, questions, listening."), ("ABILITIES", "A1 manage | A2 deliver | A3 provide improvement input."), ("ALIGNMENT", "Every concept and activity carries K/A tags.")], accent=VIOLET)
     admin_cards("Briefing for Assessment", [("FORMAT", "Open book: course slides and Learner Guide."), ("INTEGRITY", "Individual responses; no discussion or recording."), ("SUBMISSION", "Complete the provided documents and upload to LMS."), ("SUPPORT", "Clarify administrative instructions before timing starts.")], accent=AMBER)
     admin_cards("Assessment and Funding", [("WA", "6 open-ended SAQs | K1-K6 | 30 minutes."), ("ROLE PLAY", "One scenario | A1-A3 | 30 minutes."), ("RESULT", "Competent / Not Yet Competent with appeal rights."), ("FUNDING", "At least 75 percent attendance and competent assessment.")], accent=VIOLET)
     flow_slide()
     lab_login_slide()
+    scenario_slide()
     copilot_env_slide()
     sharepoint_corpus_slide()
+    case_slides()
     prompt_pattern_slide()
-    if (ASSETS / "copilot-chat-tgfep.png").exists():
-        tool_screenshot_slide("Microsoft 365 Copilot Chat", ASSETS / "copilot-chat-tgfep.png", COPILOT_CHAT_URL,
-                              ["Sign in with your training account.",
-                               "Ask a job-related question in your own words.",
-                               "Read the answer critically and verify legal claims at source.",
-                               "Never paste identifiers or a real candidate CV."])
-    if (ASSETS / "copilot-agents-list.png").exists():
-        tool_screenshot_slide("Published Agents in Your Environment", ASSETS / "copilot-agents-list.png", COPILOT_AGENTS_URL,
-                              ["Five reference agents, already published.",
-                               "Open one and read its Instructions before using it.",
-                               "Build your own in Activity 6 and publish it.",
-                               "Workflows named DO NOT DELETE are shared class assets."])
-    tool_screenshot_slide("HR Interview Question Generator", ASSETS / "hr-question-generator.png", HR_TOOL_URL,
-                          ["Enter de-identified CV and JD evidence.", "Inspect matches, gaps and unknowns.", "Review 15-plus questions across eight categories.", "Approve a printable interview guide."])
-    tool_screenshot_slide("AI Interview Practice Lab", ASSETS / "ai-interview-practice.png", AI_PRACTICE_URL,
-                          ["Choose one of six role-specific rubrics.", "Practise 6-10 questions in Demo mode.", "Receive criterion-level feedback.", "Upgrade the weakest answer and retry."])
+    tool_screenshot_slide("Microsoft 365 Copilot Chat", ASSETS / "copilot-chat-tgfep.png", COPILOT_CHAT_URL,
+                          ["Sign in with your training (work) account.",
+                           "Ask in your own words - like briefing a colleague.",
+                           "Find Researcher, Analyst and other agents under Agents.",
+                           "Check facts and never paste personal details."])
     admin_cards("Courseware and Activities Access", [("LMS", LMS_URL), ("ACTIVITIES", "Each activity has its own instruction and checklist PDF."), ("GITHUB", GITHUB_URL), ("DATA", "Use supplied de-identified files; never upload live candidate data.")], accent=TEAL)
     for topic_no, topic_title, topic_codes in TOPICS:
         slide_map["topics"][str(topic_no)] = {"title": topic_title, "start": len(prs.slides)+1}
@@ -771,11 +818,12 @@ def build_deck():
             case_slide(item)
         for activity in [a for a in ACTIVITIES if a["topic"] == topic_no]:
             activity_slides(activity)
-        cards_slide(f"Topic {topic_no} evidence recap", [("MECHANISM", "Name the process and control points."), ("EVIDENCE", "Retain traceable artefacts."), ("FAILURE", "Recognise bias, drift and missing evidence."), ("PRACTICE", "Apply the activity checklist before moving on.")], f"TOPIC {topic_no} | RECAP", accent=PALETTE[(topic_no-1)%4], takeaway="Explain one human decision that changed or rejected an AI suggestion.")
+        cards_slide(f"Topic {topic_no} recap", [("KEY IDEAS", "Recall the main steps and rules from this topic."), ("WHAT YOU MADE", "Keep your activity outputs - you will reuse them in the capstone."), ("WATCH OUTS", "Bias, missing evidence and facts Copilot made up."), ("CHECK", "Tick off the activity checklist before moving on.")], f"TOPIC {topic_no} | RECAP", accent=PALETTE[(topic_no-1)%4], takeaway="Name one Copilot suggestion you changed or rejected, and why.")
         if topic_no < 3:
-            cards_slide("Break and reset", [("SAVE", "Save only de-identified activity evidence."), ("RESET", "Clear pasted data and close AI sessions."), ("REFLECT", "Write one question or control to revisit."), ("RETURN", "Be ready to rotate role-play positions.")], "COURSE BREAK", accent=TEAL, takeaway="Breaks are not evidence-retention periods: clear live personal data from shared devices.")
+            cards_slide("Break and reset", [("SAVE", "Save only de-identified activity evidence."), ("RESET", "Clear pasted data and close AI sessions."), ("REFLECT", "Write one question or control to revisit."), ("RETURN", "Be ready to swap roles in the next activity.")], "COURSE BREAK", accent=TEAL, takeaway="Before a break, close any window showing candidate information on a shared screen.")
         slide_map["topics"][str(topic_no)]["end"] = len(prs.slides)
-    cards_slide("What You Can Now Do", [("PLAN", "Create a fair, job-related interview evidence contract."), ("GENERATE", "Use GenAI to draft questions under explicit constraints."), ("CONDUCT", "Interview and answer with structure, listening and neutral probes."), ("DECIDE", "Score, compare and provide feedback from evidence.")], "COURSE SUMMARY", accent=TEAL, takeaway="AI accelerates preparation and practice; people remain accountable for fair hiring decisions.")
+    case_outcome_slide()
+    cards_slide("What You Can Now Do", [("SCREEN", "Use Copilot and agents to screen candidates against clear criteria."), ("PREPARE", "Build fair interview kits and scoring guides with Copilot."), ("INTERVIEW", "Practise and run interviews with good questions and follow-ups."), ("DECIDE AND WELCOME", "Score fairly, give feedback, draft the offer and onboarding plan.")], "COURSE SUMMARY", accent=TEAL, takeaway="Copilot speeds up the drafting; people stay accountable for fair hiring decisions.")
     source_slides()
     lms_orientation_slide()
     practice_exam_slide()
@@ -785,7 +833,7 @@ def build_deck():
     slide = new_slide(numbered=True)
     add_rect(slide, Inches(0.72), Inches(1.80), Inches(11.85), Inches(4.65), LIGHT)
     add_text(slide, Inches(1.20), Inches(2.35), Inches(10.85), Inches(0.40), "THANK YOU", 16, TEAL, True, PP_ALIGN.CENTER)
-    add_text(slide, Inches(1.20), Inches(3.05), Inches(10.85), Inches(1.10), "Interview with evidence.\nUse AI with judgement.", 36, INK, True, PP_ALIGN.CENTER)
+    add_text(slide, Inches(1.20), Inches(3.05), Inches(10.85), Inches(1.10), "Hire with evidence.\nLet Copilot do the drafting.", 36, INK, True, PP_ALIGN.CENTER)
     add_link_text(slide, Inches(3.00), Inches(5.15), Inches(7.3), Inches(0.34), COURSE_URL, COURSE_URL, 12, BLUE)
     for idx, slide in enumerate(prs.slides):
         _transition(slide, "push" if idx in section_slide_ids else "fade", "med" if idx in section_slide_ids else "fast")
@@ -898,6 +946,35 @@ def _version_and_toc(doc, changes, history=()):
     doc.add_page_break()
 
 
+def _case_section_docx(doc):
+    doc.add_heading("The Course Case Study: FutureTech Hires a Senior Data Analyst", level=1)
+    doc.add_paragraph(f"{CASE['about']} {CASE['why']} Every activity in this guide is the next step in this one hiring round, and your outputs carry forward from activity to activity.")
+    p=doc.add_paragraph(); p.add_run("The hiring manager's brief: ").bold=True; p.add_run("“"+CASE["brief_quote"]+"” - Priya Nair")
+    doc.add_paragraph(f"Role: {CASE['role']} | Start date: {CASE['start']} | Pay band: {CASE['band']} | Job description: {CASE['jd_file']}")
+    for heading, cols, rows in [("The hiring team", ["Name","Role","In the story"], CASE_CAST),
+                                ("The applicants (practice files in the FutureTech-Careers site)", ["ID","Name","Applied for","What to notice"], CASE_CANDIDATES),
+                                ("Timeline", ["When","What happens","Activities"], CASE_TIMELINE)]:
+        doc.add_heading(heading, level=2)
+        t=doc.add_table(rows=1, cols=len(cols)); t.alignment=WD_TABLE_ALIGNMENT.CENTER
+        for j,h in enumerate(cols): _set_cell_text(t.cell(0,j),h,True,9,"FFFFFF"); _shade(t.cell(0,j),"1F6FEB"); _set_cell_margins(t.cell(0,j))
+        _repeat_header(t.rows[0])
+        for r in rows:
+            cells=t.add_row().cells
+            for j,v in enumerate(r): _set_cell_text(cells[j],v,j==0,9); _set_cell_margins(cells[j])
+            _cant_split(t.rows[-1])
+
+
+def _case_section_md():
+    L=["## The Course Case Study: FutureTech Hires a Senior Data Analyst", "",
+       f"{CASE['about']} {CASE['why']} Every activity is the next step in this one hiring round.", "",
+       f"> “{CASE['brief_quote']}” - Priya Nair, Head of Analytics", "",
+       f"Role: {CASE['role']} | Start date: {CASE['start']} | Pay band: {CASE['band']}", "",
+       "| Name | Role | In the story |", "|---|---|---|"] + [f"| {a} | {b} | {c} |" for a,b,c in CASE_CAST]
+    L+=["", "| ID | Name | Applied for | What to notice |", "|---|---|---|---|"] + [f"| {a} | {b} | {c} | {d} |" for a,b,c,d in CASE_CANDIDATES]
+    L+=["", "| When | What happens | Activities |", "|---|---|---|"] + [f"| {a} | {b} | {c} |" for a,b,c in CASE_TIMELINE] + [""]
+    return L
+
+
 def build_learner_guide_md():
     """Markdown mirror of the Learner Guide - same single source, so the two cannot diverge."""
     L = []
@@ -907,27 +984,28 @@ def build_learner_guide_md():
     L.append(f"**Provider:** {ORG} (UEN {UEN})  |  **Trainer:** {TRAINER}")
     L.append("")
     L.append("## How to Use This Guide")
-    L.append("Use the concept sections before each activity, then follow the detailed steps in the matching "
-             "activity folder. Work only with de-identified training data. The slides explain mechanisms and "
-             "decision rules; this guide contains the complete operational procedure.")
+    L.append("Written for HR professionals, recruiters and hiring managers - no technical background is needed. Each topic explains the ideas in plain language with a worked example, then the activities walk you through Copilot click by click. Work only with the practice data supplied. The Lab Prompt Pack has every prompt ready to copy.")
     L.append("")
     L.append(f"[Course LMS]({LMS_URL}) | [Microsoft 365 Copilot]({M365_PORTAL}) | "
-             f"[Copilot Studio environment]({COPILOT_AGENTS_URL}) | [AI Interview Practice Lab]({AI_PRACTICE_URL})")
+             f"[Copilot Chat]({COPILOT_CHAT_URL}) | [Microsoft recruiting scenario]({MS_SCENARIO_URL})")
     L.append("")
     L.append("## Your Lab Sign-In")
     L.append(f"- Portal: {M365_PORTAL}")
     L.append(f"- Accounts: `{LAB_LOGIN_USER_1}` or `{LAB_LOGIN_USER_2}`")
     L.append(f"- **{LAB_LOGIN_NOTE}**")
     L.append("")
-    L.append("### Published agents in the course environment")
+    L.append("### Your recruitment agents")
     for an, ad, au in COPILOT_AGENTS:
         L.append(f"- **{an}** - {ad} ([open]({au}))")
+    for an, ad in BUILTIN_AGENTS:
+        L.append(f"- **{an}** (built into Copilot Chat, under Agents) - {ad}")
     L.append("")
-    L.append(f"### SharePoint practice corpus")
+    L.append(f"### SharePoint practice sites")
     L.append(SHAREPOINT_CORPUS)
     for sn, ss, su in SHAREPOINT_SITES:
         L.append(f"- [{sn}]({su}) - {ss}")
     L.append("")
+    L += _case_section_md()
     L.append("## Course Outcomes and Assessment")
     for lo in LEARNING_OUTCOMES: L.append(f"- {lo}")
     L.append("")
@@ -943,34 +1021,34 @@ def build_learner_guide_md():
             L.append(f"### {item['title']}")
             L.append(item["rule"])
             L.append("")
-            L.append("| Mechanism | Control / evidence |")
+            L.append("| Step | Good practice |")
             L.append("|---|---|")
             for st, (head, body) in zip(item["mechanism"], item["controls"]):
                 L.append(f"| {st} | **{head}:** {body} |")
             L.append("")
-            L.append(f"**Worked evidence:** Input: {item['case'][0]}  AI risk: {item['case'][1]}  "
-                     f"Human review: {item['case'][2]}  Evidence: {item['case'][3]}")
+            L.append(f"**Worked example:** Situation: {item['case'][0]}. What can go wrong: {item['case'][1]}. "
+                     f"What you do: {item['case'][2]}. What you keep: {item['case'][3]}.")
             L.append(f"**Source:** {item['source']}")
             L.append("")
         for a in [x for x in ACTIVITIES if x["topic"] == topic_no]:
             L.append(f"### Activity {a['num']}: {a['title']}")
             L.append(f"- **Goal:** {a['outcome']}")
-            L.append(f"- **Scenario:** {a['scenario']}")
+            L.append(f"- **Case study - {a['when']}:** {a['scenario']}")
             L.append(f"- **Roles:** {a['roles']}")
             L.append(f"- **Tools:** {a['tools']}")
             L.append(f"- **Duration:** {a['duration']} minutes")
             L.append("")
-            L.append("**Before you start.** Use only the supplied de-identified scenario and files. Keep the "
-                     "instruction PDF and checklist PDF open from the activity folder. Do not enter live "
-                     "candidate, employer-confidential or production API-key data.")
+            L.append("**Before you start.** Use only the practice files supplied. Keep the instruction and "
+                     "checklist PDFs from the activity folder open. Never enter real candidate or "
+                     "company-confidential information.")
             L.append("")
             L.append("**Step-by-step**")
             for i, step in enumerate(a["steps"], 1): L.append(f"{i}. {step}")
             L.append("")
-            L.append("**Evidence to save**")
+            L.append("**What to save**")
             for name in a["files"]: L.append(f"- `{name}`")
             L.append("")
-            L.append("**Acceptance checklist**")
+            L.append("**Done when**")
             for check in a["checklist"]: L.append(f"- [ ] {check}")
             L.append("")
             L.append(f"Folder: `activities/activity-{a['num']:02d}-{slug(a['title'])}/`")
@@ -995,32 +1073,36 @@ def build_learner_guide_md():
 
 def _activity_image(activity):
     """Pick the most relevant course screenshot for an activity's Learner Guide section."""
-    t = (activity["title"] + " " + activity["tools"]).lower()
-    if "practice lab" in t or "web app" in t:
-        return ASSETS / "ai-interview-practice.png"
-    if "copilot studio" in t or "agent" in t:
-        return ASSETS / "copilot-agents-list.png"
-    if "question generator" in t:
-        return ASSETS / "hr-question-generator.png"
-    return ASSETS / "copilot-chat-tgfep.png"
+    if activity["num"] in (1, 4, 6, 7):   # the activities that start in Copilot Chat
+        return ASSETS / "copilot-chat-tgfep.png"
+    return None
 
 
 def build_learner_guide():
     doc=Document(); _doc_styles(doc); _cover(doc,"Learner Guide")
-    _version_and_toc(doc,RETITLE_NOTE,VERSION_HISTORY["LG"])
+    _version_and_toc(doc,CHANGE_NOTE["LG"],VERSION_HISTORY["LG"])
     doc.add_heading("How to Use This Guide", level=1)
-    doc.add_paragraph("Use the concept sections before each activity, then follow the detailed steps in the matching activity folder. Work only with de-identified training data. The slides explain mechanisms and decision rules; this guide contains the complete operational procedure.")
-    p=doc.add_paragraph(); _hyperlink(p,"Course LMS",LMS_URL); p.add_run(" | "); _hyperlink(p,"Microsoft 365 Copilot",M365_PORTAL); p.add_run(" | "); _hyperlink(p,"Copilot Studio environment",COPILOT_AGENTS_URL); p.add_run(" | "); _hyperlink(p,"AI Interview Practice Lab",AI_PRACTICE_URL)
+    doc.add_paragraph("Written for HR professionals, recruiters and hiring managers - no technical background is needed. Each topic explains the ideas in plain language with a worked example, then the activities walk you through Copilot click by click. Work only with the practice data supplied. The Lab Prompt Pack has every prompt ready to copy.")
+    p=doc.add_paragraph(); _hyperlink(p,"Course LMS",LMS_URL); p.add_run(" | "); _hyperlink(p,"Microsoft 365 Copilot",M365_PORTAL); p.add_run(" | "); _hyperlink(p,"Copilot Chat",COPILOT_CHAT_URL); p.add_run(" | "); _hyperlink(p,"Microsoft recruiting scenario",MS_SCENARIO_URL)
     doc.add_heading("Your Lab Sign-In", level=1)
     doc.add_paragraph(f"Portal: {M365_PORTAL}")
     doc.add_paragraph(f"Accounts: {LAB_LOGIN_USER_1} or {LAB_LOGIN_USER_2}")
     doc.add_paragraph(LAB_LOGIN_NOTE)
-    doc.add_paragraph("Published agents in the course environment:")
+    doc.add_heading("Your Recruitment Agents", level=2)
     for _an,_ad,_au in COPILOT_AGENTS:
         _p=doc.add_paragraph(style="List Bullet"); _p.add_run(_an+" - ").bold=True; _p.add_run(_ad+"  "); _hyperlink(_p,"open",_au)
-    doc.add_paragraph("SharePoint practice corpus: "+SHAREPOINT_CORPUS)
+    for _an,_ad in BUILTIN_AGENTS:
+        _p=doc.add_paragraph(style="List Bullet"); _p.add_run(_an+" (built into Copilot Chat, under Agents) - ").bold=True; _p.add_run(_ad)
+    doc.add_heading("Microsoft's Recruiting Scenario", level=2)
+    doc.add_paragraph("This course follows Microsoft's 'Streamline your recruiting process' scenario. Each step starts with a Copilot draft and ends with your review.")
+    for _i,(_st,_app,_pr) in enumerate(MS_SCENARIO,1):
+        _p=doc.add_paragraph(style="List Number"); _p.add_run(f"{_st} ({_app}): ").bold=True; _p.add_run(f"\u201c{_pr}\u201d")
+    _p=doc.add_paragraph(); _hyperlink(_p,"Open the Microsoft scenario",MS_SCENARIO_URL)
+    doc.add_heading("SharePoint Practice Sites", level=2)
+    doc.add_paragraph(SHAREPOINT_CORPUS)
     for _sn,_ss,_su in SHAREPOINT_SITES:
         _p=doc.add_paragraph(style="List Bullet"); _p.add_run(f"{_sn} ({_ss}): "); _hyperlink(_p,_su,_su)
+    _case_section_docx(doc)
     doc.add_heading("Course Outcomes and Assessment", level=1)
     for lo in LEARNING_OUTCOMES: doc.add_paragraph(lo, style="List Bullet")
     doc.add_paragraph("Assessment: 30-minute Written Assessment (six open-ended SAQs covering K1-K6) followed by a 30-minute Role Play observed against A1-A3.")
@@ -1032,38 +1114,38 @@ def build_learner_guide():
             doc.add_heading(item["title"], level=2)
             doc.add_paragraph(item["rule"])
             table=doc.add_table(rows=1, cols=2); table.alignment=WD_TABLE_ALIGNMENT.CENTER; table.autofit=False
-            _set_cell_text(table.cell(0,0),"Mechanism",True,9,"FFFFFF"); _set_cell_text(table.cell(0,1),"Control / evidence",True,9,"FFFFFF"); _shade(table.cell(0,0),"1F6FEB"); _shade(table.cell(0,1),"1F6FEB")
+            _set_cell_text(table.cell(0,0),"Step",True,9,"FFFFFF"); _set_cell_text(table.cell(0,1),"Good practice",True,9,"FFFFFF"); _shade(table.cell(0,0),"1F6FEB"); _shade(table.cell(0,1),"1F6FEB")
             table.cell(0,0).width=DInches(2.05); table.cell(0,1).width=DInches(4.75)
             _repeat_header(table.rows[0]); _cant_split(table.rows[0])
             for st,(head,body) in zip(item["mechanism"],item["controls"]):
                 row=table.add_row().cells; _set_cell_text(row[0],st,True,9); _set_cell_text(row[1],f"{head}: {body}",False,9)
                 for c in row: _set_cell_margins(c)
                 row[0].width=DInches(2.05); row[1].width=DInches(4.75); _cant_split(table.rows[-1])
-            p=doc.add_paragraph(); p.add_run("Worked evidence: ").bold=True; p.add_run(f"Input: {item['case'][0]} AI risk: {item['case'][1]} Human review: {item['case'][2]} Evidence: {item['case'][3]}")
+            p=doc.add_paragraph(); p.add_run("Worked example: ").bold=True; p.add_run(f"Situation: {item['case'][0]}. What can go wrong: {item['case'][1]}. What you do: {item['case'][2]}. What you keep: {item['case'][3]}.")
             p=doc.add_paragraph(); p.add_run("Source: ").bold=True; _hyperlink(p,item["source"],item["source"])
         for activity in [a for a in ACTIVITIES if a["topic"]==topic_no]:
             doc.add_page_break(); doc.add_heading(f"Activity {activity['num']}: {activity['title']}", level=2)
             doc.add_paragraph(f"Goal: {activity['outcome']}")
-            doc.add_paragraph(f"Scenario: {activity['scenario']}")
+            p=doc.add_paragraph(); p.add_run(f"Case study - {activity['when']}: ").bold=True; p.add_run(activity['scenario'])
             doc.add_paragraph(f"Roles: {activity['roles']}")
             doc.add_paragraph(f"Tools: {activity['tools']}")
             doc.add_heading("Before You Start", level=3)
-            doc.add_paragraph("Use only the supplied de-identified scenario and files. Keep the instruction PDF and checklist PDF open from the activity folder. Do not enter live candidate, employer-confidential or production API-key data.")
+            doc.add_paragraph("Use only the practice files supplied. Keep the instruction and checklist PDFs from the activity folder open. Never enter real candidate or company-confidential information.")
             _img = _activity_image(activity)
             if _img and _img.exists():
                 try:
                     doc.add_picture(str(_img), width=DInches(6.1))
                     doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
-                    _cap = doc.add_paragraph(f"Figure {activity['num']}: reference screen for Activity {activity['num']}.")
+                    _cap = doc.add_paragraph(f"Figure: Microsoft 365 Copilot Chat - the starting screen for Activity {activity['num']}.")
                     _cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
                     for _r in _cap.runs: _r.font.size = DPt(9); _r.italic = True
                 except Exception:
                     pass
             doc.add_heading("Step-by-step", level=3)
             for i,step in enumerate(activity["steps"],1): doc.add_paragraph(f"{i}. {step}")
-            doc.add_heading("Evidence to Save", level=3)
+            doc.add_heading("What to Save", level=3)
             for name in activity["files"]: doc.add_paragraph(name, style="List Bullet")
-            doc.add_heading("Acceptance Checklist", level=3)
+            doc.add_heading("Done When", level=3)
             for check in activity["checklist"]: doc.add_paragraph(f"[ ] {check}")
             doc.add_paragraph(f"Folder: activities/activity-{activity['num']:02d}-{slug(activity['title'])}/")
     doc.add_page_break(); doc.add_heading("Assessment Flow", level=1)
@@ -1076,22 +1158,22 @@ def build_learner_guide():
 
 def build_lesson_plan():
     doc=Document(); _doc_styles(doc); _cover(doc,"Lesson Plan")
-    _version_and_toc(doc,RETITLE_NOTE,VERSION_HISTORY["LP"])
+    _version_and_toc(doc,CHANGE_NOTE["LP"],VERSION_HISTORY["LP"])
     doc.add_heading("Course Overview",level=1)
-    doc.add_paragraph("A one-day, 8-hour WSQ programme for interviewers and interviewees to plan, conduct, evaluate and improve structured interviews with accountable generative-AI support.")
+    doc.add_paragraph(f"A one-day, 8-hour WSQ programme for {AUDIENCE}. Participants use Microsoft 365 Copilot and ready-made AI agents across the recruitment process - screening candidates from SharePoint, preparing and practising structured interviews, scoring and feedback, and drafting the offer and onboarding plan - while people stay accountable for every hiring decision. No technical background is required.")
     doc.add_heading("Learning Outcomes",level=1)
     for lo in LEARNING_OUTCOMES: doc.add_paragraph(lo,style="List Bullet")
     doc.add_heading("Daily Schedule",level=1)
     rows=[
         ("9:30-9:45","15 min","Attendance, TRAQOM and course administration","Briefing",f"Slides 1-{slide_map['topics']['1']['start']-1}"),
-        ("9:45-11:00","75 min","Topic 1 foundations and Activity 1","Concepts, sign-in, guided practice",f"Slides {slide_map['topics']['1']['start']}-{slide_map['activities']['1']['end']}"),
+        ("9:45-11:00","75 min","Topic 1 Copilot for screening and Activity 1","Explanation, sign-in, guided practice",f"Slides {slide_map['topics']['1']['start']}-{slide_map['activities']['1']['end']}"),
         ("11:00-11:15","15 min","Morning tea break (counted within instructional time)","Break","-"),
-        ("11:15-12:30","75 min","Topic 1 controls and Activities 2-3","Case analysis, red-team activity",f"Slides {slide_map['activities']['2']['start']}-{slide_map['topics']['1']['end']}"),
+        ("11:15-12:30","75 min","Topic 1 criteria and screening, Activities 2-3","Copilot in Word, agent-assisted screening",f"Slides {slide_map['activities']['2']['start']}-{slide_map['topics']['1']['end']}"),
         ("12:30-1:30","60 min","Lunch (not counted as instructional time)","Break","-"),
-        ("1:30-2:50","80 min","Topic 2 prompt engineering and Activities 4-5","Demonstration, prompt practice",f"Slides {slide_map['topics']['2']['start']}-{slide_map['activities']['5']['end']}"),
+        ("1:30-2:50","80 min","Topic 2 prompting and interview kits, Activities 4-5","Demonstration, prompt practice, agent use",f"Slides {slide_map['topics']['2']['start']}-{slide_map['activities']['5']['end']}"),
         ("2:50-3:05","15 min","Afternoon tea break (counted within instructional time)","Break","-"),
-        ("3:05-4:20","75 min","Topic 2 Activities 6-7","Agent build, candidate practice and role play",f"Slides {slide_map['activities']['6']['start']}-{slide_map['topics']['2']['end']}"),
-        ("4:20-5:20","60 min","Topic 3 Activities 8-10","Scoring, calibration, feedback and capstone",f"Slides {slide_map['topics']['3']['start']}-{slide_map['topics']['3']['end']}"),
+        ("3:05-4:20","75 min","Topic 2 own agent and interview practice, Activities 6-7","No-code agent, Copilot-simulated interview, role play",f"Slides {slide_map['activities']['6']['start']}-{slide_map['topics']['2']['end']}"),
+        ("4:20-5:20","60 min","Topic 3 decision support, Activities 8-10","Scoring, feedback, offer, onboarding and capstone",f"Slides {slide_map['topics']['3']['start']}-{slide_map['topics']['3']['end']}"),
         ("5:20-5:30","10 min","Assessment briefing and digital attendance","Briefing","Closing admin slides"),
         ("5:30-6:00","30 min","Written Assessment (WA)","Open-book individual assessment","-"),
         ("6:00-6:30","30 min","Role Play (RP)","Observed performance assessment","-"),
@@ -1109,13 +1191,13 @@ def build_lesson_plan():
     for topic_no,topic_title,codes in TOPICS:
         sm=slide_map["topics"][str(topic_no)]
         doc.add_heading(f"Topic {topic_no}: {topic_title} | Slides {sm['start']}-{sm['end']}",level=2)
-        doc.add_paragraph(f"Alignment: {codes}. Trainer uses mechanism, control, case and evidence slides; detailed operational steps remain in the Learner Guide and activity PDFs.")
+        doc.add_paragraph(f"Alignment: {codes}. Trainer uses the how-it-works, good-practice and worked-example slides and demonstrates each step in Copilot; click-by-click steps are in the Learner Guide, activity PDFs and Lab Prompt Pack.")
         for a in [x for x in ACTIVITIES if x["topic"]==topic_no]:
             am=slide_map["activities"][str(a["num"])]
             doc.add_heading(f"Activity {a['num']}: {a['title']} | Slides {am['start']}-{am['end']}",level=3)
             doc.add_paragraph(f"{a['duration']} minutes | {a['roles']} | Output: {a['outcome']}")
     doc.add_heading("Resources Required",level=1)
-    for item in ["Laptop with modern browser","Course LMS access","HR Interview Question Generator (local mode)","AI Interview Practice Lab (Demo mode)","De-identified activity files","Instruction and checklist PDFs in each activity folder"]: doc.add_paragraph(item,style="List Bullet")
+    for item in ["Laptop with a modern browser","Microsoft 365 Copilot training account (supplied; password given in class)","Access to the course SharePoint practice sites and recruitment agents","Course LMS access","Lab Prompt Pack","Instruction and checklist PDFs in each activity folder"]: doc.add_paragraph(item,style="List Bullet")
     doc.add_heading("Assessment",level=1)
     doc.add_paragraph("5:30-6:00 PM: Written Assessment, six open-ended SAQs covering K1-K6. 6:00-6:30 PM: Role Play observed against A1-A3. Both are open-book using approved course materials. Candidate papers are submitted through the LMS; answer keys and assessor checklist remain trainer-controlled.")
     p=doc.add_paragraph(); _hyperlink(p,LMS_URL,LMS_URL)
@@ -1151,7 +1233,7 @@ def build_activity_pdfs():
     for a in ACTIVITIES:
         folder=ACT/f"activity-{a['num']:02d}-{slug(a['title'])}"; folder.mkdir(parents=True,exist_ok=True)
         for name,content in a["files"].items(): (folder/name).write_text(content,encoding="utf-8")
-        (folder/"README.md").write_text(f"# Activity {a['num']}: {a['title']}\n\nUse `instruction.pdf` for the complete procedure and `checklist.pdf` for acceptance. Work only with the supplied de-identified files.\n",encoding="utf-8")
+        (folder/"README.md").write_text(f"# Activity {a['num']}: {a['title']}\n\nOpen `instruction.pdf` for the step-by-step guide and `checklist.pdf` to confirm you are done. Use only the practice files supplied.\n",encoding="utf-8")
         inst=folder/"instruction.pdf"
         doc=BaseDocTemplate(str(inst),pagesize=A4,rightMargin=18*mm,leftMargin=18*mm,topMargin=22*mm,bottomMargin=18*mm)
         frame=Frame(doc.leftMargin,doc.bottomMargin,doc.width,doc.height,id="normal")
@@ -1160,24 +1242,24 @@ def build_activity_pdfs():
                Paragraph(f"<b>Duration:</b> {a['duration']} minutes &nbsp;&nbsp; <b>Roles:</b> {a['roles']}",styles["ActBody"]),
                Paragraph("Scenario",styles["ActH"]),Paragraph(a["scenario"],styles["ActBody"]),
                Paragraph("Goal and output",styles["ActH"]),Paragraph(a["outcome"],styles["ActBody"]),
-               Paragraph("Tools and data boundary",styles["ActH"]),Paragraph(a["tools"],styles["ActBody"]),
-               Paragraph("Use only supplied de-identified training data. Do not enter live candidate data, employer-confidential information or production API keys.",styles["ActBody"]),
-               Paragraph("Detailed step-by-step",styles["ActH"])]
+               Paragraph("Tools and data to use",styles["ActH"]),Paragraph(a["tools"],styles["ActBody"]),
+               Paragraph("Use only the practice files supplied. Never enter real candidate information or company-confidential details into Copilot.",styles["ActBody"]),
+               Paragraph("Step by step",styles["ActH"])]
         for i,step in enumerate(a["steps"],1): story.append(KeepTogether([Paragraph(f"<b>Step {i}</b>",styles["ActBody"]),Paragraph(step,styles["ActBody"])]))
-        story.extend([Paragraph("Evidence files",styles["ActH"])])
+        story.extend([Paragraph("Templates in this folder",styles["ActH"])])
         for name in a["files"]: story.append(Paragraph(f"- {name}",styles["ActBody"]));
-        story.extend([Paragraph("Recovery and troubleshooting",styles["ActH"]),
-                      Paragraph("If the tool output is missing, generic, biased or ungrounded, preserve the input and output, mark the item as rejected, revise one constraint at a time, and regenerate. If access fails, use the supplied templates and local/demo mode; do not substitute live candidate data.",styles["ActBody"]),
-                      Paragraph("Completion criterion",styles["ActH"]),Paragraph(a["outcome"],styles["ActBody"])])
+        story.extend([Paragraph("If something goes wrong",styles["ActH"]),
+                      Paragraph("If Copilot's answer is generic, unfair or not based on your files, keep a copy, add the missing detail to your prompt (goal, context, source or expectations) and try again. If you cannot sign in or an agent does not open, tell your trainer and continue with the templates in this folder - never use real candidate data instead.",styles["ActBody"]),
+                      Paragraph("You are done when you have",styles["ActH"]),Paragraph(a["outcome"],styles["ActBody"])])
         doc.build(story)
         normalize_pdf(inst)
         chk=folder/"checklist.pdf"
         doc=BaseDocTemplate(str(chk),pagesize=A4,rightMargin=18*mm,leftMargin=18*mm,topMargin=22*mm,bottomMargin=18*mm)
         frame=Frame(doc.leftMargin,doc.bottomMargin,doc.width,doc.height,id="normal")
         doc.addPageTemplates([PageTemplate(id="check",frames=[frame],onPage=lambda c,d,t=f"Activity {a['num']} Checklist":pdf_header(c,d,t))])
-        story=[Spacer(1,8*mm),Paragraph(f"Activity {a['num']} Acceptance Checklist",styles["ActTitle"]),
+        story=[Spacer(1,8*mm),Paragraph(f"Activity {a['num']} Checklist",styles["ActTitle"]),
                Paragraph(a["title"],styles["ActH"]),Paragraph("Learner: ____________________  Date: __________  Observer: ____________________",styles["ActBody"])]
-        data=[[Paragraph("Done",styles["ActSmall"]),Paragraph("Acceptance check",styles["ActSmall"]),Paragraph("Evidence / remarks",styles["ActSmall"])]]
+        data=[[Paragraph("Done",styles["ActSmall"]),Paragraph("Check",styles["ActSmall"]),Paragraph("Notes",styles["ActSmall"])]]
         for check in a["checklist"]: data.append(["[  ]",Paragraph(check,styles["ActBody"]),""])
         table=Table(data,colWidths=[18*mm,92*mm,60*mm],rowHeights=[10*mm]+[18*mm]*len(a["checklist"]))
         table.setStyle(TableStyle([("BACKGROUND",(0,0),(-1,0),colors.HexColor("#1F6FEB")),("TEXTCOLOR",(0,0),(-1,0),colors.white),("FONTNAME",(0,0),(-1,0),"Helvetica-Bold"),("VALIGN",(0,0),(-1,-1),"MIDDLE"),("ALIGN",(0,1),(0,-1),"CENTER"),("GRID",(0,0),(-1,-1),0.5,colors.HexColor("#D7E0EA")),("ROWBACKGROUNDS",(0,1),(-1,-1),[colors.white,colors.HexColor("#F5F8FC")]),("LEFTPADDING",(0,0),(-1,-1),6),("RIGHTPADDING",(0,0),(-1,-1),6),("TOPPADDING",(0,0),(-1,-1),5),("BOTTOMPADDING",(0,0),(-1,-1),5)]))

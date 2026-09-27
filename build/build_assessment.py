@@ -77,8 +77,8 @@ def build_wa():
 def build_wa_key():
     doc = Document(); _doc_styles(doc); cover(doc, "Answer Key - Written Assessment (SAQ)", True)
     doc.add_heading("Assessor Guidance", level=1)
-    doc.add_paragraph("Award competence only where the response demonstrates the required knowledge, applies it to the scenario and avoids unsupported conclusions. Equivalent technically sound wording is acceptable.")
-    mapping = {"K3":"1", "K4":"1", "K1":"2", "K5":"2", "K2":"3", "K6":"3"}
+    doc.add_paragraph("Award competence only where the response demonstrates the required knowledge, applies it to the scenario and avoids unsupported conclusions. Equivalent wording in the candidate's own words is acceptable.")
+    mapping = {"K3":"1", "K4":"1", "K1":"2", "K5":"2", "K6":"2", "K2":"3"}
     for idx, ((code, question), points) in enumerate(zip(WA_ITEMS, WA_ANSWERS), 1):
         doc.add_page_break()
         sm = SLIDE_MAP["topics"][mapping[code]]
@@ -99,18 +99,18 @@ def build_role_play():
     doc.add_paragraph(RP_SCENARIO)
     doc.add_heading("Candidate Task", level=2)
     tasks = [
-        "(A1) Review the de-identified Senior Data Analyst scenario and the human-approved GenAI-assisted interview guide.",
+        "(A1) Review the Senior Data Analyst scenario and the interview kit you drafted with Copilot and approved.",
         "(A1) Brief Alex Lee on the purpose, structure, timing and evidence process; confirm access needs before questioning.",
-        "(A2) Ask consistent job-related core questions, listen actively and use neutral probes to clarify personal action and results.",
-        "(A3) Close professionally, record evidence separately from inference, score against the anchors and identify missing evidence.",
+        "(A2) Ask consistent job-related core questions, listen actively and use neutral follow-ups to clarify personal action and results.",
+        "(A3) Close professionally, record facts separately from impressions, score against the scoring guide and identify missing evidence.",
         "(A3) Provide concise, respectful and actionable feedback supported by the observed evidence.",
     ]
     for task in tasks: doc.add_paragraph(task, style="List Number")
-    doc.add_paragraph("Assessed abilities: A1 manage a fair and inclusive interview | A2 deliver structured questions and neutral probes | A3 provide evidence-based feedback. The code beside each task is the ability it evidences.")
+    doc.add_paragraph("Assessed abilities: A1 manage a fair and inclusive interview | A2 deliver structured questions and neutral follow-ups | A3 provide evidence-based feedback. The code beside each task is the ability it evidences. Related course activities: 5 and 7 (interview kit and practice), 8 and 9 (scoring and feedback), 10 (capstone).")
     doc.add_heading("Permitted Resources", level=2)
-    doc.add_paragraph("Course slides, Learner Guide, supplied interview guide, evidence sheet and scoring rubric. No live candidate data and no external AI prompting during the timed role play.")
+    doc.add_paragraph("Course slides, Learner Guide, your approved interview kit, note sheet and scoring guide. No real candidate data and no use of Copilot or other AI tools during the timed role play.")
     doc.add_heading("Evidence to Submit", level=2)
-    for item in ["Completed interview notes", "Completed anchored scoring sheet", "Candidate feedback record", "Candidate reflection on one improvement"]: doc.add_paragraph(item, style="List Bullet")
+    for item in ["Completed interview notes", "Completed scoring sheet", "Candidate feedback record", "Your reflection on one improvement"]: doc.add_paragraph(item, style="List Bullet")
     path = OUT / f"ROLE PLAY (RP) - {SHORT_TITLE} - v{VERSION}.docx"; doc.save(path); return path
 
 
@@ -138,7 +138,8 @@ def build_role_play_checklist():
     doc.add_paragraph("[  ] Not Yet Competent - one or more critical behaviours are missing or materially unsafe/unfair.")
     doc.add_paragraph("Feedback and required improvement: ______________________________________________________")
     doc.add_paragraph("Assessor signature: ______________________________  Date: __________________")
-    doc.add_paragraph("Courseware references: Activities 5 and 10 for conduct; Activities 8 and 9 for scoring and feedback; Topic 3 slides 159-235.")
+    t2, t3 = SLIDE_MAP["topics"]["2"], SLIDE_MAP["topics"]["3"]
+    doc.add_paragraph(f"Courseware references: Activities 5, 7 and 10 for conduct; Activities 8 and 9 for scoring and feedback; Topic 2 slides {t2['start']}-{t2['end']} and Topic 3 slides {t3['start']}-{t3['end']}.")
     path = OUT / f"ROLE PLAY (RP) - Assessor Observation Checklist - {SHORT_TITLE} - v{VERSION}.docx"; doc.save(path); return path
 
 

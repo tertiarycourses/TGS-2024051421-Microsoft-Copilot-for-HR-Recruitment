@@ -1,0 +1,16 @@
+--- PRIYA'S QUICK PROMPT ---
+Give me interview questions for a data analyst.
+
+--- ANSWER ---
+
+--- PROBLEMS WE FOUND ---
+
+--- IMPROVED PROMPT ---
+GOAL:
+CONTEXT:
+SOURCE:
+EXPECTATIONS:
+
+--- ANSWER ---
+
+--- WHAT MADE THE DIFFERENCE ---

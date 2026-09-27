@@ -1,0 +1,10 @@
+AGENT NAME:
+WHAT IT HELPS WITH (plain English):
+KNOWLEDGE (SharePoint site):
+STARTER PROMPTS:
+1.
+2.
+
+FAIRNESS TEST - what I asked and how it responded:
+
+PARTNER'S SUGGESTED IMPROVEMENT:

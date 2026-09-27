@@ -1,0 +1,1 @@
+Candidate A (Senior Data Analyst applicant): 11 years in data roles; SQL, Power BI, Python, data quality, Excel modelling. Key achievement: rebuilt the weekly revenue dashboard (contribution shared across a team of four). Refer to 'Candidate A' when prompting.

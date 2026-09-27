@@ -1,0 +1,31 @@
+INTERVIEW NOTES - CAND-FU-017 Serene Ng - Senior Data Analyst - Week 2, Wednesday, 10:00-10:45
+Panel: Priya Nair (chair), Ravi Kumar (skills), Daniel Lim (HR, notes)
+De-identified practice notes for Activity 8. Candidate referred to as 'C'.
+
+Q1 ANALYTICAL RIGOUR - 'Tell me about a time a key metric moved and you had to find out why.'
+C: Weekly activation fell about 8% after an app release. Product wanted to pause a campaign. I compared the
+event data with billing sign-ups and found a new duplicate tracking event, so the drop was not real. I wrote the
+reconciliation query myself and showed the product lead the two numbers side by side. We restated activation
+and the campaign went ahead - finance later estimated it avoided about S$40,000 of lost sign-ups.
+
+Q2 STAKEHOLDER COMMUNICATION - 'Describe explaining a technical finding to a non-technical decision maker.'
+C: We presented the new revenue dashboard to the CFO and the team explained the changes.
+Probe (Priya): 'What did you personally say or prepare?'
+C: I wrote the one-page summary - three numbers, what changed and one recommendation. The CFO approved moving
+budget to the retention team on that basis. I am not sure the CFO understood the definitions part.
+
+Q3 DATA QUALITY OWNERSHIP - 'Tell me about a data-quality problem you fixed.'
+C: On the weekly revenue dashboard rebuild, four of us worked on it. My part was the revenue reconciliation logic
+between finance and product data. Report preparation time came down by about 40%, from a day and a half to under
+a day. I also wrote the definitions document, which the team still uses.
+Ravi: 'You took a long break - are you sure you're ready for the pace here?'
+C: (pauses) I have kept my SQL and Power BI current and I'm comfortable with the pace.
+
+Q4 PRIORITISATION - 'Finance and product both need a report by Friday and you can only finish one. What do you do?'
+C: I'd ask each what decision the report supports and the cost of it being late, agree the order with both
+managers, and send a short note so nobody is surprised.
+
+Q5 MENTORING - not asked (time ran out after Q4).
+
+Note-taker margin comments (Daniel): 'Seems a bit nervous. Not sure she's leadership material.'
+Candidate questions: 'How is success measured in the first six months?' 'How big is the analytics team?'

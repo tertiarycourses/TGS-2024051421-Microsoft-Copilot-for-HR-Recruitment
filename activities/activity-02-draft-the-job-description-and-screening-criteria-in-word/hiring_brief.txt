@@ -1,0 +1,10 @@
+FROM: Priya Nair, Head of Analytics
+TO: Daniel Lim, HR
+SUBJECT: Senior Data Analyst - need someone by 1 December
+
+Daniel, our only senior analyst has resigned. Two monthly revenue reports went to finance with numbers that didn't reconcile and product has stopped trusting the dashboards.
+
+I need someone who checks the numbers before they go out, can explain them to finance in plain English, and can bring my two junior analysts up to speed. Strong SQL and Power BI. Ideally young and hungry - a digital native who can keep up with the team.
+
+Budget: within the Senior Data Analyst band. Start 1 December if possible.
+Thanks, Priya
